@@ -1,0 +1,13 @@
+*.DS_Store
+*.rbc
+*.sassc
+.sass-cache
+.rspec
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/pkg/*
+/spec/tmp/*
+/config/*.yml
+/config/deploy.rb

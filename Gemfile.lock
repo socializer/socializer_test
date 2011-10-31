@@ -1,8 +1,8 @@
 GIT
   remote: git@github.com:dominicgoulet/socializer.git
-  revision: b5315a3facde618d4a4cd678e18ed650dcf3d3ac
+  revision: c7e8ac2d1e76b02ba30ef6b38b7f37b7b48bd61b
   specs:
-    socializer (0.1.1)
+    socializer (0.1.2)
 
 GEM
   remote: http://rubygems.org/

@@ -1,8 +1,8 @@
 GIT
   remote: git@github.com:dominicgoulet/socializer.git
-  revision: 675146029616ec206eb8904d6fa4cd8a99964ac5
+  revision: 8aa2721cc5106966a1068e65bc2dccf05d05bf45
   specs:
-    socializer (0.1.4)
+    socializer (0.1.5)
       jquery-rails (= 1.0.14)
       mysql2 (= 0.3.7)
       omniauth (= 0.2.6)

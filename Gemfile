@@ -6,4 +6,12 @@ gem "omniauth", "0.2.6"
 gem "jquery-rails", "1.0.14"
 gem "socializer", :git => 'git@github.com:dominicgoulet/socializer.git'
 gem "capistrano"
-gem "uglifier"
+
+group :assets do
+  gem "sass-rails"
+  gem "coffee-rails"
+  gem 'uglifier'
+end
+
+gem 'execjs'
+gem 'therubyracer'

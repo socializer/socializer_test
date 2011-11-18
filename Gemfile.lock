@@ -1,8 +1,8 @@
 GIT
   remote: git@github.com:dominicgoulet/socializer.git
-  revision: 8aa2721cc5106966a1068e65bc2dccf05d05bf45
+  revision: 2bd93da48bf8b965a10fcfad2dd69ea825a90b4b
   specs:
-    socializer (0.1.5)
+    socializer (0.1.6)
       jquery-rails (= 1.0.14)
       mysql2 (= 0.3.7)
       omniauth (= 0.2.6)
@@ -69,7 +69,7 @@ GEM
       railties (~> 3.0)
       thor (~> 0.14)
     json (1.6.1)
-    libv8 (3.3.10.2)
+    libv8 (3.3.10.4)
     mail (2.3.0)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -164,11 +164,10 @@ GEM
       ruby-openid (>= 2.1.7)
     rubyntlm (0.1.1)
     sass (3.1.10)
-    sass-rails (3.1.4)
+    sass-rails (3.1.5)
       actionpack (~> 3.1.0)
       railties (~> 3.1.0)
-      sass (>= 3.1.4)
-      sprockets (~> 2.0.0)
+      sass (~> 3.1.10)
       tilt (~> 1.3.2)
     sprockets (2.0.3)
       hike (~> 1.2)
@@ -182,7 +181,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.31)
-    uglifier (1.0.4)
+    uglifier (1.1.0)
       execjs (>= 0.3.0)
       multi_json (>= 1.0.2)
 

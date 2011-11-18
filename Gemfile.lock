@@ -49,6 +49,8 @@ GEM
       net-ssh (>= 2.0.14)
       net-ssh-gateway (>= 1.1.0)
     erubis (2.7.0)
+    execjs (1.2.9)
+      multi_json (~> 1.0)
     faraday (0.6.1)
       addressable (~> 2.2.4)
       multipart-post (~> 1.1.0)
@@ -163,6 +165,9 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.31)
+    uglifier (1.1.0)
+      execjs (>= 0.3.0)
+      multi_json (>= 1.0.2)
 
 PLATFORMS
   ruby
@@ -174,3 +179,4 @@ DEPENDENCIES
   omniauth (= 0.2.6)
   rails (= 3.1.1)
   socializer!
+  uglifier

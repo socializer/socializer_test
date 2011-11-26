@@ -1,5 +1,5 @@
 GIT
-  remote: git@github.com:dominicgoulet/socializer.git
+  remote: git://github.com/dominicgoulet/socializer.git
   revision: 3b1ebda9ebf9bd7d11b608b4dfb7ec6b948f80bd
   specs:
     socializer (0.1.7)

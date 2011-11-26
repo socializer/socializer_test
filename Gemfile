@@ -1,4 +1,4 @@
-source 'http://rubygems.org'
+source :gemcutter
 
 gem "rails", "3.1.1"
 gem "mysql2", "0.3.7"

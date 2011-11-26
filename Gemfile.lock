@@ -1,11 +1,11 @@
 GIT
   remote: git@github.com:dominicgoulet/socializer.git
-  revision: d61952900e929dd30a7516eb27878f2e6b96f46b
+  revision: 3b1ebda9ebf9bd7d11b608b4dfb7ec6b948f80bd
   specs:
     socializer (0.1.7)
       jquery-rails (= 1.0.14)
-      mysql2 (= 0.3.7)
       omniauth (= 0.2.6)
+      pg
       rails (= 3.1.1)
 
 GEM
@@ -125,6 +125,7 @@ GEM
       oa-more (= 0.2.6)
       oa-oauth (= 0.2.6)
       oa-openid (= 0.2.6)
+    pg (0.11.0)
     polyglot (0.3.3)
     pyu-ruby-sasl (0.0.3.3)
     rack (1.3.5)

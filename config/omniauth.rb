@@ -3,4 +3,7 @@ require 'openid/store/filesystem'
 Rails.application.config.middleware.use OmniAuth::Builder do
   use OmniAuth::Strategies::OpenID, OpenID::Store::Filesystem.new('./tmp'), :name => 'yahoo', :identifier => 'yahoo.com'
   use OmniAuth::Strategies::OpenID, OpenID::Store::Filesystem.new('./tmp'), :name => 'google', :identifier => 'https://www.google.com/accounts/o8/id'
+  provider :twitter,   ENV['TWITTER_KEY'],  ENV['TWITTER_SECRET']
+  provider :facebook,  ENV['FACEBOOK_KEY'], ENV['FACEBOOK_SECRET']
+  provider :linked_in, ENV['LINKEDIN_KEY'], ENV['LINKEDIN_SECRET']
 end

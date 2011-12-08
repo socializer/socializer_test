@@ -1,6 +1,8 @@
 source "http://rubygems.org"
 
 gem 'rails', '3.1.3'
+gem 'jquery-rails', '1.0.19'
+gem 'uglifier', '1.1.0'
 
 gem 'bcrypt-ruby'
 gem 'omniauth-identity'

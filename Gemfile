@@ -1,5 +1,7 @@
 source "http://rubygems.org"
 
+gem 'rails', '3.1.3'
+
 gem 'bcrypt-ruby'
 gem 'omniauth-identity'
 gem 'omniauth-facebook'

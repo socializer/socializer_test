@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/dominicgoulet/socializer.git
-  revision: 301f3ddb8728cb1d481de1965186b9986efaa646
+  revision: 4a65ee1d9c03d3b42409443c21db6120bb1126f2
   specs:
-    socializer (0.1.12)
+    socializer (0.1.13)
       bcrypt-ruby (= 3.0.1)
       jquery-rails (= 1.0.19)
       omniauth (= 1.0.1)

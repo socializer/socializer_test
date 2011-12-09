@@ -507,7 +507,6 @@ ul.activities .separator
 	display: inline;
 	padding: 0;
 	margin: 0;
-	line-height: 45px;
 }
 
 .small-contact-list li img {
@@ -522,8 +521,8 @@ ul.activities .separator
 
 .large-contact-list li {
 	display: inline;
-	padding: 20px 10px;
-	line-height: 25px;
+	padding: 0;
+	margin: 0;
 }
 
 .droppable.circle {

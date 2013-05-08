@@ -3,6 +3,9 @@
 *.sassc
 .sass-cache
 .rspec
+.ruby-gemset
+.ruby-version
+Gemfile.lock
 /.bundle
 /vendor/bundle
 /log/*

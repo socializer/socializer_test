@@ -1,8 +1,8 @@
 source "http://rubygems.org"
 
-gem 'rails', '3.1.3'
-gem 'jquery-rails', '1.0.19'
-gem 'uglifier', '1.1.0'
+gem 'rails', '3.2.13'
+gem 'jquery-rails'
+gem 'uglifier'
 
 gem 'bcrypt-ruby'
 gem 'omniauth-identity'
@@ -12,7 +12,7 @@ gem 'omniauth-linkedin'
 gem 'omniauth-openid'
 
 group :development do
-  gem "sqlite3", "1.3.4"
+  gem "sqlite3", "~> 1.3.4"
 end
 
 group :production do

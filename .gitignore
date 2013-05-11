@@ -1,4 +1,4 @@
-*.DS_Store
+.DS_Store
 *.rbc
 *.sassc
 .sass-cache
@@ -6,11 +6,12 @@
 .ruby-gemset
 .ruby-version
 Gemfile.lock
-/.bundle
+.bundle
 /vendor/bundle
-/log/*
-/tmp/*
-/pkg/*
+db/*.sqlite3
+log/*.log
+tmp/**/*
+pkg
 /spec/tmp/*
 /config/*.yml
 /config/deploy.rb

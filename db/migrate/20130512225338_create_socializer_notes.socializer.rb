@@ -1,3 +1,4 @@
+# This migration comes from socializer (originally 20110804184415)
 class CreateSocializerNotes < ActiveRecord::Migration
   def change
     create_table :socializer_notes do |t|

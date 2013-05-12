@@ -1,3 +1,4 @@
+# This migration comes from socializer (originally 20110805092635)
 class CreateSocializerAudiences < ActiveRecord::Migration
   def change
     create_table :socializer_audiences, :id => false do |t|

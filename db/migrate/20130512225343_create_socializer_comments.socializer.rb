@@ -1,3 +1,4 @@
+# This migration comes from socializer (originally 20110805094846)
 class CreateSocializerComments < ActiveRecord::Migration
   def change
     create_table :socializer_comments do |t|

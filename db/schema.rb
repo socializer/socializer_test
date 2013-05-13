@@ -11,10 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130512225347) do
+ActiveRecord::Schema.define(version: 20130513005747) do
 
   create_table "socializer_activities", force: true do |t|
-    t.integer  "parent_id"
     t.integer  "actor_id"
     t.integer  "object_id"
     t.integer  "target_id"
@@ -26,7 +25,6 @@ ActiveRecord::Schema.define(version: 20130512225347) do
 
   add_index "socializer_activities", ["actor_id"], name: "index_socializer_activities_on_actor_id"
   add_index "socializer_activities", ["object_id"], name: "index_socializer_activities_on_object_id"
-  add_index "socializer_activities", ["parent_id"], name: "index_socializer_activities_on_parent_id"
   add_index "socializer_activities", ["target_id"], name: "index_socializer_activities_on_target_id"
 
   create_table "socializer_activity_objects", force: true do |t|

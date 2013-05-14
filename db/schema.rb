@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130513005747) do
+ActiveRecord::Schema.define(version: 20130514184911) do
 
   create_table "socializer_activities", force: true do |t|
     t.integer  "actor_id"
@@ -28,14 +28,14 @@ ActiveRecord::Schema.define(version: 20130513005747) do
   add_index "socializer_activities", ["target_id"], name: "index_socializer_activities_on_target_id"
 
   create_table "socializer_activity_objects", force: true do |t|
-    t.integer  "embeddable_id"
-    t.string   "embeddable_type"
-    t.integer  "like_count",      default: 0
+    t.integer  "activitable_id"
+    t.string   "activitable_type"
+    t.integer  "like_count",       default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "socializer_activity_objects", ["embeddable_type", "embeddable_id"], name: "index_socializer_activity_objects_on_embeddable"
+  add_index "socializer_activity_objects", ["activitable_type", "activitable_id"], name: "index_socializer_activity_objects_on_activitable"
 
   create_table "socializer_audiences", id: false, force: true do |t|
     t.integer  "activity_id"

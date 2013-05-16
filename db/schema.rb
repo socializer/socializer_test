@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130514184911) do
+ActiveRecord::Schema.define(version: 20130516004566) do
 
   create_table "socializer_activities", force: true do |t|
     t.integer  "actor_id"
@@ -80,12 +80,13 @@ ActiveRecord::Schema.define(version: 20130514184911) do
   create_table "socializer_groups", force: true do |t|
     t.integer  "author_id"
     t.string   "name"
-    t.string   "privacy_level"
+    t.integer  "privacy_level"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   add_index "socializer_groups", ["author_id"], name: "index_socializer_groups_on_author_id"
+  add_index "socializer_groups", ["name", "author_id"], name: "index_socializer_groups_on_name_and_author_id", unique: true
 
   create_table "socializer_identities", force: true do |t|
     t.string   "name"

@@ -35,20 +35,7 @@ SocializerTest::Application.configure do
   # Version of your assets, change this if you want to expire all your assets.
   config.assets.version = '1.0'
 
-<<<<<<< HEAD
-  # Don't fallback to assets pipeline if a precompiled asset is missed
-  config.assets.compile = false
-
-  # Generate digests for assets URLs
-  config.assets.digest = true
-
-  # Defaults to nil and saved in location specified by config.assets.prefix
-  # config.assets.manifest = YOUR_PATH
-
-  # Specifies the header that your server uses for sending files
-=======
   # Specifies the header that your server uses for sending files.
->>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
   # config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache
   # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for nginx
 
@@ -58,16 +45,8 @@ SocializerTest::Application.configure do
   # Set to :debug to see everything in the log.
   config.log_level = :info
 
-<<<<<<< HEAD
-  # Prepend all log lines with the following tags
-  # config.log_tags = [ :subdomain, :uuid ]
-
-  # Use a different logger for distributed setups
-  # config.logger = ActiveSupport::TaggedLogging.new(SyslogLogger.new)
-=======
   # Prepend all log lines with the following tags.
   # config.log_tags = [ :subdomain, :uuid ]
->>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
 
   # Use a different logger for distributed setups.
   # config.logger = ActiveSupport::TaggedLogging.new(SyslogLogger.new)
@@ -93,15 +72,9 @@ SocializerTest::Application.configure do
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify
 
-<<<<<<< HEAD
-  # Log the query plan for queries taking more than this (works
-  # with SQLite, MySQL, and PostgreSQL)
-  # config.active_record.auto_explain_threshold_in_seconds = 0.5
-=======
   # Disable automatic flushing of the log to improve performance.
   # config.autoflush_log = false
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
->>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
 end

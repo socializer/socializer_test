@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130516004566) do
+ActiveRecord::Schema.define(version: 20130523135423) do
 
   create_table "socializer_activities", force: true do |t|
     t.integer  "actor_id"
@@ -40,12 +40,13 @@ ActiveRecord::Schema.define(version: 20130516004566) do
   create_table "socializer_audiences", id: false, force: true do |t|
     t.integer  "activity_id"
     t.integer  "object_id"
-    t.string   "scope"
+    t.integer  "privacy_level"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   add_index "socializer_audiences", ["activity_id", "object_id"], name: "index_socializer_audiences_on_activity_id_and_object_id", unique: true
+  add_index "socializer_audiences", ["privacy_level"], name: "index_socializer_audiences_on_privacy_level"
 
   create_table "socializer_authentications", force: true do |t|
     t.integer  "person_id"
@@ -87,6 +88,7 @@ ActiveRecord::Schema.define(version: 20130516004566) do
 
   add_index "socializer_groups", ["author_id"], name: "index_socializer_groups_on_author_id"
   add_index "socializer_groups", ["name", "author_id"], name: "index_socializer_groups_on_name_and_author_id", unique: true
+  add_index "socializer_groups", ["privacy_level"], name: "index_socializer_groups_on_privacy_level"
 
   create_table "socializer_identities", force: true do |t|
     t.string   "name"

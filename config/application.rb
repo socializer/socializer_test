@@ -2,18 +2,9 @@ require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
-<<<<<<< HEAD
-if defined?(Bundler)
-  # If you precompile assets before deploying to production, use this line
-  Bundler.require(*Rails.groups(:assets => %w(development test)))
-  # If you want your assets lazily compiled in production, use this line
-  # Bundler.require(:default, :assets, Rails.env)
-end
-=======
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
->>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
 
 module SocializerTest
   class Application < Rails::Application
@@ -28,8 +19,7 @@ module SocializerTest
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-<<<<<<< HEAD
-
+\
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
 
@@ -55,7 +45,5 @@ module SocializerTest
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
-=======
->>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
   end
 end

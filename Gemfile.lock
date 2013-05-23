@@ -1,4 +1,5 @@
 GIT
+<<<<<<< HEAD
   remote: git://github.com/dominicgoulet/socializer.git
   revision: a2547d3a1dab45044663a564de44bbd706dff86d
   specs:
@@ -7,11 +8,41 @@ GIT
       jquery-rails
       omniauth (~> 1.1.4)
       rails (= 3.2.13)
+=======
+  remote: git://github.com/alindeman/rails4_upgrade.git
+  revision: 43b8b338e71107e2aa5acac63531b97e7bd63f21
+  specs:
+    rails4_upgrade (0.0.5)
+      bundler (>= 1.2.2)
+      terminal-table (>= 1.4.5)
+
+GIT
+  remote: git://github.com/cucumber/cucumber-rails.git
+  revision: 76eee1cfba87fa8b96b67d9e29bc0ff567114e9c
+  branch: master_rails4_test
+  specs:
+    cucumber-rails (1.3.1)
+      capybara (>= 1.1.2)
+      cucumber (>= 1.2.0)
+      nokogiri (>= 1.5.0)
+      rails (>= 3.0.0)
+
+PATH
+  remote: ~/Projects/github/socializer
+  specs:
+    socializer (0.1.13)
+      bcrypt-ruby (~> 3.0.1)
+      enumerize (~> 0.6.0)
+      jquery-rails
+      omniauth (~> 1.1.4)
+      rails (= 4.0.0.rc1)
+>>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
       tire (~> 0.5.7)
 
 GEM
   remote: http://rubygems.org/
   specs:
+<<<<<<< HEAD
     actionmailer (3.2.13)
       actionpack (= 3.2.13)
       mail (~> 2.5.3)
@@ -44,10 +75,76 @@ GEM
     bcrypt-ruby (3.0.1)
     builder (3.0.4)
     daemons (1.1.9)
+=======
+    actionmailer (4.0.0.rc1)
+      actionpack (= 4.0.0.rc1)
+      mail (~> 2.5.3)
+    actionpack (4.0.0.rc1)
+      activesupport (= 4.0.0.rc1)
+      builder (~> 3.1.0)
+      erubis (~> 2.7.0)
+      rack (~> 1.5.2)
+      rack-test (~> 0.6.2)
+    actionpack-action_caching (1.0.0)
+      actionpack (>= 4.0.0.beta, < 5.0)
+    actionpack-page_caching (1.0.0)
+      actionpack (>= 4.0.0.beta, < 5.0)
+    activemodel (4.0.0.rc1)
+      activesupport (= 4.0.0.rc1)
+      builder (~> 3.1.0)
+    activerecord (4.0.0.rc1)
+      activemodel (= 4.0.0.rc1)
+      activerecord-deprecated_finders (~> 1.0.2)
+      activesupport (= 4.0.0.rc1)
+      arel (~> 4.0.0)
+    activerecord-deprecated_finders (1.0.2)
+    activesupport (4.0.0.rc1)
+      i18n (~> 0.6, >= 0.6.4)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    ansi (1.4.3)
+    arel (4.0.0)
+    atomic (1.1.9)
+    bcrypt-ruby (3.0.1)
+    builder (3.1.4)
+    capybara (2.1.0)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
+    coffee-rails (4.0.0)
+      coffee-script (>= 2.2.0)
+      railties (>= 4.0.0.beta, < 5.0)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.2)
+    columnize (0.3.6)
+    cucumber (1.3.1)
+      builder (>= 2.1.2)
+      diff-lcs (>= 1.1.3)
+      gherkin (~> 2.12.0)
+      multi_json (~> 1.3)
+    daemons (1.1.9)
+    database_cleaner (1.0.1)
+    debugger (1.6.0)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.1)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.2)
+    diff-lcs (1.2.4)
+    enumerize (0.6.0)
+      activesupport (>= 3.2)
+>>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (1.4.0)
       multi_json (~> 1.0)
+<<<<<<< HEAD
     faraday (0.8.7)
       multipart-post (~> 1.1)
     hashie (2.0.4)
@@ -69,6 +166,35 @@ GEM
     mime-types (1.23)
     multi_json (1.7.3)
     multipart-post (1.2.0)
+=======
+    factory_girl (4.2.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.1)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
+    faraday (0.8.7)
+      multipart-post (~> 1.1)
+    gherkin (2.12.0)
+      multi_json (~> 1.3)
+    hashie (2.0.5)
+    hashr (0.0.22)
+    hike (1.2.2)
+    httpauth (0.2.0)
+    i18n (0.6.4)
+    jquery-rails (2.2.1)
+      railties (>= 3.0, < 5.0)
+      thor (>= 0.14, < 2.0)
+    jwt (0.1.8)
+      multi_json (>= 1.5)
+    mail (2.5.4)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    mime-types (1.23)
+    minitest (4.7.4)
+    multi_json (1.7.3)
+    multipart-post (1.2.0)
+    nokogiri (1.5.9)
+>>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
     oauth (0.4.7)
     oauth2 (0.8.1)
       faraday (~> 0.8)
@@ -100,6 +226,7 @@ GEM
       omniauth-oauth (~> 1.0)
     pg (0.11.0)
     polyglot (0.3.3)
+<<<<<<< HEAD
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -132,18 +259,83 @@ GEM
       mime-types (>= 1.16)
     ruby-openid (2.2.3)
     sprockets (2.2.2)
+=======
+    protected_attributes (1.0.1)
+      activemodel (>= 4.0.0.beta, < 5.0)
+    rack (1.5.2)
+    rack-openid (1.3.1)
+      rack (>= 1.1.0)
+      ruby-openid (>= 2.1.8)
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rails (4.0.0.rc1)
+      actionmailer (= 4.0.0.rc1)
+      actionpack (= 4.0.0.rc1)
+      activerecord (= 4.0.0.rc1)
+      activesupport (= 4.0.0.rc1)
+      bundler (>= 1.3.0, < 2.0)
+      railties (= 4.0.0.rc1)
+      sprockets-rails (~> 2.0.0.rc4)
+    rails-observers (0.1.1)
+      railties (~> 4.0.0.beta)
+    railties (4.0.0.rc1)
+      actionpack (= 4.0.0.rc1)
+      activesupport (= 4.0.0.rc1)
+      rake (>= 0.8.7)
+      thor (>= 0.18.1, < 2.0)
+    rake (10.0.4)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rspec-core (2.13.1)
+    rspec-expectations (2.13.0)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.13.1)
+    rspec-rails (2.13.1)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      railties (>= 3.0)
+      rspec-core (~> 2.13.0)
+      rspec-expectations (~> 2.13.0)
+      rspec-mocks (~> 2.13.0)
+    ruby-openid (2.2.3)
+    sass (3.2.9)
+    sass-rails (4.0.0.rc1)
+      railties (>= 4.0.0.beta, < 5.0)
+      sass (>= 3.1.10)
+      sprockets-rails (~> 2.0.0.rc0)
+      tilt (~> 1.3)
+    shoulda-matchers (2.1.0)
+      activesupport (>= 3.0.0)
+    sprockets (2.9.3)
+>>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
+<<<<<<< HEAD
     sqlite3 (1.3.7)
+=======
+    sprockets-rails (2.0.0.rc4)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      sprockets (~> 2.8)
+    sqlite3 (1.3.7)
+    terminal-table (1.4.5)
+>>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
     thin (1.5.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
       rack (>= 1.0.0)
     thor (0.18.1)
+<<<<<<< HEAD
     tilt (1.4.1)
     tire (0.5.7)
+=======
+    thread_safe (0.1.0)
+      atomic
+    tilt (1.4.1)
+    tire (0.5.8)
+>>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
       activemodel (>= 3.0)
       activesupport
       ansi
@@ -158,12 +350,28 @@ GEM
     uglifier (2.1.0)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
+<<<<<<< HEAD
+=======
+    xpath (2.0.0)
+      nokogiri (~> 1.3)
+>>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionpack-action_caching
+  actionpack-page_caching
   bcrypt-ruby
+<<<<<<< HEAD
+=======
+  capybara
+  coffee-rails (~> 4.0.0)
+  cucumber-rails!
+  database_cleaner
+  debugger
+  factory_girl_rails
+>>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
   jquery-rails
   omniauth-facebook
   omniauth-identity
@@ -171,8 +379,22 @@ DEPENDENCIES
   omniauth-openid
   omniauth-twitter
   pg (= 0.11.0)
+<<<<<<< HEAD
   rails (= 3.2.13)
   socializer!
   sqlite3 (~> 1.3.4)
   thin
   uglifier
+=======
+  protected_attributes
+  rails (= 4.0.0.rc1)
+  rails-observers
+  rails4_upgrade!
+  rspec-rails
+  sass-rails (~> 4.0.0.rc1)
+  shoulda-matchers
+  socializer!
+  sqlite3 (~> 1.3.4)
+  thin
+  uglifier (>= 1.3.0)
+>>>>>>> 189e2b527624d47d653d5bed46c79284c167896b

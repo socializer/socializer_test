@@ -1,8 +1,12 @@
 source "http://rubygems.org"
 
-gem 'rails', '3.2.13'
+gem 'rails', '4.0.0.rc1'
+
+gem 'sass-rails',   '~> 4.0.0.rc1'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'uglifier', '>= 1.3.0'
+
 gem 'jquery-rails'
-gem 'uglifier'
 
 gem 'bcrypt-ruby'
 gem 'omniauth-identity'
@@ -20,4 +24,31 @@ group :production do
   gem 'thin'
 end
 
-gem "socializer", :git => 'git://github.com/dominicgoulet/socializer.git'
+# gem "socializer", :github => 'dominicgoulet/socializer'
+# gem "socializer", :github => 'acmetech/socializer', :branch => 'rails4'
+gem "socializer", :path => '~/Projects/github/socializer'
+
+
+gem 'rails4_upgrade', github: 'alindeman/rails4_upgrade'
+
+group :development, :test do
+  gem 'debugger'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'cucumber-rails', :require => false, github: 'cucumber/cucumber-rails', :branch => 'master_rails4_test'
+  gem 'database_cleaner'
+end
+
+group :test do
+  gem "factory_girl_rails"
+  gem 'capybara'
+  gem 'shoulda-matchers'
+end
+
+
+
+# add these gems to help with the transition to Rails 4:
+gem 'protected_attributes'
+gem 'rails-observers'
+gem 'actionpack-page_caching'
+gem 'actionpack-action_caching'

@@ -1,3 +1,4 @@
+# This migration comes from socializer (originally 20110804192211)
 class CreateSocializerAuthentications < ActiveRecord::Migration
   def change
     create_table :socializer_authentications do |t|

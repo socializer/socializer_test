@@ -24,14 +24,12 @@ group :production do
   gem 'thin'
 end
 
-# gem "socializer", :github => 'dominicgoulet/socializer'
-# gem "socializer", :github => 'acmetech/socializer', :branch => 'rails4'
-gem "socializer", :path => '~/Rails/socializer'
+gem "socializer", :github => 'dominicgoulet/socializer'
+# gem "socializer", :path => '~/Rails/socializer'
+# gem "socializer", :path => '~/Projects/github/socializer'
 
 # TODO: Remove when final version ships for Rails 4
 gem "squeel", github: 'ernie/squeel'
-
-gem 'rails4_upgrade', github: 'alindeman/rails4_upgrade'
 
 group :development, :test do
   gem 'debugger'

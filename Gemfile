@@ -25,7 +25,6 @@ group :production do
 end
 
 gem "socializer", :github => 'dominicgoulet/socializer'
-# gem "socializer", :github => 'acmetech/socializer', :branch => 'rails4'
 # gem "socializer", :path => '~/Projects/github/socializer'
 
 # TODO: Remove when final version ships for Rails 4

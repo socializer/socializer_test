@@ -14,3 +14,4 @@ pkg
 /spec/tmp/*
 /config/*.yml
 /config/deploy.rb
+Gemfile.lock

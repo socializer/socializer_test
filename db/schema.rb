@@ -11,13 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130516004566) do
+ActiveRecord::Schema.define(version: 20130524135232) do
 
   create_table "socializer_activities", force: true do |t|
     t.integer  "actor_id"
     t.integer  "object_id"
     t.integer  "target_id"
-    t.string   "verb"
+    t.integer  "verb_id"
     t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 20130516004566) do
   add_index "socializer_activities", ["actor_id"], name: "index_socializer_activities_on_actor_id"
   add_index "socializer_activities", ["object_id"], name: "index_socializer_activities_on_object_id"
   add_index "socializer_activities", ["target_id"], name: "index_socializer_activities_on_target_id"
+  add_index "socializer_activities", ["verb_id"], name: "index_socializer_activities_on_verb_id"
 
   create_table "socializer_activity_objects", force: true do |t|
     t.integer  "activitable_id"
@@ -40,12 +41,13 @@ ActiveRecord::Schema.define(version: 20130516004566) do
   create_table "socializer_audiences", id: false, force: true do |t|
     t.integer  "activity_id"
     t.integer  "object_id"
-    t.string   "scope"
+    t.integer  "privacy_level"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   add_index "socializer_audiences", ["activity_id", "object_id"], name: "index_socializer_audiences_on_activity_id_and_object_id", unique: true
+  add_index "socializer_audiences", ["privacy_level"], name: "index_socializer_audiences_on_privacy_level"
 
   create_table "socializer_authentications", force: true do |t|
     t.integer  "person_id"
@@ -87,6 +89,7 @@ ActiveRecord::Schema.define(version: 20130516004566) do
 
   add_index "socializer_groups", ["author_id"], name: "index_socializer_groups_on_author_id"
   add_index "socializer_groups", ["name", "author_id"], name: "index_socializer_groups_on_name_and_author_id", unique: true
+  add_index "socializer_groups", ["privacy_level"], name: "index_socializer_groups_on_privacy_level"
 
   create_table "socializer_identities", force: true do |t|
     t.string   "name"
@@ -134,5 +137,13 @@ ActiveRecord::Schema.define(version: 20130516004566) do
 
   add_index "socializer_ties", ["circle_id"], name: "index_socializer_ties_on_circle_id"
   add_index "socializer_ties", ["contact_id"], name: "index_socializer_ties_on_contact_id"
+
+  create_table "socializer_verbs", force: true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "socializer_verbs", ["name"], name: "index_socializer_verbs_on_name", unique: true
 
 end

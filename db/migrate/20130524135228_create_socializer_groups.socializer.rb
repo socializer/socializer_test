@@ -11,5 +11,6 @@ class CreateSocializerGroups < ActiveRecord::Migration
 
     add_index :socializer_groups, :author_id
     add_index :socializer_groups, [:name, :author_id], unique: true
+    add_index :socializer_groups, :privacy_level
   end
 end

@@ -37,6 +37,7 @@ group :development, :test do
   gem 'capybara'
   gem 'cucumber-rails', :require => false, github: 'cucumber/cucumber-rails', :branch => 'master_rails4_test'
   gem 'database_cleaner'
+  gem "pry", "~> 0.9.12.2"
 end
 
 group :test do

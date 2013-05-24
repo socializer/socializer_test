@@ -31,13 +31,6 @@ SocializerTest::Application.configure do
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
 
-<<<<<<< HEAD
-  # Raise exception on mass assignment protection for Active Record models
-  config.active_record.mass_assignment_sanitizer = :strict
-
-  # Print deprecation notices to the stderr
-=======
   # Print deprecation notices to the stderr.
->>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
   config.active_support.deprecation = :stderr
 end

@@ -5,10 +5,6 @@
 .rspec
 .ruby-gemset
 .ruby-version
-<<<<<<< HEAD
-=======
-Gemfile.lock
->>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
 .bundle
 /vendor/bundle
 db/*.sqlite3

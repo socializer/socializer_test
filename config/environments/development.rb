@@ -22,22 +22,8 @@ SocializerTest::Application.configure do
   # Raise an error on page load if there are pending migrations
   config.active_record.migration_error = :page_load
 
-<<<<<<< HEAD
-  # Raise exception on mass assignment protection for Active Record models
-  config.active_record.mass_assignment_sanitizer = :strict
-
-  # Log the query plan for queries taking more than this (works
-  # with SQLite, MySQL, and PostgreSQL)
-  config.active_record.auto_explain_threshold_in_seconds = 0.5
-
-  # Do not compress assets
-  config.assets.compress = false
-
-  # Expands the lines which load the assets
-=======
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
->>>>>>> 189e2b527624d47d653d5bed46c79284c167896b
   config.assets.debug = true
 end

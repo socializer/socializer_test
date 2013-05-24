@@ -26,7 +26,7 @@ end
 
 # gem "socializer", :github => 'dominicgoulet/socializer'
 # gem "socializer", :github => 'acmetech/socializer', :branch => 'rails4'
-gem "socializer", :path => '~/Projects/github/socializer'
+gem "socializer", :path => '~/Rails/socializer'
 
 
 gem 'rails4_upgrade', github: 'alindeman/rails4_upgrade'

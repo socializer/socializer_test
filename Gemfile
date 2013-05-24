@@ -30,8 +30,6 @@ gem "socializer", :github => 'dominicgoulet/socializer'
 # TODO: Remove when final version ships for Rails 4
 gem "squeel", github: 'ernie/squeel'
 
-gem 'rails4_upgrade', github: 'alindeman/rails4_upgrade'
-
 group :development, :test do
   gem 'debugger'
   gem 'rspec-rails'

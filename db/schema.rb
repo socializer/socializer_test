@@ -11,14 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130527152755) do
+ActiveRecord::Schema.define(version: 20130528151271) do
 
   create_table "socializer_activities", force: true do |t|
     t.integer  "actor_id"
     t.integer  "activity_object_id"
     t.integer  "target_id"
     t.integer  "verb_id"
-    t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -27,6 +26,15 @@ ActiveRecord::Schema.define(version: 20130527152755) do
   add_index "socializer_activities", ["actor_id"], name: "index_socializer_activities_on_actor_id"
   add_index "socializer_activities", ["target_id"], name: "index_socializer_activities_on_target_id"
   add_index "socializer_activities", ["verb_id"], name: "index_socializer_activities_on_verb_id"
+
+  create_table "socializer_activity_fields", force: true do |t|
+    t.text     "content"
+    t.integer  "activity_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "socializer_activity_fields", ["activity_id"], name: "index_socializer_activity_fields_on_activity_id"
 
   create_table "socializer_activity_objects", force: true do |t|
     t.integer  "activitable_id"

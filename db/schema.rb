@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130528151271) do
+ActiveRecord::Schema.define(version: 20130608190954) do
 
   create_table "socializer_activities", force: true do |t|
     t.integer  "actor_id"
@@ -28,8 +28,8 @@ ActiveRecord::Schema.define(version: 20130528151271) do
   add_index "socializer_activities", ["verb_id"], name: "index_socializer_activities_on_verb_id"
 
   create_table "socializer_activity_fields", force: true do |t|
-    t.text     "content"
-    t.integer  "activity_id"
+    t.text     "content",     null: false
+    t.integer  "activity_id", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -47,9 +47,9 @@ ActiveRecord::Schema.define(version: 20130528151271) do
   add_index "socializer_activity_objects", ["activitable_type", "activitable_id"], name: "index_socializer_activity_objects_on_activitable"
 
   create_table "socializer_audiences", force: true do |t|
-    t.integer  "activity_id"
+    t.integer  "activity_id",        null: false
     t.integer  "activity_object_id"
-    t.integer  "privacy_level"
+    t.integer  "privacy_level",      null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -67,8 +67,8 @@ ActiveRecord::Schema.define(version: 20130528151271) do
   end
 
   create_table "socializer_circles", force: true do |t|
-    t.integer  "author_id"
-    t.string   "name"
+    t.integer  "author_id",  null: false
+    t.string   "name",       null: false
     t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -87,9 +87,9 @@ ActiveRecord::Schema.define(version: 20130528151271) do
   add_index "socializer_comments", ["author_id"], name: "index_socializer_comments_on_author_id"
 
   create_table "socializer_groups", force: true do |t|
-    t.integer  "author_id"
-    t.string   "name"
-    t.integer  "privacy_level"
+    t.integer  "author_id",     null: false
+    t.string   "name",          null: false
+    t.integer  "privacy_level", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -146,7 +146,7 @@ ActiveRecord::Schema.define(version: 20130528151271) do
   add_index "socializer_ties", ["contact_id"], name: "index_socializer_ties_on_contact_id"
 
   create_table "socializer_verbs", force: true do |t|
-    t.string   "name"
+    t.string   "name",       null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end

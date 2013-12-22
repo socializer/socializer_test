@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source 'http://rubygems.org'
 
 gem 'rails', '4.0.0'
 
@@ -16,17 +16,17 @@ gem 'omniauth-linkedin'
 gem 'omniauth-openid'
 
 group :development do
-  gem "sqlite3", "~> 1.3.4"
+  gem 'sqlite3', '~> 1.3.4'
 end
 
 group :production do
-  gem "pg", "0.11.0"
+  gem 'pg', '0.11.0'
   gem 'thin'
 end
 
-gem "socializer", :github => 'dominicgoulet/socializer'
-# gem "socializer", :path => '~/Rails/socializer'
-# gem "socializer", :path => '~/Projects/github/socializer'
+gem 'socializer', :github => 'dominicgoulet/socializer'
+# gem 'socializer', :path => '~/Rails/socializer'
+# gem 'socializer', :path => '~/Projects/github/socializer'
 
 group :development, :test do
   gem 'debugger'
@@ -34,11 +34,11 @@ group :development, :test do
   gem 'capybara'
   gem 'cucumber-rails', :require => false, github: 'cucumber/cucumber-rails', :branch => 'master_rails4_test'
   gem 'database_cleaner'
-  gem "pry", "~> 0.9.12.2"
+  gem 'pry', '~> 0.9.12.2'
 end
 
 group :test do
-  gem "factory_girl_rails"
+  gem 'factory_girl_rails'
   gem 'capybara'
   gem 'shoulda-matchers'
 end

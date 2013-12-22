@@ -1,10 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'rails', '4.0.0'
+gem 'rails', '4.0.2'
 
-gem 'sass-rails',   '~> 4.0.0'
-gem 'coffee-rails', '~> 4.0.0'
-gem 'uglifier', '>= 1.3.0'
+gem 'sass-rails',   '~> 4.0.1'
+gem 'coffee-rails', '~> 4.0.1'
+gem 'uglifier', '>= 2.4.0'
 
 gem 'jquery-rails'
 
@@ -15,8 +15,10 @@ gem 'omniauth-twitter'
 gem 'omniauth-linkedin'
 gem 'omniauth-openid'
 
+gem "squeel", "~> 1.1.1"
+
 group :development do
-  gem 'sqlite3', '~> 1.3.4'
+  gem 'sqlite3', '~> 1.3.8'
 end
 
 group :production do
@@ -34,7 +36,7 @@ group :development, :test do
   gem 'capybara'
   gem 'cucumber-rails', :require => false, github: 'cucumber/cucumber-rails', :branch => 'master_rails4_test'
   gem 'database_cleaner'
-  gem 'pry', '~> 0.9.12.2'
+  gem 'pry', '~> 0.9.12.4'
 end
 
 group :test do

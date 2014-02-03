@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130608190954) do
+ActiveRecord::Schema.define(version: 20140203000747) do
 
   create_table "socializer_activities", force: true do |t|
     t.integer  "actor_id"
@@ -39,7 +39,8 @@ ActiveRecord::Schema.define(version: 20130608190954) do
   create_table "socializer_activity_objects", force: true do |t|
     t.integer  "activitable_id"
     t.string   "activitable_type"
-    t.integer  "like_count",       default: 0
+    t.integer  "like_count",                 default: 0
+    t.integer  "unread_notifications_count", default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -86,10 +87,28 @@ ActiveRecord::Schema.define(version: 20130608190954) do
 
   add_index "socializer_comments", ["author_id"], name: "index_socializer_comments_on_author_id"
 
+  create_table "socializer_group_categories", force: true do |t|
+    t.integer  "group_id",   null: false
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "socializer_group_links", force: true do |t|
+    t.integer  "group_id",   null: false
+    t.string   "label"
+    t.string   "url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "socializer_groups", force: true do |t|
     t.integer  "author_id",     null: false
     t.string   "name",          null: false
     t.integer  "privacy_level", null: false
+    t.string   "tagline"
+    t.text     "about"
+    t.string   "location"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -126,11 +145,112 @@ ActiveRecord::Schema.define(version: 20130608190954) do
 
   add_index "socializer_notes", ["author_id"], name: "index_socializer_notes_on_author_id"
 
+  create_table "socializer_notifications", force: true do |t|
+    t.integer  "activity_id"
+    t.integer  "activity_object_id"
+    t.boolean  "read",               default: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
   create_table "socializer_people", force: true do |t|
     t.string   "display_name"
     t.string   "email"
     t.string   "language"
     t.string   "avatar_provider"
+    t.string   "tagline"
+    t.text     "introduction"
+    t.string   "bragging_rights"
+    t.string   "occupation"
+    t.string   "skills"
+    t.integer  "gender"
+    t.boolean  "looking_for_friends"
+    t.boolean  "looking_for_dating"
+    t.boolean  "looking_for_relationship"
+    t.boolean  "looking_for_networking"
+    t.datetime "birthdate"
+    t.integer  "relationship"
+    t.string   "other_names"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "socializer_person_addresses", force: true do |t|
+    t.integer  "person_id",          null: false
+    t.integer  "category"
+    t.integer  "label"
+    t.string   "line1"
+    t.string   "line2"
+    t.string   "city"
+    t.string   "postal_code_or_zip"
+    t.string   "province_or_state"
+    t.string   "country"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "socializer_person_contributions", force: true do |t|
+    t.integer  "person_id",  null: false
+    t.string   "label"
+    t.string   "url"
+    t.boolean  "current"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "socializer_person_educations", force: true do |t|
+    t.integer  "person_id",               null: false
+    t.string   "school_name"
+    t.string   "major_or_field_of_study"
+    t.date     "start"
+    t.date     "end"
+    t.boolean  "current"
+    t.text     "courses_description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "socializer_person_employments", force: true do |t|
+    t.integer  "person_id",       null: false
+    t.string   "employer_name"
+    t.string   "job_title"
+    t.date     "start"
+    t.date     "end"
+    t.boolean  "current"
+    t.text     "job_description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "socializer_person_links", force: true do |t|
+    t.integer  "person_id",  null: false
+    t.string   "label"
+    t.string   "url"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "socializer_person_phones", force: true do |t|
+    t.integer  "person_id",  null: false
+    t.integer  "category"
+    t.integer  "label"
+    t.string   "number"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "socializer_person_places", force: true do |t|
+    t.integer  "person_id",  null: false
+    t.string   "city_name"
+    t.boolean  "current"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "socializer_person_profiles", force: true do |t|
+    t.integer  "person_id",  null: false
+    t.string   "label"
+    t.string   "url"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

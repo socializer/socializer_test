@@ -6,6 +6,10 @@ class CreateSocializerGroups < ActiveRecord::Migration
       t.string   :name,      null: false
       t.integer  :privacy_level, null: false
 
+      t.string   :tagline
+      t.text     :about
+      t.string   :location
+
       t.timestamps
     end
 

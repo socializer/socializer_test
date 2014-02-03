@@ -8,7 +8,7 @@ class CreateSocializerMemberships < ActiveRecord::Migration
 
       t.timestamps
     end
-    
+
     add_index :socializer_memberships, :group_id
     add_index :socializer_memberships, :member_id
   end

@@ -26,7 +26,7 @@ group :production do
   gem 'thin'
 end
 
-gem 'socializer', :github => 'dominicgoulet/socializer'
+gem 'socializer', :github => 'socializer/socializer'
 # gem 'socializer', :path => '~/Rails/socializer'
 # gem 'socializer', :path => '~/Projects/github/socializer'
 

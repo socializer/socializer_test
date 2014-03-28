@@ -49,6 +49,9 @@ module SocializerTest
     console do
       require 'pry'
       config.console = Pry
+      require 'rails/console/app'
+      require 'rails/console/helpers'
+      TOPLEVEL_BINDING.eval('self').extend ::Rails::ConsoleMethods
     end
   end
 end

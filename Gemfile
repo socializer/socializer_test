@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '4.0.5'
+gem 'rails', '4.1.1'
 
 gem 'sass-rails',   '~> 4.0.1'
 gem 'coffee-rails', '~> 4.0.1'
@@ -27,6 +27,9 @@ end
 gem 'socializer', :github => 'socializer/socializer'
 # gem 'socializer', :path => '~/Rails/socializer'
 # gem 'socializer', :path => '~/Projects/github/socializer'
+
+# TODO: Remove once we're satisfied with the ARel solution or supported version of squeel is released
+gem 'squeel', github: 'kiela/squeel'
 
 group :development, :test do
   gem 'byebug'

@@ -29,7 +29,7 @@ gem 'socializer', :github => 'socializer/socializer'
 # gem 'socializer', :path => '~/Projects/github/socializer'
 
 group :development, :test do
-  gem 'debugger'
+  gem 'byebug'
   gem 'rspec-rails'
   gem 'capybara'
   gem 'cucumber-rails', '~> 1.4.0', :require => false

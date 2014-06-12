@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140203000747) do
+ActiveRecord::Schema.define(version: 20140612191040) do
 
   create_table "socializer_activities", force: true do |t|
     t.integer  "actor_id"
@@ -125,6 +125,8 @@ ActiveRecord::Schema.define(version: 20140203000747) do
     t.datetime "updated_at"
   end
 
+  add_index "socializer_identities", ["email"], name: "index_socializer_identities_on_email", unique: true
+
   create_table "socializer_memberships", force: true do |t|
     t.integer  "group_id"
     t.integer  "member_id"
@@ -168,7 +170,7 @@ ActiveRecord::Schema.define(version: 20140203000747) do
     t.boolean  "looking_for_dating"
     t.boolean  "looking_for_relationship"
     t.boolean  "looking_for_networking"
-    t.datetime "birthdate"
+    t.date     "birthdate"
     t.integer  "relationship"
     t.string   "other_names"
     t.datetime "created_at"
@@ -202,8 +204,8 @@ ActiveRecord::Schema.define(version: 20140203000747) do
     t.integer  "person_id",               null: false
     t.string   "school_name"
     t.string   "major_or_field_of_study"
-    t.date     "start"
-    t.date     "end"
+    t.date     "started_on"
+    t.date     "ended_on"
     t.boolean  "current"
     t.text     "courses_description"
     t.datetime "created_at"
@@ -214,8 +216,8 @@ ActiveRecord::Schema.define(version: 20140203000747) do
     t.integer  "person_id",       null: false
     t.string   "employer_name"
     t.string   "job_title"
-    t.date     "start"
-    t.date     "end"
+    t.date     "started_on"
+    t.date     "ended_on"
     t.boolean  "current"
     t.text     "job_description"
     t.datetime "created_at"

@@ -22,7 +22,7 @@ class CreateSocializerPeople < ActiveRecord::Migration
       t.boolean  :looking_for_dating
       t.boolean  :looking_for_relationship
       t.boolean  :looking_for_networking
-      t.datetime :birthdate
+      t.date     :birthdate
       t.integer  :relationship
       t.string   :other_names
 

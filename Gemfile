@@ -43,9 +43,9 @@ group :production do
   gem 'thin'
 end
 
-# gem 'socializer', :github => 'socializer/socializer'
+gem 'socializer', :github => 'socializer/socializer'
 # gem 'socializer', :path => '~/Rails/socializer'
-gem 'socializer', :path => '~/Projects/github/socializer'
+# gem 'socializer', :path => '~/Projects/github/socializer'
 
 # TODO: Remove once we're satisfied with the ARel solution or supported version of squeel is released
 # gem 'squeel', github: 'kiela/squeel'

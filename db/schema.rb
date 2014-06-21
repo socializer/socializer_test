@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140612191040) do
+ActiveRecord::Schema.define(version: 20140621183680) do
 
   create_table "socializer_activities", force: true do |t|
     t.integer  "actor_id"
@@ -50,13 +50,13 @@ ActiveRecord::Schema.define(version: 20140612191040) do
   create_table "socializer_audiences", force: true do |t|
     t.integer  "activity_id",        null: false
     t.integer  "activity_object_id"
-    t.integer  "privacy_level",      null: false
+    t.string   "privacy",            null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   add_index "socializer_audiences", ["activity_id", "activity_object_id"], name: "index_socializer_audiences_on_activity_id__activity_object_id", unique: true
-  add_index "socializer_audiences", ["privacy_level"], name: "index_socializer_audiences_on_privacy_level"
+  add_index "socializer_audiences", ["privacy"], name: "index_socializer_audiences_on_privacy"
 
   create_table "socializer_authentications", force: true do |t|
     t.integer  "person_id"
@@ -103,9 +103,9 @@ ActiveRecord::Schema.define(version: 20140612191040) do
   end
 
   create_table "socializer_groups", force: true do |t|
-    t.integer  "author_id",     null: false
-    t.string   "name",          null: false
-    t.integer  "privacy_level", null: false
+    t.integer  "author_id",  null: false
+    t.string   "name",       null: false
+    t.integer  "privacy",    null: false
     t.string   "tagline"
     t.text     "about"
     t.string   "location"
@@ -115,7 +115,7 @@ ActiveRecord::Schema.define(version: 20140612191040) do
 
   add_index "socializer_groups", ["author_id"], name: "index_socializer_groups_on_author_id"
   add_index "socializer_groups", ["name", "author_id"], name: "index_socializer_groups_on_name_and_author_id", unique: true
-  add_index "socializer_groups", ["privacy_level"], name: "index_socializer_groups_on_privacy_level"
+  add_index "socializer_groups", ["privacy"], name: "index_socializer_groups_on_privacy"
 
   create_table "socializer_identities", force: true do |t|
     t.string   "name"
@@ -234,9 +234,9 @@ ActiveRecord::Schema.define(version: 20140612191040) do
 
   create_table "socializer_person_phones", force: true do |t|
     t.integer  "person_id",  null: false
-    t.integer  "category"
-    t.integer  "label"
-    t.string   "number"
+    t.integer  "category",   null: false
+    t.integer  "label",      null: false
+    t.string   "number",     null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end

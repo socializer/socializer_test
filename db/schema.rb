@@ -11,13 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140621183680) do
+ActiveRecord::Schema.define(version: 20140701162669) do
 
   create_table "socializer_activities", force: true do |t|
-    t.integer  "actor_id"
-    t.integer  "activity_object_id"
+    t.integer  "actor_id",           null: false
+    t.integer  "activity_object_id", null: false
     t.integer  "target_id"
-    t.integer  "verb_id"
+    t.integer  "verb_id",            null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -37,8 +37,8 @@ ActiveRecord::Schema.define(version: 20140621183680) do
   add_index "socializer_activity_fields", ["activity_id"], name: "index_socializer_activity_fields_on_activity_id"
 
   create_table "socializer_activity_objects", force: true do |t|
-    t.integer  "activitable_id"
-    t.string   "activitable_type"
+    t.integer  "activitable_id",                         null: false
+    t.string   "activitable_type",                       null: false
     t.integer  "like_count",                 default: 0
     t.integer  "unread_notifications_count", default: 0
     t.datetime "created_at"

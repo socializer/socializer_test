@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140701162669) do
+ActiveRecord::Schema.define(version: 20140721164179) do
 
   create_table "socializer_activities", force: true do |t|
     t.integer  "actor_id",           null: false
@@ -68,15 +68,15 @@ ActiveRecord::Schema.define(version: 20140701162669) do
   end
 
   create_table "socializer_circles", force: true do |t|
-    t.integer  "author_id",  null: false
-    t.string   "name",       null: false
+    t.integer  "author_id",    null: false
+    t.string   "display_name", null: false
     t.text     "content"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   add_index "socializer_circles", ["author_id"], name: "index_socializer_circles_on_author_id"
-  add_index "socializer_circles", ["name", "author_id"], name: "index_socializer_circles_on_name_and_author_id", unique: true
+  add_index "socializer_circles", ["display_name", "author_id"], name: "index_socializer_circles_on_display_name_and_author_id", unique: true
 
   create_table "socializer_comments", force: true do |t|
     t.integer  "author_id"
@@ -88,8 +88,8 @@ ActiveRecord::Schema.define(version: 20140701162669) do
   add_index "socializer_comments", ["author_id"], name: "index_socializer_comments_on_author_id"
 
   create_table "socializer_group_categories", force: true do |t|
-    t.integer  "group_id",   null: false
-    t.string   "name"
+    t.integer  "group_id",     null: false
+    t.string   "display_name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -103,9 +103,9 @@ ActiveRecord::Schema.define(version: 20140701162669) do
   end
 
   create_table "socializer_groups", force: true do |t|
-    t.integer  "author_id",  null: false
-    t.string   "name",       null: false
-    t.integer  "privacy",    null: false
+    t.integer  "author_id",    null: false
+    t.string   "display_name", null: false
+    t.integer  "privacy",      null: false
     t.string   "tagline"
     t.text     "about"
     t.string   "location"
@@ -114,7 +114,7 @@ ActiveRecord::Schema.define(version: 20140701162669) do
   end
 
   add_index "socializer_groups", ["author_id"], name: "index_socializer_groups_on_author_id"
-  add_index "socializer_groups", ["name", "author_id"], name: "index_socializer_groups_on_name_and_author_id", unique: true
+  add_index "socializer_groups", ["display_name", "author_id"], name: "index_socializer_groups_on_display_name_and_author_id", unique: true
   add_index "socializer_groups", ["privacy"], name: "index_socializer_groups_on_privacy"
 
   create_table "socializer_identities", force: true do |t|
@@ -268,11 +268,11 @@ ActiveRecord::Schema.define(version: 20140701162669) do
   add_index "socializer_ties", ["contact_id"], name: "index_socializer_ties_on_contact_id"
 
   create_table "socializer_verbs", force: true do |t|
-    t.string   "name",       null: false
+    t.string   "display_name", null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "socializer_verbs", ["name"], name: "index_socializer_verbs_on_name", unique: true
+  add_index "socializer_verbs", ["display_name"], name: "index_socializer_verbs_on_display_name", unique: true
 
 end

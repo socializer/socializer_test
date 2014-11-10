@@ -5,7 +5,7 @@ source 'http://rubygems.org'
 gem 'rails', '~> 4.1.7'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
+gem 'sass-rails', '~> 4.0.4'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 2.5.3'
 # Use CoffeeScript for .js.coffee assets and views
@@ -23,7 +23,7 @@ gem 'jquery-rails'
 # gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.9'
 
 gem 'omniauth-identity'
 gem 'omniauth-facebook'
@@ -58,7 +58,7 @@ group :development, :test do
   gem 'byebug'
   gem 'rspec-rails'
   gem 'capybara'
-  gem 'cucumber-rails', '~> 1.4.1', :require => false
+  gem 'cucumber-rails', '~> 1.4.2', :require => false
   gem 'database_cleaner'
   gem 'pry', '~> 0.10.1'
 end

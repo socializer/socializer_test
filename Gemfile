@@ -25,6 +25,9 @@ gem 'jquery-rails'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.9'
 
+# Use Rails Html Sanitizer for HTML sanitization
+gem 'rails-html-sanitizer', '~> 1.0'
+
 gem 'omniauth-identity'
 gem 'omniauth-facebook'
 gem 'omniauth-twitter'

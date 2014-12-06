@@ -37,8 +37,6 @@ gem 'omniauth-openid'
 group :development do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
 
   gem 'better_errors'
   gem 'binding_of_caller'
@@ -58,9 +56,15 @@ gem 'socializer', :github => 'socializer/socializer'
 # gem 'squeel', github: 'kiela/squeel'
 
 group :development, :test do
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  # Access an IRB console on exceptions page and /console in development
+
+  # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
+
+  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem 'spring'
+
   gem 'rspec-rails'
   gem 'capybara'
   gem 'cucumber-rails', '~> 1.4.2', :require => false

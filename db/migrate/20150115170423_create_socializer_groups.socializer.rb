@@ -10,7 +10,7 @@ class CreateSocializerGroups < ActiveRecord::Migration
       t.text     :about
       t.string   :location
 
-      t.timestamps
+      t.timestamps null: false
     end
 
     add_index :socializer_groups, :author_id

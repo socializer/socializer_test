@@ -8,7 +8,7 @@ class CreateSocializerPersonPhones < ActiveRecord::Migration
       t.integer  :label,     null: false
       t.string   :number,    null: false
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end

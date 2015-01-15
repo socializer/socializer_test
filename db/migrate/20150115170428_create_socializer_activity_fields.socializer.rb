@@ -5,7 +5,7 @@ class CreateSocializerActivityFields < ActiveRecord::Migration
       t.text :content, null: false
       t.references :activity, index: true, null: false
 
-      t.timestamps
+      t.timestamps null: false
     end
   end
 end

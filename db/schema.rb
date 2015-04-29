@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150115170439) do
+ActiveRecord::Schema.define(version: 20150424162463) do
 
   create_table "socializer_activities", force: :cascade do |t|
     t.integer  "actor_id",           null: false
@@ -59,13 +59,16 @@ ActiveRecord::Schema.define(version: 20150115170439) do
   add_index "socializer_audiences", ["privacy"], name: "index_socializer_audiences_on_privacy"
 
   create_table "socializer_authentications", force: :cascade do |t|
-    t.integer  "person_id"
-    t.string   "provider"
-    t.string   "uid"
+    t.integer  "person_id",  null: false
+    t.string   "provider",   null: false
+    t.string   "uid",        null: false
     t.string   "image_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+
+  add_index "socializer_authentications", ["person_id"], name: "index_socializer_authentications_on_person_id"
+  add_index "socializer_authentications", ["provider"], name: "index_socializer_authentications_on_provider"
 
   create_table "socializer_circles", force: :cascade do |t|
     t.integer  "author_id",    null: false
@@ -139,8 +142,8 @@ ActiveRecord::Schema.define(version: 20150115170439) do
   add_index "socializer_memberships", ["member_id"], name: "index_socializer_memberships_on_member_id"
 
   create_table "socializer_notes", force: :cascade do |t|
-    t.integer  "author_id"
-    t.text     "content"
+    t.integer  "author_id",  null: false
+    t.text     "content",    null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -258,8 +261,8 @@ ActiveRecord::Schema.define(version: 20150115170439) do
   end
 
   create_table "socializer_ties", force: :cascade do |t|
-    t.integer  "contact_id"
-    t.integer  "circle_id"
+    t.integer  "contact_id", null: false
+    t.integer  "circle_id",  null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

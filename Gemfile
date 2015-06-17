@@ -74,7 +74,7 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw], '~> 1.2015.5'
+gem 'tzinfo-data', '~> 1.2015.5', platforms: [:mingw, :mswin, :x64_mingw]
 
 # add these gems to help with the transition to Rails 4:
 gem 'protected_attributes', '~> 1.0.9'

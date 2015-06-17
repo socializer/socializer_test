@@ -28,24 +28,24 @@ gem 'bcrypt', '~> 3.1.9'
 # Use Rails Html Sanitizer for HTML sanitization
 gem 'rails-html-sanitizer', '~> 1.0'
 
-gem 'omniauth-identity'
-gem 'omniauth-facebook'
-gem 'omniauth-twitter'
-gem 'omniauth-linkedin'
-gem 'omniauth-openid'
+gem 'omniauth-identity', '~> 1.1.1'
+gem 'omniauth-facebook', '~> 2.0.1'
+gem 'omniauth-twitter', '~> 1.2.0'
+gem 'omniauth-linkedin', '~> 0.2.0'
+gem 'omniauth-openid', '~> 1.0.1'
 
 group :development do
   # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3.10'
 
-  gem 'better_errors'
-  gem 'binding_of_caller'
-  gem 'meta_request'      # For RailsPanel
+  gem 'better_errors', '~> 2.1.1'
+  gem 'binding_of_caller', '~> 0.7.2'
+  gem 'meta_request', '~> 0.3.4'      # For RailsPanel
 end
 
 group :production do
   gem 'pg', '~> 0.18.2'
-  gem 'thin'
+  gem 'thin', '~> 1.6.3'
 end
 
 gem 'socializer', :github => 'socializer/socializer'
@@ -53,28 +53,28 @@ gem 'socializer', :github => 'socializer/socializer'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  gem 'byebug', '~> 5.0.0'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.1.3'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
+  gem 'spring', '~> 1.3.6'
 
-  gem 'rspec-rails'
-  gem 'capybara'
+  gem 'rspec-rails', '~> 3.3.1'
+  gem 'capybara', '~> 2.4.4'
   gem 'cucumber-rails', '~> 1.4.2', :require => false
-  gem 'database_cleaner'
+  gem 'database_cleaner', '~> 1.4.1'
   gem 'pry', '~> 0.10.1'
 end
 
 group :test do
-  gem 'factory_girl_rails'
-  gem 'shoulda-matchers'
+  gem 'factory_girl_rails', '~> 4.5.0'
+  gem 'shoulda-matchers', '~> 2.8.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw], '~> 1.2015.5'
 
 # add these gems to help with the transition to Rails 4:
-gem 'protected_attributes'
+gem 'protected_attributes', '~> 1.0.9'

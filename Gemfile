@@ -5,9 +5,9 @@ source 'http://rubygems.org'
 gem 'rails', '~> 4.2.2'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.0'
+gem 'sass-rails', '~> 5.0.3'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 2.6.0'
+gem 'uglifier', '>= 2.7.1'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -23,10 +23,10 @@ gem 'jquery-rails', '~> 4.0.4'
 # gem 'sdoc', '~> 0.4.0',          group: :doc
 
 # Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1.9'
+gem 'bcrypt', '~> 3.1.10'
 
 # Use Rails Html Sanitizer for HTML sanitization
-gem 'rails-html-sanitizer', '~> 1.0'
+gem 'rails-html-sanitizer', '~> 1.0.2'
 
 gem 'omniauth-identity', '~> 1.1.1'
 gem 'omniauth-facebook', '~> 2.0.1'

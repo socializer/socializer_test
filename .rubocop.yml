@@ -1,17 +1,17 @@
 AllCops:
   # Include gemspec and Rakefile
   Include:
-    - '**/*.gemspec'
-    - '**/Rakefile'
-    - '**/config.ru'
-    - 'db/migrate/**/*'
+    - "**/*.gemspec"
+    - "**/Rakefile"
+    - "**/config.ru"
+    - "db/migrate/**/*"
   Exclude:
-    - 'bin/**/*'
-    - 'db/schema.rb'
-    - 'spec/i18n_spec.rb'
-    - 'spec/dummy/**/*'
-    - 'spec/internal/**/*'
-    - 'vendor/**/*'
+    - "bin/**/*"
+    - "db/schema.rb"
+    - "spec/i18n_spec.rb"
+    - "spec/dummy/**/*"
+    - "spec/internal/**/*"
+    - "vendor/**/*"
 
   # By default, the rails cops are not run. Override in project or home
   # directory .rubocop.yml files, or by giving the -R/--rails option.
@@ -31,30 +31,30 @@ AllCops:
 
 Metrics/AbcSize:
   Exclude:
-    - 'db/migrate/**/*'
+    - "db/migrate/**/*"
 
 # FIXME: Enable, correct the code, and remove this setting
 Metrics/LineLength:
   # Max: 120
   Enabled: true
   Exclude:
-    - 'db/**/*'
-    - 'script/rails'
+    - "db/**/*"
+    - "script/rails"
 
 Metrics/MethodLength:
   Enabled: true
   Exclude:
-    - 'db/migrate/**/*'
+    - "db/migrate/**/*"
 
 Metrics/ModuleLength:
   Exclude:
-    - 'spec/**/*'
+    - "spec/**/*"
 
 Style/Documentation:
   Enabled: true
   Exclude:
-    - 'db/migrate/**/*'
-    - 'spec/**/*'
+    - "db/migrate/**/*"
+    - "spec/**/*"
 
 # FIXME: Enable and correct the code
 Style/MultilineOperationIndentation:
@@ -62,20 +62,20 @@ Style/MultilineOperationIndentation:
 
 Style/RegexpLiteral:
   Exclude:
-    - '**/*.gemspec'
+    - "**/*.gemspec"
 
 Style/SingleSpaceBeforeFirstArg:
   Enabled: true
   Exclude:
-    - 'db/**/*'
+    - "db/**/*"
 
 Style/SpaceAroundOperators:
   MultiSpaceAllowedForOperators:
-    - '='
-    - '=>'
-    - '||='
+    - "="
+    - "=>"
+    - "||="
 
 Style/StringLiterals:
   EnforcedStyle: double_quotes
   Exclude:
-    - 'script/rails'
+    - "script/rails"

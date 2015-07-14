@@ -6,6 +6,7 @@ AllCops:
     - "**/config.ru"
     - "db/migrate/**/*"
   Exclude:
+    - "**/config.ru"
     - "bin/**/*"
     - "config/application.rb"
     - "config/boot.rb"
@@ -84,4 +85,5 @@ Style/SpaceAroundOperators:
 Style/StringLiterals:
   EnforcedStyle: double_quotes
   Exclude:
+    - "config/environments/test.rb"
     - "script/rails"

@@ -48,8 +48,9 @@ group :production do
   gem "thin", "~> 1.6.3"
 end
 
-# gem "socializer", :github => "socializer/socializer"
-# gem "socializer", :path => "~/Rails/socializer"
+gem "socializer", github: "socializer/socializer"
+# gem "socializer", path: "~/Rails/socializer"
+# gem "socializer", path: "~/Projects/github/socializer"
 gem "bullet", "~> 4.14.4", group: "development"
 
 group :development, :test do
@@ -67,7 +68,7 @@ group :development, :test do
 
   gem "rspec-rails", "~> 3.3.2"
   gem "capybara", "~> 2.4.4"
-  gem "cucumber-rails", "~> 1.4.2", :require => false
+  gem "cucumber-rails", "~> 1.4.2", require: false
   gem "database_cleaner", "~> 1.4.1"
   gem "pry", "~> 0.10.1"
 end

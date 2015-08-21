@@ -56,7 +56,7 @@ gem "bullet", "~> 4.14.4", group: "development"
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger
   # console
-  gem "byebug", "~> 5.0.0"
+  gem "byebug", "~> 6.0.2"
 
   # Access an IRB console on exception pages or by using <%= console %>
   # in views

@@ -67,7 +67,7 @@ group :development, :test do
   gem "spring", "~> 1.3.6"
 
   gem "rspec-rails", "~> 3.3.2"
-  gem "capybara", "~> 2.4.4"
+  gem "capybara", "~> 2.5.0"
   gem "cucumber-rails", "~> 1.4.2", require: false
   gem "database_cleaner", "~> 1.4.1"
   gem "pry", "~> 0.10.1"

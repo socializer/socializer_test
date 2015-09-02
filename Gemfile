@@ -30,7 +30,7 @@ gem "rails-html-sanitizer", "~> 1.0.2"
 
 gem "omniauth-identity", "~> 1.1.1"
 gem "omniauth-facebook", "~> 2.0.1"
-gem "omniauth-twitter", "~> 1.2.0"
+gem "omniauth-twitter", "~> 1.2.1"
 gem "omniauth-linkedin", "~> 0.2.0"
 gem "omniauth-openid", "~> 1.0.1"
 
@@ -66,7 +66,7 @@ group :development, :test do
   # background. Read more: https://github.com/rails/spring
   gem "spring", "~> 1.3.6"
 
-  gem "rspec-rails", "~> 3.3.2"
+  gem "rspec-rails", "~> 3.3.3"
   gem "capybara", "~> 2.5.0"
   gem "cucumber-rails", "~> 1.4.2", require: false
   gem "database_cleaner", "~> 1.5.0"
@@ -82,4 +82,4 @@ end
 gem "tzinfo-data", "~> 1.2015.5", platforms: [:mingw, :mswin, :x64_mingw]
 
 # add these gems to help with the transition to Rails 4:
-gem "protected_attributes", "~> 1.1.0"
+gem "protected_attributes", "~> 1.1.3"

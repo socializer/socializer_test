@@ -69,7 +69,7 @@ group :development, :test do
   gem "rspec-rails", "~> 3.3.2"
   gem "capybara", "~> 2.5.0"
   gem "cucumber-rails", "~> 1.4.2", require: false
-  gem "database_cleaner", "~> 1.4.1"
+  gem "database_cleaner", "~> 1.5.0"
   gem "pry", "~> 0.10.1"
 end
 

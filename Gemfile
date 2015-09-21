@@ -40,7 +40,7 @@ group :development do
 
   gem "better_errors", "~> 2.1.1"
   gem "binding_of_caller", "~> 0.7.2"
-  gem "meta_request", "~> 0.3.4"      # For RailsPanel
+  gem "meta_request", "~> 0.3.4" # For RailsPanel
 end
 
 group :production do
@@ -64,7 +64,7 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the
   # background. Read more: https://github.com/rails/spring
-  gem "spring", "~> 1.3.6"
+  gem "spring", "~> 1.4.0"
 
   gem "rspec-rails", "~> 3.3.3"
   gem "capybara", "~> 2.5.0"

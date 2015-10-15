@@ -52,6 +52,7 @@ gem "socializer", github: "socializer/socializer"
 # gem "socializer", path: "~/Rails/socializer"
 # gem "socializer", path: "~/Projects/github/socializer"
 gem "bullet", "~> 4.14.4", group: "development"
+gem "bullet", "~> 4.14.9", group: "development"
 
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger
@@ -70,7 +71,7 @@ group :development, :test do
   gem "capybara", "~> 2.5.0"
   gem "cucumber-rails", "~> 1.4.2", require: false
   gem "database_cleaner", "~> 1.5.0"
-  gem "pry", "~> 0.10.2"
+  gem "pry", "~> 0.10.3"
 end
 
 group :test do

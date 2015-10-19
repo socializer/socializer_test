@@ -4,7 +4,7 @@ source "http://rubygems.org"
 gem "rails", "~> 4.2.4"
 
 # Use SCSS for stylesheets
-gem "sass-rails", "~> 5.0.3"
+gem "sass-rails", "~> 5.0.4"
 # Use Uglifier as compressor for JavaScript assets
 gem "uglifier", ">= 2.7.2"
 # Use CoffeeScript for .js.coffee assets and views
@@ -36,7 +36,7 @@ gem "omniauth-openid", "~> 1.0.1"
 
 group :development do
   # Use sqlite3 as the database for Active Record
-  gem "sqlite3", "~> 1.3.10"
+  gem "sqlite3", "~> 1.3.11"
 
   gem "better_errors", "~> 2.1.1"
   gem "binding_of_caller", "~> 0.7.2"
@@ -76,11 +76,11 @@ end
 
 group :test do
   gem "factory_girl_rails", "~> 4.5.0"
-  gem "shoulda-matchers", "~> 3.0.0.rc1"
+  gem "shoulda-matchers", "~> 3.0.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", "~> 1.2015.5", platforms: [:mingw, :mswin, :x64_mingw]
+gem "tzinfo-data", "~> 1.2015.7", platforms: [:mingw, :mswin, :x64_mingw]
 
 # add these gems to help with the transition to Rails 4:
 gem "protected_attributes", "~> 1.1.3"

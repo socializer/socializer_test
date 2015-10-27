@@ -29,7 +29,7 @@ gem "bcrypt", "~> 3.1.10"
 gem "rails-html-sanitizer", "~> 1.0.2"
 
 gem "omniauth-identity", "~> 1.1.1"
-gem "omniauth-facebook", "~> 2.0.1"
+gem "omniauth-facebook", "~> 3.0.0"
 gem "omniauth-twitter", "~> 1.2.1"
 gem "omniauth-linkedin", "~> 0.2.0"
 gem "omniauth-openid", "~> 1.0.1"
@@ -75,7 +75,7 @@ end
 
 group :test do
   gem "factory_girl_rails", "~> 4.5.0"
-  gem "shoulda-matchers", "~> 3.0.0"
+  gem "shoulda-matchers", "~> 3.0.1"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -66,7 +66,7 @@ group :development, :test do
   # background. Read more: https://github.com/rails/spring
   gem "spring", "~> 1.4.4"
 
-  gem "rspec-rails", "~> 3.3.3"
+  gem "rspec-rails", "~> 3.4.0"
   gem "capybara", "~> 2.5.0"
   gem "cucumber-rails", "~> 1.4.2", require: false
   gem "database_cleaner", "~> 1.5.1"

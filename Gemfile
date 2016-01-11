@@ -76,7 +76,7 @@ end
 
 group :test do
   gem "factory_girl_rails", "~> 4.5.0"
-  gem "shoulda-matchers", "~> 3.0.1"
+  gem "shoulda-matchers", "~> 3.1.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

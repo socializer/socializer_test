@@ -75,12 +75,6 @@ Style/SpaceBeforeFirstArg:
   Exclude:
     - "db/**/*"
 
-Style/SpaceAroundOperators:
-  MultiSpaceAllowedForOperators:
-    - "="
-    - "=>"
-    - "||="
-
 Style/StringLiterals:
   EnforcedStyle: double_quotes
   Exclude:

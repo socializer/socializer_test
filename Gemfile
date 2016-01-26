@@ -26,7 +26,7 @@ gem "jquery-rails", "~> 4.1.0"
 gem "bcrypt", "~> 3.1.10"
 
 # Use Rails Html Sanitizer for HTML sanitization
-gem "rails-html-sanitizer", "~> 1.0.2"
+gem "rails-html-sanitizer", "~> 1.0.3"
 
 gem "omniauth-identity", "~> 1.1.1"
 gem "omniauth-facebook", "~> 3.0.0"

@@ -19,11 +19,11 @@ gem "jquery-rails", "~> 4.1.1"
 # gem "turbolinks"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem "jbuilder", "~> 2.0"
-# bundle exec rake doc:rails generates the API under doc/api.
+# bundle exec rakeb doc:rails generates the API under doc/api.
 # gem "sdoc", "~> 0.4.0",          group: :doc
 
 # Use ActiveModel has_secure_password
-gem "bcrypt", "~> 3.1.10"
+gem "bcrypt", "~> 3.1.11"
 
 # Use Rails Html Sanitizer for HTML sanitization
 gem "rails-html-sanitizer", "~> 1.0.3"
@@ -79,7 +79,7 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", "~> 1.2016.1", platforms: [:mingw, :mswin, :x64_mingw]
+gem "tzinfo-data", "~> 1.2016.3", platforms: [:mingw, :mswin, :x64_mingw]
 
 # add these gems to help with the transition to Rails 4:
 gem "protected_attributes", "~> 1.1.3"

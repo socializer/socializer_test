@@ -56,7 +56,7 @@ gem "bullet", "~> 5.0.0", group: "development"
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger
   # console
-  gem "byebug", "~> 8.2.3"
+  gem "byebug", "~> 8.2.4"
 
   # Access an IRB console on exception pages or by using <%= console %>
   # in views
@@ -67,7 +67,7 @@ group :development, :test do
   gem "spring", "~> 1.6.4"
 
   gem "rspec-rails", "~> 3.4.2"
-  gem "capybara", "~> 2.6.2"
+  gem "capybara", "~> 2.7.0"
   gem "cucumber-rails", "~> 1.4.3", require: false
   gem "database_cleaner", "~> 1.5.1"
   gem "pry", "~> 0.10.3"

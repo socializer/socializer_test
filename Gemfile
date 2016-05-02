@@ -67,7 +67,7 @@ group :development, :test do
   gem "spring", "~> 1.7.1"
 
   gem "rspec-rails", "~> 3.4.2"
-  gem "capybara", "~> 2.7.0"
+  gem "capybara", "~> 2.7.1"
   gem "cucumber-rails", "~> 1.4.3", require: false
   gem "database_cleaner", "~> 1.5.3"
   gem "pry", "~> 0.10.3"
@@ -79,7 +79,7 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", "~> 1.2016.3", platforms: [:mingw, :mswin, :x64_mingw]
+gem "tzinfo-data", "~> 1.2016.4", platforms: [:mingw, :mswin, :x64_mingw]
 
 # add these gems to help with the transition to Rails 4:
 gem "protected_attributes", "~> 1.1.3"

@@ -53,6 +53,11 @@ gem "socializer", github: "socializer/socializer"
 # gem "socializer", path: "~/Projects/github/socializer"
 gem "bullet", "~> 5.0.0", group: "development"
 
+gem "rack-mini-profiler"
+gem "flamegraph"
+gem "stackprof" # ruby 2.1+ only
+gem "memory_profiler"
+
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger
   # console

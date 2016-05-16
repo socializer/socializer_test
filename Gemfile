@@ -61,7 +61,7 @@ gem "memory_profiler"
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger
   # console
-  gem "byebug", "~> 9.0.2"
+  gem "byebug", "~> 9.0.3"
 
   # Access an IRB console on exception pages or by using <%= console %>
   # in views

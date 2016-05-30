@@ -45,7 +45,7 @@ end
 
 group :production do
   gem "pg", "~> 0.18.4"
-  gem "thin", "~> 1.6.4"
+  gem "thin", "~> 1.7.0"
 end
 
 gem "socializer", github: "socializer/socializer"
@@ -61,7 +61,7 @@ gem "memory_profiler"
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger
   # console
-  gem "byebug", "~> 9.0.4"
+  gem "byebug", "~> 9.0.5"
 
   # Access an IRB console on exception pages or by using <%= console %>
   # in views

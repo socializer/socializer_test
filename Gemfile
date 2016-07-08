@@ -48,9 +48,9 @@ group :production do
   gem "thin", "~> 1.7.0"
 end
 
-gem "socializer", github: "socializer/socializer"
+# gem "socializer", github: "socializer/socializer"
 # gem "socializer", path: "~/Rails/socializer"
-# gem "socializer", path: "~/Projects/github/socializer"
+gem "socializer", path: "~/Projects/github/socializer"
 gem "bullet", "~> 5.1.0", group: "development"
 
 gem "rack-mini-profiler"
@@ -71,7 +71,7 @@ group :development, :test do
   # background. Read more: https://github.com/rails/spring
   gem "spring", "~> 1.7.1"
 
-  gem "rspec-rails", "~> 3.5.0"
+  gem "rspec-rails", "~> 3.5.1"
   gem "capybara", "~> 2.7.1"
   gem "cucumber-rails", "~> 1.4.3", require: false
   gem "database_cleaner", "~> 1.5.3"

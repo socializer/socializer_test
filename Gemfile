@@ -75,7 +75,7 @@ group :development, :test do
   gem "capybara", "~> 2.7.1"
   gem "cucumber-rails", "~> 1.4.3", require: false
   gem "database_cleaner", "~> 1.5.3"
-  gem "pry", "~> 0.10.3"
+  gem "pry", "~> 0.10.4"
 end
 
 group :test do

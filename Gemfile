@@ -51,7 +51,7 @@ end
 # gem "socializer", github: "socializer/socializer"
 # gem "socializer", path: "~/Rails/socializer"
 gem "socializer", path: "~/Projects/github/socializer"
-gem "bullet", "~> 5.2.0", group: "development"
+gem "bullet", "~> 5.3.0", group: "development"
 
 gem "rack-mini-profiler"
 gem "flamegraph"

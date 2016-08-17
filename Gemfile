@@ -72,7 +72,7 @@ group :development, :test do
   gem "spring", "~> 1.7.1"
 
   gem "rspec-rails", "~> 3.5.1"
-  gem "capybara", "~> 2.7.1"
+  gem "capybara", "~> 2.8.0"
   gem "cucumber-rails", "~> 1.4.4", require: false
   gem "database_cleaner", "~> 1.5.3"
   gem "pry", "~> 0.10.4"

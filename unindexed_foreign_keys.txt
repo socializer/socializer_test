@@ -1,0 +1,15 @@
+# Foreign keys should already exist in the migrations in the engine.
+# The migrations need to be update here. Run to veryify:
+# rails generate active_record_doctor:add_indexes unindexed_foreign_keys.txt
+
+socializer_audiences activity_object_id
+socializer_group_categories group_id
+socializer_notifications activity_id activity_object_id
+socializer_person_addresses person_id
+socializer_person_contributions person_id
+socializer_person_educations person_id
+socializer_person_employments person_id
+socializer_person_links person_id
+socializer_person_phones person_id
+socializer_person_places person_id
+socializer_person_profiles person_id

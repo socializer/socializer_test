@@ -42,7 +42,7 @@ group :development do
   gem "binding_of_caller", "~> 0.7.2"
   gem "meta_request", "~> 0.4.0" # For RailsPanel
 
-  gem "pry-rails", :group => :development
+  gem "pry-rails"
 end
 
 group :production do

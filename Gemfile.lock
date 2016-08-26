@@ -272,7 +272,7 @@ GEM
     rspec-mocks (3.5.0)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.5.0)
-    rspec-rails (3.5.1)
+    rspec-rails (3.5.2)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       railties (>= 3.0)
@@ -361,7 +361,7 @@ DEPENDENCIES
   rack-mini-profiler
   rails (~> 5.0.0.1)
   rails-html-sanitizer (~> 1.0.3)
-  rspec-rails (~> 3.5.1)
+  rspec-rails (~> 3.5.2)
   sass-rails (~> 5.0.6)
   shoulda-matchers (~> 3.1.1)
   socializer!

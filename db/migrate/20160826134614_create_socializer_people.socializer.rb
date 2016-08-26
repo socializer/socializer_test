@@ -1,4 +1,6 @@
 # This migration comes from socializer (originally 20110804180557)
+# frozen_string_literal: true
+
 class CreateSocializerPeople < ActiveRecord::Migration
   def change
     create_table :socializer_people do |t|

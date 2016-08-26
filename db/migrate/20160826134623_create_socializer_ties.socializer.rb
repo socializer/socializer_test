@@ -1,4 +1,6 @@
 # This migration comes from socializer (originally 20110805125606)
+# frozen_string_literal: true
+
 class CreateSocializerTies < ActiveRecord::Migration
   def change
     create_table :socializer_ties do |t|

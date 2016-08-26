@@ -1,4 +1,6 @@
 # This migration comes from socializer (originally 20110804175740)
+# frozen_string_literal: true
+
 class CreateSocializerActivityObjects < ActiveRecord::Migration
   def change
     create_table :socializer_activity_objects do |t|
@@ -10,6 +12,8 @@ class CreateSocializerActivityObjects < ActiveRecord::Migration
       t.timestamps null: false
     end
 
-    add_index :socializer_activity_objects, [:activitable_type, :activitable_id], name: 'index_socializer_activity_objects_on_activitable'
+    add_index :socializer_activity_objects,
+              [:activitable_type, :activitable_id],
+              name: "index_activity_objects_on_activitable"
   end
 end

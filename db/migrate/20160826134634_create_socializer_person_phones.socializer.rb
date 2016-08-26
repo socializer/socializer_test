@@ -1,4 +1,6 @@
 # This migration comes from socializer (originally 20140131070417)
+# frozen_string_literal: true
+
 class CreateSocializerPersonPhones < ActiveRecord::Migration
   def change
     create_table :socializer_person_phones do |t|
@@ -10,5 +12,8 @@ class CreateSocializerPersonPhones < ActiveRecord::Migration
 
       t.timestamps null: false
     end
+
+    add_index :socializer_person_phones, :person_id
+    add_foreign_key :socializer_person_phones, :socializer_people
   end
 end

@@ -1,7 +1,7 @@
 # This migration comes from socializer (originally 20140131070839)
 # frozen_string_literal: true
 
-class CreateSocializerGroupLinks < ActiveRecord::Migration
+class CreateSocializerGroupLinks < ActiveRecord::Migration[4.2]
   def change
     create_table :socializer_group_links do |t|
       t.integer  :group_id, null: false

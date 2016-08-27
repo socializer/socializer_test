@@ -1,7 +1,7 @@
 # This migration comes from socializer (originally 20130528143831)
 # frozen_string_literal: true
 
-class CreateSocializerActivityFields < ActiveRecord::Migration
+class CreateSocializerActivityFields < ActiveRecord::Migration[4.2]
   def change
     create_table :socializer_activity_fields do |t|
       t.text :content, null: false

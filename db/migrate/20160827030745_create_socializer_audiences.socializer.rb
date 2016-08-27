@@ -1,7 +1,7 @@
 # This migration comes from socializer (originally 20110805092635)
 # frozen_string_literal: true
 
-class CreateSocializerAudiences < ActiveRecord::Migration
+class CreateSocializerAudiences < ActiveRecord::Migration[4.2]
   def change
     create_table :socializer_audiences do |t|
       t.integer  :activity_id, null: false
@@ -17,8 +17,5 @@ class CreateSocializerAudiences < ActiveRecord::Migration
               name: "index_audiences_on_activity_id__activity_object_id"
 
     add_index :socializer_audiences, :privacy
-
-    add_foreign_key :socializer_audiences, :socializer_activities
-    add_foreign_key :socializer_audiences, :socializer_activity_objects
   end
 end

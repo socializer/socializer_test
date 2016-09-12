@@ -46,6 +46,7 @@ group :development do
   gem "meta_request", "~> 0.4.0" # For RailsPanel
 
   gem "pry-rails"
+  gem "bullet", "~> 5.4.0"
 end
 
 group :production do
@@ -85,7 +86,6 @@ gem "omniauth-openid", "~> 1.0.1"
 # gem "socializer", github: "socializer/socializer"
 # gem "socializer", path: "~/Rails/socializer"
 gem "socializer", path: "~/Projects/github/socializer"
-gem "bullet", "~> 5.3.0", group: "development"
 
 gem "rack-mini-profiler"
 gem "flamegraph"

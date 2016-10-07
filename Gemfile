@@ -64,7 +64,7 @@ group :development, :test do
   gem "byebug", "~> 9.0.5", platform: :mri
 
   gem "rspec-rails", "~> 3.5.2"
-  gem "capybara", "~> 2.9.1"
+  gem "capybara", "~> 2.10.0"
   gem "cucumber-rails", "~> 1.4.5", require: false
   gem "database_cleaner", "~> 1.5.3"
   gem "pry", "~> 0.10.4"

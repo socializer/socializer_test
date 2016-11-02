@@ -20,7 +20,7 @@ PATH
       rails (~> 5.0.0.1)
       sass-rails (~> 5.0.6)
       simple_form (~> 3.3.1)
-      uglifier (>= 3.0.2)
+      uglifier (>= 3.0.3)
 
 GEM
   remote: https://rubygems.org/
@@ -332,7 +332,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode_utils (1.4.0)
     uniform_notifier (1.10.0)
-    web-console (3.3.1)
+    web-console (3.4.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
       debug_inspector
@@ -386,7 +386,7 @@ DEPENDENCIES
   stackprof
   turbolinks (~> 5)
   tzinfo-data
-  uglifier (>= 3.0.2)
+  uglifier (>= 3.0.3)
   web-console
 
 BUNDLED WITH

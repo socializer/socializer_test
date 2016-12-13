@@ -51,7 +51,7 @@ group :development do
   gem "meta_request", "~> 0.4.0" # For RailsPanel
 
   gem "pry-rails"
-  gem "bullet", "~> 5.4.2"
+  gem "bullet", "~> 5.4.3"
 end
 
 group :production do

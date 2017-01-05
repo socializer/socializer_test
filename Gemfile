@@ -35,7 +35,7 @@ gem "bcrypt", "~> 3.1.11"
 
 group :development do
   # Use sqlite3 as the database for Active Record
-  gem "sqlite3", "~> 1.3.12"
+  gem "sqlite3", "~> 1.3.13"
 
   # Access an IRB console on exception pages or by using <%= console %>
   # anywhere in the code.

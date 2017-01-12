@@ -84,7 +84,7 @@ gem "rails-html-sanitizer", "~> 1.0.3"
 
 gem "omniauth-identity", "~> 1.1.1"
 gem "omniauth-facebook", "~> 4.0.0"
-gem "omniauth-twitter", "~> 1.2.1"
+gem "omniauth-twitter", "~> 1.3.0"
 gem "omniauth-linkedin", "~> 0.2.0"
 gem "omniauth-openid", "~> 1.0.1"
 

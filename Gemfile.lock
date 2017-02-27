@@ -20,7 +20,7 @@ PATH
       rails (~> 5.0.1)
       sass-rails (~> 5.0.6)
       simple_form (~> 3.4.0)
-      uglifier (>= 3.0.4)
+      uglifier (>= 3.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -105,7 +105,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.0.4)
+    concurrent-ruby (1.0.5)
     countries (2.0.7)
       i18n_data (~> 0.7.0)
       money (~> 6.7)
@@ -157,7 +157,7 @@ GEM
     gherkin (4.0.0)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
-    hashie (3.5.4)
+    hashie (3.5.5)
     i18n (0.7.0)
     i18n_data (0.7.0)
     jbuilder (2.6.3)
@@ -334,7 +334,7 @@ GEM
     turbolinks-source (5.0.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifier (3.0.4)
+    uglifier (3.1.0)
       execjs (>= 0.3.0, < 3)
     unicode_utils (1.4.0)
     uniform_notifier (1.10.0)
@@ -392,7 +392,7 @@ DEPENDENCIES
   stackprof
   turbolinks (~> 5)
   tzinfo-data
-  uglifier (>= 3.0.4)
+  uglifier (>= 3.1.0)
   web-console
 
 BUNDLED WITH

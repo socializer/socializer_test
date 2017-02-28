@@ -20,7 +20,7 @@ PATH
       rails (~> 5.0.1)
       sass-rails (~> 5.0.6)
       simple_form (~> 3.4.0)
-      uglifier (>= 3.1.0)
+      uglifier (>= 3.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -70,7 +70,7 @@ GEM
     addressable (2.5.0)
       public_suffix (~> 2.0, >= 2.0.2)
     arel (7.1.4)
-    autoprefixer-rails (6.7.5)
+    autoprefixer-rails (6.7.6)
       execjs
     bcrypt (3.1.11)
     bcrypt-ruby (3.1.5)
@@ -178,7 +178,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.6.4)
       mime-types (>= 1.16, < 4)
-    memory_profiler (0.9.7)
+    memory_profiler (0.9.8)
     meta_request (0.4.0)
       callsite (~> 0.0, >= 0.0.11)
       rack-contrib (~> 1.1)
@@ -334,7 +334,7 @@ GEM
     turbolinks-source (5.0.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
-    uglifier (3.1.0)
+    uglifier (3.1.1)
       execjs (>= 0.3.0, < 3)
     unicode_utils (1.4.0)
     uniform_notifier (1.10.0)
@@ -392,8 +392,8 @@ DEPENDENCIES
   stackprof
   turbolinks (~> 5)
   tzinfo-data
-  uglifier (>= 3.1.0)
+  uglifier (>= 3.1.1)
   web-console
 
 BUNDLED WITH
-   1.14.4
+   1.14.5

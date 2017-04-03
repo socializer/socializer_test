@@ -20,7 +20,7 @@ PATH
       rails (~> 5.0.2)
       sass-rails (~> 5.0.6)
       simple_form (~> 3.4.0)
-      uglifier (>= 3.1.11)
+      uglifier (>= 3.1.12)
 
 GEM
   remote: https://rubygems.org/
@@ -67,7 +67,7 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.5.0)
+    addressable (2.5.1)
       public_suffix (~> 2.0, >= 2.0.2)
     arel (7.1.4)
     autoprefixer-rails (6.7.7.1)
@@ -335,7 +335,7 @@ GEM
     turbolinks-source (5.0.0)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
-    uglifier (3.1.11)
+    uglifier (3.1.12)
       execjs (>= 0.3.0, < 3)
     unicode_utils (1.4.0)
     uniform_notifier (1.10.0)
@@ -393,7 +393,7 @@ DEPENDENCIES
   stackprof
   turbolinks (~> 5)
   tzinfo-data
-  uglifier (>= 3.1.11)
+  uglifier (>= 3.1.12)
   web-console
 
 BUNDLED WITH

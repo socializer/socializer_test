@@ -8,7 +8,7 @@ PATH
       country_select (~> 3.0.0)
       draper (~> 3.0.0.pre1)
       elasticsearch-rails (~> 0.1.9)
-      enumerize (~> 2.0.1)
+      enumerize (~> 2.1.0)
       jquery-rails (~> 4.3.1)
       jquery-ui-rails (~> 6.0.1)
       omniauth (~> 1.6.1)
@@ -20,7 +20,7 @@ PATH
       rails (~> 5.0.2)
       sass-rails (~> 5.0.6)
       simple_form (~> 3.4.0)
-      uglifier (>= 3.1.12)
+      uglifier (>= 3.1.13)
 
 GEM
   remote: https://rubygems.org/
@@ -142,7 +142,7 @@ GEM
       activesupport (~> 5.0)
       request_store (~> 1.0)
     elasticsearch-rails (0.1.9)
-    enumerize (2.0.1)
+    enumerize (2.1.0)
       activesupport (>= 3.2)
     erubis (2.7.0)
     execjs (2.7.0)
@@ -335,7 +335,7 @@ GEM
     turbolinks-source (5.0.0)
     tzinfo (1.2.3)
       thread_safe (~> 0.1)
-    uglifier (3.1.12)
+    uglifier (3.1.13)
       execjs (>= 0.3.0, < 3)
     unicode_utils (1.4.0)
     uniform_notifier (1.10.0)
@@ -393,7 +393,7 @@ DEPENDENCIES
   stackprof
   turbolinks (~> 5)
   tzinfo-data
-  uglifier (>= 3.1.12)
+  uglifier (>= 3.1.13)
   web-console
 
 BUNDLED WITH

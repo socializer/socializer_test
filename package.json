@@ -1,4 +1,5 @@
 {
   "name": "socializer_test",
-  "version": "0.0.1"
+  "private": true,
+  "dependencies": {}
 }

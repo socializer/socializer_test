@@ -88,7 +88,7 @@ gem "omniauth-openid", "~> 1.0.1"
 
 # gem "socializer", github: "socializer/socializer"
 # gem "socializer", path: "~/Rails/socializer"
-# gem "socializer", path: "~/Projects/github/socializer"
+gem "socializer", path: "~/Projects/github/socializer"
 
 gem "rack-mini-profiler"
 gem "flamegraph"

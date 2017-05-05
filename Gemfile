@@ -34,12 +34,12 @@ group :development, :test do
   # console
   gem "byebug", "~> 9.0.5", platform: :mri
   # Adds support for Capybara system testing and selenium driver
-  gem "capybara", "~> 2.13.0"
+  gem "capybara", "~> 2.14.0"
   gem "selenium-webdriver"
 
-  gem "rspec-rails", "~> 3.6.0.beta2"
+  gem "rspec-rails", "~> 3.6.0"
   # gem "cucumber-rails", "~> 1.4.5", require: false
-  gem "database_cleaner", "~> 1.5.3"
+  gem "database_cleaner", "~> 1.6.0"
   gem "pry", "~> 0.10.4"
 end
 
@@ -56,9 +56,9 @@ group :development do
   gem "spring"
   gem "spring-watcher-listen", "~> 2.0.1"
 
-  # gem "better_errors", "~> 2.1.1"
-  # gem "binding_of_caller", "~> 0.7.2"
-  # gem "meta_request", "~> 0.4.0" # For RailsPanel
+  gem "better_errors", "~> 2.1.1"
+  gem "binding_of_caller", "~> 0.7.2"
+  gem "meta_request", "~> 0.4.2" # For RailsPanel
 
   gem "pry-rails"
   gem "bullet", "~> 5.5.1"

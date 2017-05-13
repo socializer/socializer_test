@@ -343,7 +343,7 @@ DEPENDENCIES
   byebug (~> 9.0.5)
   capybara (~> 2.14.0)
   coffee-rails (~> 4.2)
-  database_cleaner (~> 1.6.0)
+  database_cleaner (~> 1.6.1)
   factory_girl_rails (~> 4.8.0)
   flamegraph
   jbuilder (~> 2.6)

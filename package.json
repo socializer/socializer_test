@@ -1,4 +1,9 @@
 {
   "name": "socializer_test",
-  "version": "0.0.1"
+  "private": true,
+  "version": "0.0.1",
+  "description": "Demo project for the socializer gem",
+  "repository": "https://github.com/socializer/socializer_test.git",
+  "license": "MIT",
+  "dependencies": {},
 }

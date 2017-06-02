@@ -9,7 +9,7 @@ end
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
 gem "rails", "~> 5.1.1"
 # Use Puma as the app server
-gem "puma", "~> 3.7"
+gem "puma", "~> 3.9"
 # Use SCSS for stylesheets
 gem "sass-rails", "~> 5.0"
 # Use Uglifier as compressor for JavaScript assets
@@ -60,7 +60,9 @@ group :development do
   gem "binding_of_caller", "~> 0.7.2"
   gem "meta_request", "~> 0.4.3" # For RailsPanel
   gem "pry-rails"
+
   gem "bullet", "~> 5.5.1"
+  gem "active_record_doctor"
 end
 
 group :test do

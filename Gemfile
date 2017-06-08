@@ -34,7 +34,7 @@ group :development, :test do
   # console
   gem "byebug", "~> 9.0.5", platform: :mri
   # Adds support for Capybara system testing and selenium driver
-  gem "capybara", "~> 2.14.0"
+  gem "capybara", "~> 2.14.1"
   gem "selenium-webdriver"
 
   gem "rspec-rails", "~> 3.6.0"

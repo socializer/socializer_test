@@ -34,7 +34,7 @@ group :development, :test do
   # console
   gem "byebug", "~> 9.0.5", platform: :mri
   # Adds support for Capybara system testing and selenium driver
-  gem "capybara", "~> 2.14.2"
+  gem "capybara", "~> 2.14.3"
   gem "selenium-webdriver"
 
   gem "rspec-rails", "~> 3.6.0"
@@ -71,7 +71,7 @@ group :test do
 end
 
 group :production do
-  gem "pg", "~> 0.20.0"
+  gem "pg", "~> 0.21.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

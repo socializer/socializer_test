@@ -1,7 +1,7 @@
 # This migration comes from socializer (originally 20110804192211)
 # frozen_string_literal: true
 
-class CreateSocializerAuthentications < ActiveRecord::Migration[4.2]
+class CreateSocializerAuthentications < ActiveRecord::Migration[5.1]
   def change
     create_table :socializer_authentications do |t|
       t.integer  :person_id, null: false
@@ -9,7 +9,7 @@ class CreateSocializerAuthentications < ActiveRecord::Migration[4.2]
       t.string   :uid,       null: false
       t.string   :image_url
 
-      t.timestamps null: false
+      t.timestamps
     end
 
     add_index :socializer_authentications, :person_id

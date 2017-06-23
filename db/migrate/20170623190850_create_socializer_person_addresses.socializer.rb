@@ -1,10 +1,10 @@
 # This migration comes from socializer (originally 20140131070611)
 # frozen_string_literal: true
 
-class CreateSocializerPersonAddresses < ActiveRecord::Migration[4.2]
+class CreateSocializerPersonAddresses < ActiveRecord::Migration[5.1]
   def change
     create_table :socializer_person_addresses do |t|
-      t.integer  :person_id, null: false
+      t.integer  :person_id, null: false, foreign_key: true
       t.integer  :category, null: false
       # TODO: What's label for
       t.integer  :label
@@ -15,7 +15,7 @@ class CreateSocializerPersonAddresses < ActiveRecord::Migration[4.2]
       t.string   :province_or_state, null: false
       t.string   :country, null: false
 
-      t.timestamps null: false
+      t.timestamps
     end
 
     add_index :socializer_person_addresses, :person_id

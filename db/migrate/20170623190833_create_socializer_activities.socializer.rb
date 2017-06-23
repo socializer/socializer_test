@@ -1,7 +1,7 @@
 # This migration comes from socializer (originally 20110805090617)
 # frozen_string_literal: true
 
-class CreateSocializerActivities < ActiveRecord::Migration[4.2]
+class CreateSocializerActivities < ActiveRecord::Migration[5.1]
   def change
     create_table :socializer_activities do |t|
       t.integer :actor_id,           null: false
@@ -9,7 +9,7 @@ class CreateSocializerActivities < ActiveRecord::Migration[4.2]
       t.integer :verb_id,            null: false
       t.integer :target_id
 
-      t.timestamps null: false
+      t.timestamps
     end
 
     add_index :socializer_activities, :actor_id

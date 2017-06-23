@@ -1,7 +1,7 @@
 # This migration comes from socializer (originally 20110805121454)
 # frozen_string_literal: true
 
-class CreateSocializerGroups < ActiveRecord::Migration[4.2]
+class CreateSocializerGroups < ActiveRecord::Migration[5.1]
   def change
     create_table :socializer_groups do |t|
       t.integer  :author_id,    null: false
@@ -12,11 +12,11 @@ class CreateSocializerGroups < ActiveRecord::Migration[4.2]
       t.text     :about
       t.string   :location
 
-      t.timestamps null: false
+      t.timestamps
     end
 
     add_index :socializer_groups, :author_id
-    add_index :socializer_groups, [:display_name, :author_id], unique: true
+    add_index :socializer_groups, %i[display_name author_id], unique: true
     add_index :socializer_groups, :privacy
   end
 end

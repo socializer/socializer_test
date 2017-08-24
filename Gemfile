@@ -32,7 +32,7 @@ gem "bcrypt", "~> 3.1.11"
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger
   # console
-  gem "byebug", "~> 9.0.5", platform: :mri
+  gem "byebug", "~> 9.1.0", platform: :mri
   # Adds support for Capybara system testing and selenium driver
   gem "capybara", "~> 2.15.1"
   gem "selenium-webdriver"

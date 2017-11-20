@@ -37,7 +37,7 @@ group :development, :test do
   gem "capybara", "~> 2.16.0"
   gem "selenium-webdriver"
 
-  gem "rspec-rails", "~> 3.7.1"
+  gem "rspec-rails", "~> 3.7.2"
   # gem "cucumber-rails", "~> 1.4.5", require: false
   gem "database_cleaner", "~> 1.6.2"
   gem "pry", "~> 0.11.3"

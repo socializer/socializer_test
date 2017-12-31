@@ -4,7 +4,7 @@
 class CreateSocializerPersonEmployments < ActiveRecord::Migration[5.1]
   def change
     create_table :socializer_person_employments do |t|
-      t.integer  :person_id, null: false, foreign_key: true
+      t.references :person, null: false
       # TODO: change employer_name to name
       t.string   :employer_name, null: false
       # TODO: change job_title to title
@@ -18,7 +18,9 @@ class CreateSocializerPersonEmployments < ActiveRecord::Migration[5.1]
       t.timestamps
     end
 
-    add_index :socializer_person_employments, :person_id
-    add_foreign_key :socializer_person_employments, :socializer_people
+    add_foreign_key :socializer_person_employments, :socializer_people,
+                    column: :person_id,
+                    primary_key: "id",
+                    on_delete: :cascade
   end
 end

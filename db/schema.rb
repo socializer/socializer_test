@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170623190852) do
+ActiveRecord::Schema.define(version: 20171231203742) do
 
   create_table "socializer_activities", force: :cascade do |t|
     t.integer "actor_id", null: false
@@ -50,6 +50,8 @@ ActiveRecord::Schema.define(version: 20170623190852) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["activity_id", "activity_object_id"], name: "index_audiences_on_activity_id__activity_object_id", unique: true
+    t.index ["activity_id"], name: "index_socializer_audiences_on_activity_id"
+    t.index ["activity_object_id"], name: "index_socializer_audiences_on_activity_object_id"
     t.index ["privacy"], name: "index_socializer_audiences_on_privacy"
   end
 
@@ -123,8 +125,8 @@ ActiveRecord::Schema.define(version: 20170623190852) do
   end
 
   create_table "socializer_memberships", force: :cascade do |t|
-    t.integer "group_id"
-    t.integer "member_id"
+    t.integer "group_id", null: false
+    t.integer "member_id", null: false
     t.boolean "active"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -141,8 +143,8 @@ ActiveRecord::Schema.define(version: 20170623190852) do
   end
 
   create_table "socializer_notifications", force: :cascade do |t|
-    t.integer "activity_id"
-    t.integer "activity_object_id"
+    t.integer "activity_id", null: false
+    t.integer "activity_object_id", null: false
     t.boolean "read", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

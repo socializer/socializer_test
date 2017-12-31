@@ -1,4 +1,4 @@
-# This migration comes from socializer (originally 20130524000429)
+# This migration comes from socializer (originally 20110805090517)
 # frozen_string_literal: true
 
 class CreateSocializerVerbs < ActiveRecord::Migration[5.1]
@@ -8,6 +8,7 @@ class CreateSocializerVerbs < ActiveRecord::Migration[5.1]
 
       t.timestamps
     end
+
     add_index :socializer_verbs, :display_name, unique: true
   end
 end

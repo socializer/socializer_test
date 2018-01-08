@@ -13,7 +13,7 @@ gem "puma", "~> 3.10"
 # Use SCSS for stylesheets
 gem "sass-rails", "~> 5.0"
 # Use Uglifier as compressor for JavaScript assets
-gem "uglifier", ">= 4.1.2"
+gem "uglifier", ">= 4.1.3"
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem "therubyracer", platforms: :ruby
 
@@ -61,7 +61,7 @@ group :development do
   gem "meta_request", "~> 0.5.0" # For RailsPanel
   gem "pry-rails"
 
-  gem "bullet", "~> 5.7.0"
+  gem "bullet", "~> 5.7.1"
   gem "active_record_doctor"
 end
 
@@ -87,9 +87,9 @@ gem "omniauth-twitter", "~> 1.4.0"
 gem "omniauth-linkedin", "~> 0.2.0"
 gem "omniauth-openid", "~> 1.0.1"
 
-gem "socializer", github: "socializer/socializer"
+# gem "socializer", github: "socializer/socializer"
 # gem "socializer", path: "~/Rails/socializer"
-# gem "socializer", path: "~/Projects/github/socializer"
+gem "socializer", path: "~/Projects/github/socializer"
 
 gem "rack-mini-profiler"
 gem "flamegraph"

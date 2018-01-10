@@ -57,7 +57,7 @@ group :development do
   gem "spring-watcher-listen", "~> 2.0.1"
 
   gem "better_errors", "~> 2.4.0"
-  gem "binding_of_caller", "~> 0.7.3"
+  gem "binding_of_caller", "~> 0.8.0"
   gem "meta_request", "~> 0.5.0" # For RailsPanel
   gem "pry-rails"
 

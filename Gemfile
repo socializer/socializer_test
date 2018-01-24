@@ -13,7 +13,7 @@ gem "puma", "~> 3.11.2"
 # Use SCSS for stylesheets
 gem "sass-rails", "~> 5.0"
 # Use Uglifier as compressor for JavaScript assets
-gem "uglifier", ">= 4.1.3"
+gem "uglifier", ">= 4.1.4"
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem "therubyracer", platforms: :ruby
 

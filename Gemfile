@@ -58,7 +58,7 @@ group :development do
 
   gem "better_errors", "~> 2.4.0"
   gem "binding_of_caller", "~> 0.8.0"
-  gem "meta_request", "~> 0.5.0" # For RailsPanel
+  gem "meta_request", "~> 0.6.0" # For RailsPanel
   gem "pry-rails"
 
   gem "bullet", "~> 5.7.5"

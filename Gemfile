@@ -81,20 +81,20 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Use Rails Html Sanitizer for HTML sanitization
 gem "rails-html-sanitizer", "~> 1.0.3"
 
+gem "omniauth-facebook", "~> 5.0.0"
 gem "omniauth-identity", "~> 1.1.1"
-gem "omniauth-facebook", "~> 4.0.0"
-gem "omniauth-twitter", "~> 1.4.0"
 gem "omniauth-linkedin", "~> 0.2.0"
 gem "omniauth-openid", "~> 1.0.1"
+gem "omniauth-twitter", "~> 1.4.0"
 
 # gem "socializer", github: "socializer/socializer"
 # gem "socializer", path: "~/Rails/socializer"
 gem "socializer", path: "~/Projects/github/socializer"
 
-gem "rack-mini-profiler"
 gem "flamegraph"
-gem "stackprof" # ruby 2.1+ only
 gem "memory_profiler"
+gem "rack-mini-profiler"
+gem "stackprof" # ruby 2.1+ only
 
 # gem "active_record_doctor", group: :development
 

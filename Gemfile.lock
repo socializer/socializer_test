@@ -223,7 +223,7 @@ GEM
     pry-rails (0.3.6)
       pry (>= 0.10.4)
     public_suffix (3.0.2)
-    puma (3.11.3)
+    puma (3.11.4)
     rack (2.0.4)
     rack-contrib (2.0.1)
       rack (~> 2.0)
@@ -368,7 +368,7 @@ DEPENDENCIES
   protected_attributes_continued
   pry (~> 0.11.3)
   pry-rails
-  puma (~> 3.11.3)
+  puma (~> 3.11.4)
   rack-mini-profiler
   rails (~> 5.1.6)
   rails-html-sanitizer (~> 1.0.3)

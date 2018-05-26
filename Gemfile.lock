@@ -2,7 +2,7 @@ PATH
   remote: ../socializer
   specs:
     socializer (0.1.13)
-      bcrypt (~> 3.1.11)
+      bcrypt (~> 3.1.12)
       bootstrap-sass (~> 3.3.7)
       coffee-rails (~> 4.2.2)
       country_select (~> 3.1.1)
@@ -361,7 +361,7 @@ PLATFORMS
 
 DEPENDENCIES
   active_record_doctor
-  bcrypt (~> 3.1.11)
+  bcrypt (~> 3.1.12)
   better_errors (~> 2.4.0)
   binding_of_caller (~> 0.8.0)
   bootsnap (>= 1.1.0)

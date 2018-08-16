@@ -61,7 +61,7 @@ group :development do
   gem "meta_request", "~> 0.6.0" # For RailsPanel
   gem "pry-rails"
 
-  gem "bullet", "~> 5.7.5"
+  gem "bullet", "~> 5.7.6"
   gem "active_record_doctor"
 end
 
@@ -71,7 +71,7 @@ group :test do
   gem "selenium-webdriver"
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem "chromedriver-helper"
-  gem "factory_bot_rails", "~> 4.10.0"
+  gem "factory_bot_rails", "~> 4.11.0"
   gem "shoulda-matchers", "~> 3.1.2"
 end
 

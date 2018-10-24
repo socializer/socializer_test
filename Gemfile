@@ -37,7 +37,7 @@ group :development, :test do
   # console
   gem "byebug", "~> 10.0.2", platform: :mri
 
-  gem "rspec-rails", "~> 3.8.0"
+  gem "rspec-rails", "~> 3.8.1"
   # gem "cucumber-rails", "~> 1.4.5", require: false
   gem "database_cleaner", "~> 1.7.0"
   gem "pry", "~> 0.11.3"

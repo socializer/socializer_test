@@ -61,7 +61,7 @@ group :development do
   gem "meta_request", "~> 0.6.0" # For RailsPanel
   gem "pry-rails"
 
-  gem "bullet", "~> 5.7.6"
+  gem "bullet", "~> 5.8.1"
   gem "active_record_doctor"
 end
 

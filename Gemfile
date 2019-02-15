@@ -35,7 +35,7 @@ gem "bootsnap", ">= 1.4.0", require: false
 group :development, :test do
   # Call "byebug" anywhere in the code to stop execution and get a debugger
   # console
-  gem "byebug", "~> 10.0.2", platform: :mri
+  gem "byebug", "~> 11.0.0", platform: :mri
 
   gem "rspec-rails", "~> 3.8.2"
   # gem "cucumber-rails", "~> 1.4.5", require: false

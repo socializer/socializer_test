@@ -99,7 +99,7 @@ GEM
     bullet (5.9.0)
       activesupport (>= 3.0.0)
       uniform_notifier (~> 1.11)
-    byebug (11.0.0)
+    byebug (11.0.1)
     callsite (0.0.11)
     capybara (3.14.0)
       addressable
@@ -368,7 +368,7 @@ DEPENDENCIES
   binding_of_caller (~> 0.8.0)
   bootsnap (>= 1.4.1)
   bullet (~> 5.9.0)
-  byebug (~> 11.0.0)
+  byebug (~> 11.0.1)
   capybara (>= 2.15, < 4.0)
   chromedriver-helper
   coffee-rails (~> 4.2)

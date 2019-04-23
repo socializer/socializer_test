@@ -15,7 +15,7 @@ gem "uglifier", ">= 4.1.20"
 # gem "mini_racer", platforms: :ruby
 
 # Use CoffeeScript for .js.coffee assets and views
-gem "coffee-rails", "~> 4.2"
+gem "coffee-rails", "~> 5.0"
 # Use jquery as the JavaScript library
 gem "jquery-rails", "~> 4.3.3"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder

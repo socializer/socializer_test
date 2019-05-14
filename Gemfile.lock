@@ -161,7 +161,7 @@ GEM
       concurrent-ruby (~> 1.0)
     i18n_data (0.8.0)
     io-like (0.3.0)
-    jbuilder (2.9.0)
+    jbuilder (2.9.1)
       activesupport (>= 4.2.0)
     jquery-rails (4.3.3)
       rails-dom-testing (>= 1, < 3)

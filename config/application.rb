@@ -16,6 +16,6 @@ module SocializerTest
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
 
-    config.active_record.sqlite3.represent_boolean_as_integer = false
+    config.active_record.sqlite3.represent_boolean_as_integer = true
   end
 end

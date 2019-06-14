@@ -17,7 +17,7 @@ gem "uglifier", ">= 4.1.20"
 # Use CoffeeScript for .js.coffee assets and views
 gem "coffee-rails", "~> 5.0"
 # Use jquery as the JavaScript library
-gem "jquery-rails", "~> 4.3.3"
+gem "jquery-rails", "~> 4.3.5"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem "jbuilder", "~> 2.9"
 # Use ActiveModel has_secure_password

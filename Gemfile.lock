@@ -188,7 +188,7 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nio4r (2.4.0)
-    nokogiri (1.10.3)
+    nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     oauth (0.5.4)
     oauth2 (1.4.1)
@@ -256,7 +256,7 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.0.4)
+    rails-html-sanitizer (1.2.0)
       loofah (~> 2.2, >= 2.2.2)
     railties (5.2.3)
       actionpack (= 5.2.3)
@@ -386,7 +386,7 @@ DEPENDENCIES
   puma (~> 4.1.0)
   rack-mini-profiler
   rails (~> 5.2.3)
-  rails-html-sanitizer (~> 1.0.3)
+  rails-html-sanitizer (~> 1.2.0)
   rspec-rails (~> 3.8.2)
   sass-rails (~> 5.0)
   selenium-webdriver

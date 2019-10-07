@@ -6,7 +6,7 @@ ruby "2.6.5"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails"
 gem "rails", "~> 5.2.3"
 # Use Puma as the app server
-gem "puma", "~> 4.2.0"
+gem "puma", "~> 4.2.1"
 # Use SCSS for stylesheets
 gem "sass-rails", "~> 6.0"
 # Use Uglifier as compressor for JavaScript assets

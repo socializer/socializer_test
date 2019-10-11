@@ -13,7 +13,7 @@ PATH
       jquery-ui-rails (~> 6.0.1)
       omniauth (~> 1.9.0)
       omniauth-facebook (~> 5.0.0)
-      omniauth-identity (~> 1.1.2)
+      omniauth-identity (~> 1.1.1)
       omniauth-linkedin (~> 0.2.0)
       omniauth-openid (~> 1.0.1)
       omniauth-twitter (~> 1.4.0)
@@ -370,7 +370,7 @@ DEPENDENCIES
   memory_profiler
   meta_request (~> 0.7.0)
   omniauth-facebook (~> 5.0.0)
-  omniauth-identity (~> 1.1.2)
+  omniauth-identity (~> 1.1.1)
   omniauth-linkedin (~> 0.2.0)
   omniauth-openid (~> 1.0.1)
   omniauth-twitter (~> 1.4.0)

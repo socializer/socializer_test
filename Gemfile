@@ -92,9 +92,9 @@ gem "omniauth-linkedin", "~> 0.2.0"
 gem "omniauth-openid", "~> 1.0.1"
 gem "omniauth-twitter", "~> 1.4.0"
 
-# gem "socializer", github: "socializer/socializer"
+gem "socializer", github: "socializer/socializer"
 # gem "socializer", path: "~/Rails/socializer"
-gem "socializer", path: "~/Projects/github/socializer"
+# gem "socializer", path: "~/Projects/github/socializer"
 
 gem "flamegraph"
 gem "memory_profiler"

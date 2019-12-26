@@ -218,7 +218,7 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
-    pg (1.1.4)
+    pg (1.2.0)
     protected_attributes_continued (1.5.0)
       activemodel (>= 5.0)
     pry (0.12.2)
@@ -374,7 +374,7 @@ DEPENDENCIES
   omniauth-linkedin (~> 0.2.0)
   omniauth-openid (~> 1.0.1)
   omniauth-twitter (~> 1.4.0)
-  pg (~> 1.1.4)
+  pg (~> 1.2.0)
   protected_attributes_continued
   pry (~> 0.12.2)
   pry-rails

@@ -143,7 +143,7 @@ GEM
     factory_bot_rails (5.1.1)
       factory_bot (~> 5.1.0)
       railties (>= 4.2.0)
-    faraday (0.17.1)
+    faraday (1.0.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.11.3)
     flamegraph (0.9.5)
@@ -218,7 +218,7 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
-    pg (1.2.0)
+    pg (1.2.1)
     protected_attributes_continued (1.5.0)
       activemodel (>= 5.0)
     pry (0.12.2)
@@ -374,7 +374,7 @@ DEPENDENCIES
   omniauth-linkedin (~> 0.2.0)
   omniauth-openid (~> 1.0.1)
   omniauth-twitter (~> 1.4.0)
-  pg (~> 1.2.0)
+  pg (~> 1.2.1)
   protected_attributes_continued
   pry (~> 0.12.2)
   pry-rails

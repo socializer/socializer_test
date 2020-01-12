@@ -72,7 +72,7 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem "webdrivers"
   gem "factory_bot_rails", "~> 5.1.1"
-  gem "shoulda-matchers", "~> 4.1.2"
+  gem "shoulda-matchers", "~> 4.2.0"
 end
 
 group :production do

@@ -19,7 +19,7 @@ gem "coffee-rails", "~> 5.0"
 # Use jquery as the JavaScript library
 gem "jquery-rails", "~> 4.3.5"
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem "jbuilder", "~> 2.9"
+gem "jbuilder", "~> 2.10"
 # Use ActiveModel has_secure_password
 gem "bcrypt", "~> 3.1.13"
 

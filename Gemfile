@@ -56,7 +56,7 @@ group :development do
   # anywhere in the code.
   gem "web-console"
 
-  gem "better_errors", "~> 2.5.1"
+  gem "better_errors", "~> 2.6.0"
   gem "binding_of_caller", "~> 0.8.0"
   gem "bullet", "~> 6.1.0"
   gem "meta_request", "~> 0.7.0" # For RailsPanel

@@ -40,7 +40,7 @@ group :development, :test do
   gem "rspec-rails", "~> 3.9.1"
   # gem "cucumber-rails", "~> 1.4.5", require: false
   gem "database_cleaner-active_record", "~> 1.8"
-  gem "pry", "~> 0.12.2"
+  gem "pry", "~> 0.13.0"
 end
 
 group :development do

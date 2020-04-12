@@ -1,7 +1,7 @@
-# This migration comes from socializer (originally 20110805085417)
 # frozen_string_literal: true
+# This migration comes from socializer (originally 20110805085417)
 
-class CreateSocializerCircles < ActiveRecord::Migration[5.1]
+class CreateSocializerCircles < ActiveRecord::Migration[6.0]
   def change
     create_table :socializer_circles do |t|
       t.integer :author_id, index: true, null: false

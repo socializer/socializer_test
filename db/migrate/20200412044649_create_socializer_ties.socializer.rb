@@ -1,7 +1,7 @@
-# This migration comes from socializer (originally 20110805125606)
 # frozen_string_literal: true
+# This migration comes from socializer (originally 20110805125606)
 
-class CreateSocializerTies < ActiveRecord::Migration[5.1]
+class CreateSocializerTies < ActiveRecord::Migration[6.0]
   def change
     create_table :socializer_ties do |t|
       t.integer :contact_id, index: true, null: false

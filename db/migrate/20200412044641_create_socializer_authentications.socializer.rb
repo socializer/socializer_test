@@ -1,7 +1,7 @@
-# This migration comes from socializer (originally 20110804192211)
 # frozen_string_literal: true
+# This migration comes from socializer (originally 20110804192211)
 
-class CreateSocializerAuthentications < ActiveRecord::Migration[5.1]
+class CreateSocializerAuthentications < ActiveRecord::Migration[6.0]
   def change
     create_table :socializer_authentications do |t|
       t.integer  :person_id, null: false

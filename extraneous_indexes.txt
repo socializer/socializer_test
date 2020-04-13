@@ -1,2 +1,0 @@
-The following indexes are extraneous and can be removed:
-  index_socializer_audiences_on_activity_id (can be handled by index_audiences_on_activity_id__activity_object_id)

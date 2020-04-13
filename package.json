@@ -1,9 +1,9 @@
 {
   "name": "socializer_test",
   "private": true,
-  "version": "0.0.1",
-  "description": "Demo project for the socializer gem",
-  "repository": "https://github.com/socializer/socializer_test.git",
-  "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@rails/ujs": "^6.0.0",
+    "@rails/activestorage": "^6.0.0"
+  },
+  "version": "0.1.0"
 }

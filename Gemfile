@@ -29,7 +29,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 
-  gem "rspec-rails", "~> 4.0.0"
+  gem "rspec-rails", "~> 4.0.1"
   # gem "cucumber-rails", "~> 1.4.5", require: false
   gem "database_cleaner-active_record", "~> 1.8"
   gem "pry-rails"

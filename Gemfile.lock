@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 3f5f39712669068f07f6e3e2a100ae44aef9c172
+  revision: fd72c7ecfe60500de03b75895a0846fe6bcc63f6
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.12)
@@ -152,7 +152,7 @@ GEM
       railties (>= 4.2.0)
     faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
-    ffi (1.13.0)
+    ffi (1.13.1)
     flamegraph (0.9.5)
     globalid (0.4.2)
       activesupport (>= 4.2.0)

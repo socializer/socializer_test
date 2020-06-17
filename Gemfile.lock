@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 4094bcd7fc69665eed5aba016d726025a91e9469
+  revision: 86f410bac598138f22adc1782fc14fe6eb900780
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.12)
@@ -327,7 +327,7 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode_utils (1.4.0)
-    web-console (4.0.2)
+    web-console (4.0.3)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)

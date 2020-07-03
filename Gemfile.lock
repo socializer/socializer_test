@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: c3583158ca9b396043200169bd63023130da2e5a
+  revision: 5b614065f0f14953ff1c060c5274e3f8ab2a7303
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.12)
@@ -133,7 +133,7 @@ GEM
     database_cleaner-active_record (1.8.0)
       activerecord
       database_cleaner (~> 1.8.0)
-    diff-lcs (1.4.3)
+    diff-lcs (1.4.4)
     draper (4.0.1)
       actionpack (>= 5.0)
       activemodel (>= 5.0)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 784f1c7a1759ab5e29ed4795fb1027b9318a816f
+  revision: 5cbd32db4a54b5dcfcadb280d938d64be6bd545d
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.12)
@@ -145,10 +145,10 @@ GEM
       activesupport (>= 3.2)
     erubi (1.9.0)
     execjs (2.7.0)
-    factory_bot (6.0.2)
+    factory_bot (6.1.0)
       activesupport (>= 5.0.0)
-    factory_bot_rails (6.0.0)
-      factory_bot (~> 6.0.0)
+    factory_bot_rails (6.1.0)
+      factory_bot (~> 6.1.0)
       railties (>= 5.0.0)
     faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
@@ -357,7 +357,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15, < 4.0)
   database_cleaner-active_record (~> 1.8)
-  factory_bot_rails (~> 6.0.0)
+  factory_bot_rails (~> 6.1.0)
   flamegraph
   jbuilder (~> 2.7)
   listen (>= 3.0.5, < 3.3)

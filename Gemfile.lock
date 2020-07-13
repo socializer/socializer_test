@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 5cbd32db4a54b5dcfcadb280d938d64be6bd545d
+  revision: 9af5a6b284e37ac7f42757fd48de0ae74130c115
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.12)
@@ -90,7 +90,7 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (9.8.4)
+    autoprefixer-rails (9.8.5)
       execjs
     bcrypt (3.1.13)
     bcrypt-ruby (3.1.5)
@@ -182,7 +182,7 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.14.1)
     msgpack (1.3.3)
-    multi_json (1.14.1)
+    multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nio4r (2.5.2)
@@ -327,7 +327,7 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unicode_utils (1.4.0)
-    web-console (4.0.3)
+    web-console (4.0.4)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
@@ -341,7 +341,7 @@ GEM
       rack-proxy (>= 0.6.1)
       railties (>= 5.2)
       semantic_range (>= 2.3.0)
-    websocket-driver (0.7.2)
+    websocket-driver (0.7.3)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     xpath (3.2.0)

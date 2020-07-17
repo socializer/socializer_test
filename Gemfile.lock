@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 9af5a6b284e37ac7f42757fd48de0ae74130c115
+  revision: 22fd385d2af53bd41015f711077562554acc4ad3
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.12)
@@ -346,7 +346,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.3.1)
+    zeitwerk (2.4.0)
 
 PLATFORMS
   ruby

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: f2bc4028afc75fd753f5b7fbb1bb04fcc0c49767
+  revision: e7569bdda64ad7326dfa876de9a9556033d9720b
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.12)
@@ -157,7 +157,7 @@ GEM
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     hashie (4.1.0)
-    i18n (1.8.3)
+    i18n (1.8.4)
       concurrent-ruby (~> 1.0)
     i18n_data (0.10.0)
     jbuilder (2.10.0)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: c0c33ae3751b97f1d9c29b22985ad164316185b7
+  revision: 371bd1f0739553f321c6a3ee7167d68511908255
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.12)
@@ -164,7 +164,7 @@ GEM
       activesupport (>= 5.0.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
-    jwt (2.2.1)
+    jwt (2.2.2)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)

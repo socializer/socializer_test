@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 371bd1f0739553f321c6a3ee7167d68511908255
+  revision: 9d46f9595ab220b1cd6dfa6e55f4a8f470d577ac
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.12)
@@ -8,7 +8,7 @@ GIT
       coffee-rails (~> 5.0.0)
       country_select (~> 4.0.0)
       draper (~> 4.0.1)
-      elasticsearch-rails (~> 7.1.0)
+      elasticsearch-rails (~> 7.1.1)
       enumerize (~> 2.3.1)
       jquery-ui-rails (~> 6.0.1)
       omniauth (~> 1.9.1)
@@ -140,7 +140,7 @@ GEM
       activemodel-serializers-xml (>= 1.0)
       activesupport (>= 5.0)
       request_store (>= 1.0)
-    elasticsearch-rails (7.1.0)
+    elasticsearch-rails (7.1.1)
     enumerize (2.3.1)
       activesupport (>= 3.2)
     erubi (1.9.0)

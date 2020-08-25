@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: f3abec8cfafa8c40a09cc413e397abcaa8d65b7b
+  revision: d233d7d2c6b066b4fd87ce47dc4c3d6d9876fcda
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.12)
@@ -90,7 +90,7 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (9.8.6.2)
+    autoprefixer-rails (9.8.6.3)
       execjs
     bcrypt (3.1.15)
     bcrypt-ruby (3.1.5)

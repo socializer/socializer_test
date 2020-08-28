@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 0e7a220d41f1c52fcff4d8e97566feb1b08d3177
+  revision: 4fbbb65e19542ec0b34627980350a63bb14186a3
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.12)
@@ -168,7 +168,7 @@ GEM
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.6.0)
+    loofah (2.7.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)

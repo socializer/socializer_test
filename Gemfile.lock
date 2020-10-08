@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 1247fa7ee2ecae804509596773208fe654f69063
+  revision: e3a568ffdcfc63a67a776976abb9a45d6ee7024e
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.16)

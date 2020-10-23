@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 8a86ec474f3dba08608a17492fea223bee8dcfa1
+  revision: ce674ed6e9083842a204730b912936d41897dff0
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.16)
@@ -270,7 +270,7 @@ GEM
       rack (>= 1.4)
     rspec-core (3.9.3)
       rspec-support (~> 3.9.3)
-    rspec-expectations (3.9.2)
+    rspec-expectations (3.9.3)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
     rspec-mocks (3.9.1)
@@ -284,7 +284,7 @@ GEM
       rspec-expectations (~> 3.9)
       rspec-mocks (~> 3.9)
       rspec-support (~> 3.9)
-    rspec-support (3.9.3)
+    rspec-support (3.9.4)
     ruby-openid (2.9.2)
     ruby2_keywords (0.0.2)
     rubyzip (2.3.0)
@@ -318,7 +318,7 @@ GEM
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
-    stackprof (0.2.15)
+    stackprof (0.2.16)
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)

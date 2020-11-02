@@ -6,26 +6,29 @@
 version: 2
 updates:
 - package-ecosystem: npm
-  directory: "/"
-  schedule:
-    interval: weekly
-  open-pull-requests-limit: 10
-  reviewers:
+directory: "/"
+schedule:
+  interval: weekly
+  day: monday
+  time: "10:00"
+  timezone: America/New_York
+open-pull-requests-limit: 10
+reviewers:
   - acmetech
-  labels:
+labels:
   - dependencies
-  allow:
-    - dependency-type: all
+versioning-strategy: increase
 
 - package-ecosystem: bundler
-  directory: "/"
-  schedule:
-    interval: weekly
-  open-pull-requests-limit: 10
-  reviewers:
+directory: "/"
+schedule:
+  interval: weekly
+  day: monday
+  time: "10:00"
+  timezone: America/New_York
+open-pull-requests-limit: 10
+reviewers:
   - acmetech
-  labels:
+labels:
   - dependencies
-  versioning-strategy: increase
-  allow:
-    - dependency-type: all
+versioning-strategy: increase

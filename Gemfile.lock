@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 8485374d62ad02a001ef723c75e4b03624ae9600
+  revision: a0c7dc3f20b4ee2916bebc2c674acefe9843717e
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.16)
@@ -90,7 +90,7 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (10.0.2.0)
+    autoprefixer-rails (10.0.3.0)
       execjs
     bcrypt (3.1.16)
     bindex (0.8.1)
@@ -101,7 +101,7 @@ GEM
       sassc (>= 2.0.0)
     builder (3.2.4)
     byebug (11.1.3)
-    capybara (3.33.0)
+    capybara (3.34.0)
       addressable
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
@@ -167,7 +167,7 @@ GEM
     listen (3.3.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.7.0)
+    loofah (2.8.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -346,7 +346,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.4.1)
+    zeitwerk (2.4.2)
 
 PLATFORMS
   ruby

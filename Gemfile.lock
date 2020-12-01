@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 8b1bedbbbe09afc85f6ff285790467bb9275b758
+  revision: d891af91141adeabb632fdff0cffdcc236bef230
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.16)
@@ -223,7 +223,7 @@ GEM
     pry-rails (0.3.9)
       pry (>= 0.10.4)
     public_suffix (4.0.6)
-    puma (5.0.4)
+    puma (5.1.0)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-mini-profiler (2.2.0)

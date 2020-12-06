@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: d891af91141adeabb632fdff0cffdcc236bef230
+  revision: a74a072206aea5ad6017dd36fda570648416a5ad
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.16)
@@ -174,7 +174,7 @@ GEM
       mini_mime (>= 0.1.1)
     marcel (0.3.3)
       mimemagic (~> 0.3.2)
-    memory_profiler (0.9.14)
+    memory_profiler (1.0.0)
     method_source (1.0.0)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
@@ -301,7 +301,7 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
-    semantic_range (2.3.0)
+    semantic_range (2.3.1)
     shoulda-matchers (4.4.1)
       activesupport (>= 4.2.0)
     simple_form (5.0.3)

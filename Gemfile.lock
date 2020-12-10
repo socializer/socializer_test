@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: a74a072206aea5ad6017dd36fda570648416a5ad
+  revision: a2dba170aa1685863e2722a656284d5d7f79ed7e
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.16)
@@ -90,7 +90,7 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (10.0.3.0)
+    autoprefixer-rails (10.1.0.0)
       execjs
     bcrypt (3.1.16)
     bindex (0.8.1)
@@ -223,7 +223,7 @@ GEM
     pry-rails (0.3.9)
       pry (>= 0.10.4)
     public_suffix (4.0.6)
-    puma (5.1.0)
+    puma (5.1.1)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-mini-profiler (2.2.0)

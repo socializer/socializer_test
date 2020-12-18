@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 9cb05f3ff25630bad595f1c63d3ec91b9ea59895
+  revision: afa1cc9b86f1ecbf46a69021b37b1498d94cfb0f
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.16)
@@ -325,7 +325,7 @@ GEM
     stackprof (0.2.16)
     thor (1.0.1)
     tilt (2.0.10)
-    tzinfo (2.0.3)
+    tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)

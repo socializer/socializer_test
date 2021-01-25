@@ -185,12 +185,16 @@ GEM
     method_source (1.0.0)
     mimemagic (0.3.5)
     mini_mime (1.0.2)
+    mini_portile2 (2.5.0)
     minitest (5.14.3)
     msgpack (1.3.3)
     multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nio4r (2.5.4)
+    nokogiri (1.11.1)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     nokogiri (1.11.1-x86_64-darwin)
       racc (~> 1.4)
     oauth (0.5.4)
@@ -309,7 +313,7 @@ GEM
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
     semantic_range (2.3.1)
-    shoulda-matchers (4.5.0)
+    shoulda-matchers (4.5.1)
       activesupport (>= 4.2.0)
     simple_form (5.0.3)
       actionpack (>= 5.0)
@@ -355,6 +359,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
+  ruby
   x86_64-darwin-19
 
 DEPENDENCIES
@@ -376,7 +381,7 @@ DEPENDENCIES
   rspec-rails (~> 4.0.2)
   sass-rails (>= 6)
   selenium-webdriver
-  shoulda-matchers (~> 4.5.0)
+  shoulda-matchers (~> 4.5.1)
   socializer!
   sqlite3 (~> 1.4)
   stackprof

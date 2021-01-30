@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.2'
+ruby '3.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 # gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
@@ -51,6 +51,7 @@ group :test do
   gem "webdrivers"
   gem "factory_bot_rails", "~> 6.1.0"
   gem "shoulda-matchers", "~> 4.5.1"
+  gem "rexml"
 end
 
 group :production do
@@ -62,6 +63,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem "socializer", github: "socializer/socializer", branch: "main"
 # gem "socializer", path: "~/Projects/github/socializer"
+
+gem "draper", github: "drapergem/draper"
 
 gem "flamegraph"
 gem "memory_profiler"

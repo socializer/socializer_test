@@ -144,10 +144,10 @@ GEM
       countries (~> 3.0)
       sort_alphabetical (~> 1.0)
     crass (1.0.6)
-    database_cleaner (1.8.5)
-    database_cleaner-active_record (1.8.0)
-      activerecord
-      database_cleaner (~> 1.8.0)
+    database_cleaner-active_record (2.0.0)
+      activerecord (>= 5.a)
+      database_cleaner-core (~> 2.0.0)
+    database_cleaner-core (2.0.0)
     diff-lcs (1.4.4)
     elasticsearch-rails (7.1.1)
     enumerize (2.4.0)
@@ -376,7 +376,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.9)
   byebug
   capybara (>= 2.15, < 4.0)
-  database_cleaner-active_record (~> 1.8)
+  database_cleaner-active_record (~> 2.0)
   draper!
   factory_bot_rails (~> 6.1.0)
   flamegraph

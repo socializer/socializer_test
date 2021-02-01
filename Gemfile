@@ -31,7 +31,7 @@ group :development, :test do
 
   gem "rspec-rails", "~> 4.0.2"
   # gem "cucumber-rails", "~> 1.4.5", require: false
-  gem "database_cleaner-active_record", "~> 1.8"
+  gem "database_cleaner-active_record", "~> 2.0"
   gem "pry-rails"
 end
 

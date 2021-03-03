@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: d0e1dfc4c9931700e2cf41179f6a300d7c3c6806
+  revision: 098449809be11471862b77006aa6dd9b6e81ff43
   branch: main
   specs:
     socializer (0.1.13)
@@ -243,7 +243,7 @@ GEM
     pry-rails (0.3.9)
       pry (>= 0.10.4)
     public_suffix (4.0.6)
-    puma (5.2.1)
+    puma (5.2.2)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)

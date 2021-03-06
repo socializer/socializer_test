@@ -12,14 +12,14 @@ GIT
 
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: fe7c8c254486c3f3a6870f9aa281938d196536f1
+  revision: 88c67281ff6157871b8be46c135088e06e1ed4e6
   branch: main
   specs:
     socializer (0.1.13)
       bcrypt (~> 3.1.16)
       bootstrap-sass (~> 3.4.1)
       coffee-rails (~> 5.0.0)
-      country_select (~> 4.0.0)
+      country_select (~> 5.0.0)
       elasticsearch-rails (~> 7.1.1)
       enumerize (~> 2.4.0)
       jquery-ui-rails (~> 6.0.1)
@@ -140,9 +140,9 @@ GEM
       i18n_data (~> 0.10.0)
       sixarm_ruby_unaccent (~> 1.1)
       unicode_utils (~> 1.4)
-    country_select (4.0.0)
+    country_select (5.0.0)
       countries (~> 3.0)
-      sort_alphabetical (~> 1.0)
+      sort_alphabetical (~> 1.1)
     crass (1.0.6)
     database_cleaner-active_record (2.0.0)
       activerecord (>= 5.a)
@@ -164,7 +164,7 @@ GEM
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
     faraday-net_http (1.0.1)
-    ffi (1.14.2)
+    ffi (1.15.0)
     flamegraph (0.9.5)
     globalid (0.4.2)
       activesupport (>= 4.2.0)

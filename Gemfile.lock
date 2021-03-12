@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 88c67281ff6157871b8be46c135088e06e1ed4e6
+  revision: 6cf445bf8127047ff65222ff6694c2a534bb3e7c
   branch: main
   specs:
     socializer (0.1.13)
@@ -140,7 +140,7 @@ GEM
       i18n_data (~> 0.10.0)
       sixarm_ruby_unaccent (~> 1.1)
       unicode_utils (~> 1.4)
-    country_select (5.0.0)
+    country_select (5.0.1)
       countries (~> 3.0)
       sort_alphabetical (~> 1.1)
     crass (1.0.6)
@@ -198,10 +198,10 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nio4r (2.5.7)
-    nokogiri (1.11.1)
+    nokogiri (1.11.2)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
-    nokogiri (1.11.1-x86_64-darwin)
+    nokogiri (1.11.2-x86_64-darwin)
       racc (~> 1.4)
     oauth (0.5.5)
     oauth2 (1.4.4)
@@ -300,10 +300,10 @@ GEM
     rspec-mocks (3.10.2)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
-    rspec-rails (4.1.0)
-      actionpack (>= 4.2)
-      activesupport (>= 4.2)
-      railties (>= 4.2)
+    rspec-rails (5.0.0)
+      actionpack (>= 5.2)
+      activesupport (>= 5.2)
+      railties (>= 5.2)
       rspec-core (~> 3.10)
       rspec-expectations (~> 3.10)
       rspec-mocks (~> 3.10)
@@ -394,7 +394,7 @@ DEPENDENCIES
   rack-mini-profiler
   rails (~> 6.1.3)
   rexml
-  rspec-rails (~> 4.1.0)
+  rspec-rails (~> 5.0.0)
   sass-rails (>= 6)
   selenium-webdriver
   shoulda-matchers (~> 4.5.1)
@@ -410,4 +410,4 @@ RUBY VERSION
    ruby 3.0.0p0
 
 BUNDLED WITH
-   2.2.13
+   2.2.14

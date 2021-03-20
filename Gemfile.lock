@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: a1976d92af47061bc850c9370f9386d8d70bf858
+  revision: a382b19ae18af51779f5569caae3f99f29f52132
   branch: main
   specs:
     socializer (0.1.13)
@@ -204,7 +204,7 @@ GEM
     nokogiri (1.11.2-x86_64-darwin)
       racc (~> 1.4)
     oauth (0.5.5)
-    oauth2 (1.4.6)
+    oauth2 (1.4.7)
       faraday (>= 0.8, < 2.0)
       jwt (>= 1.0, < 3.0)
       multi_json (~> 1.3)

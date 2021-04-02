@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 86ba5f6d37bc62376c44f537c61097a2d257187d
+  revision: daf0a70c6755b578b0d48d174df037bcfc243dcf
   branch: main
   specs:
     socializer (0.1.13)
@@ -186,7 +186,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    marcel (1.0.0)
+    marcel (1.0.1)
     memory_profiler (1.0.0)
     method_source (1.0.0)
     mini_mime (1.0.3)
@@ -202,7 +202,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.11.2-x86_64-darwin)
       racc (~> 1.4)
-    oauth (0.5.5)
+    oauth (0.5.6)
     oauth2 (1.4.7)
       faraday (>= 0.8, < 2.0)
       jwt (>= 1.0, < 3.0)

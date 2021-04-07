@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: b2b3bfbb7eb1136aa5187a122a25569c64ec66eb
+  revision: c97e2f441025c6a5b6ce0cda9a2081e342336a2c
   branch: main
   specs:
     socializer (0.1.13)
@@ -406,7 +406,7 @@ DEPENDENCIES
   webpacker (~> 5.2)
 
 RUBY VERSION
-   ruby 3.0.0p0
+   ruby 3.0.1p64
 
 BUNDLED WITH
    2.2.15

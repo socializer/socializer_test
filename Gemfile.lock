@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: e24ab885f8cf250f457b609b516cce8b87cf08b5
+  revision: 4d9c7bd2174486da1301f978d365c5ee0e195de8
   branch: main
   specs:
     socializer (0.1.13)
@@ -236,7 +236,7 @@ GEM
       omniauth-oauth (~> 1.1)
       rack
     pg (1.2.3)
-    pry (0.14.0)
+    pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
     pry-rails (0.3.9)

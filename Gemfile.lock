@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: a820cb13cfb0941dedcdde799b5b608942ca241e
+  revision: cbf24918998991ad7aedb7698b729adaab5801e9
   branch: main
   specs:
     socializer (0.1.13)
@@ -160,10 +160,10 @@ GEM
     factory_bot_rails (6.1.0)
       factory_bot (~> 6.1.0)
       railties (>= 5.0.0)
-    faraday (1.4.0)
-      faraday-excon (~> 1.0)
+    faraday (1.4.1)
+      faraday-excon (~> 1.1)
       faraday-net_http (~> 1.0)
-      faraday-net_http_persistent (~> 1.0)
+      faraday-net_http_persistent (~> 1.1)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords (>= 0.0.4)
     faraday-excon (1.1.0)

@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: d39b47908a6dd7f23455e8128cd2ccb9d1ffb298
+  revision: d1ad822ca7c2d8cae3a1e3c9e0bebd3e4d54ac9a
   branch: main
   specs:
     socializer (0.1.13)
@@ -250,7 +250,7 @@ GEM
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
-    rack-mini-profiler (2.3.1)
+    rack-mini-profiler (2.3.2)
       rack (>= 1.2.0)
     rack-openid (1.4.2)
       rack (>= 1.1.0)

@@ -49,7 +49,7 @@ group :test do
   gem "selenium-webdriver"
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem "webdrivers"
-  gem "factory_bot_rails", "~> 6.1.0"
+  gem "factory_bot_rails", "~> 6.2.0"
   gem "shoulda-matchers", "~> 4.5.1"
   gem "rexml"
 end

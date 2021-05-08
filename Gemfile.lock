@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 5aab2b34282ba2f42865a94d6f5315c02f3d7809
+  revision: dd214205912171f6165ad8d06297f99263cd29ad
   branch: main
   specs:
     socializer (0.1.13)
@@ -288,7 +288,7 @@ GEM
       rake (>= 0.8.7)
       thor (~> 1.0)
     rake (13.0.3)
-    rb-fsevent (0.10.4)
+    rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.1.1)

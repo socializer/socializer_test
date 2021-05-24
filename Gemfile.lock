@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 9e9556903e7ef46e596eb82e8fa859e7bf2c64c8
+  revision: 954ec1edd75f34bfa353e2d9d039b8766b8d6979
   branch: main
   specs:
     socializer (0.1.13)
@@ -106,8 +106,8 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (10.2.5.0)
-      execjs (< 2.8.0)
+    autoprefixer-rails (10.2.5.1)
+      execjs (> 0)
     bcrypt (3.1.16)
     bindex (0.8.1)
     bootsnap (1.7.5)
@@ -152,7 +152,7 @@ GEM
     enumerize (2.4.0)
       activesupport (>= 3.2)
     erubi (1.10.0)
-    execjs (2.7.0)
+    execjs (2.8.1)
     factory_bot (6.2.0)
       activesupport (>= 5.0.0)
     factory_bot_rails (6.2.0)

@@ -64,7 +64,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "socializer", github: "socializer/socializer", branch: "main"
 # gem "socializer", path: "~/Projects/github/socializer"
 
-gem "draper", github: "drapergem/draper"
+# gem "draper", github: "drapergem/draper"
 
 gem "flamegraph"
 gem "memory_profiler"

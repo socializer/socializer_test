@@ -1,18 +1,6 @@
 GIT
-  remote: https://github.com/drapergem/draper.git
-  revision: 43a6e34529ddc5c0d6d65e98ecbcdd378edb9529
-  specs:
-    draper (4.0.2)
-      actionpack (>= 5.0)
-      activemodel (>= 5.0)
-      activemodel-serializers-xml (>= 1.0)
-      activesupport (>= 5.0)
-      request_store (>= 1.0)
-      ruby2_keywords
-
-GIT
   remote: https://github.com/socializer/socializer.git
-  revision: c6efb214b9e7c2cefe0daccdc7613f078256401a
+  revision: 140aac903f7c021443877a10d9bf113b83f81272
   branch: main
   specs:
     socializer (0.1.13)
@@ -149,6 +137,13 @@ GEM
       database_cleaner-core (~> 2.0.0)
     database_cleaner-core (2.0.1)
     diff-lcs (1.4.4)
+    draper (4.0.2)
+      actionpack (>= 5.0)
+      activemodel (>= 5.0)
+      activemodel-serializers-xml (>= 1.0)
+      activesupport (>= 5.0)
+      request_store (>= 1.0)
+      ruby2_keywords
     elasticsearch-rails (7.1.1)
     enumerize (2.4.0)
       activesupport (>= 3.2)
@@ -260,7 +255,7 @@ GEM
       ruby-openid (>= 2.1.8)
     rack-protection (2.1.0)
       rack
-    rack-proxy (0.6.5)
+    rack-proxy (0.7.0)
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -388,7 +383,6 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15, < 4.0)
   database_cleaner-active_record (~> 2.0)
-  draper!
   factory_bot_rails (~> 6.2.0)
   flamegraph
   jbuilder (~> 2.7)

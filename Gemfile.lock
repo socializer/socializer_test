@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/drapergem/draper.git
-  revision: 9cb42f6e714764c1b196f49754328132bcc7ed32
+  revision: 43a6e34529ddc5c0d6d65e98ecbcdd378edb9529
   specs:
-    draper (4.0.1)
+    draper (4.0.2)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
       activemodel-serializers-xml (>= 1.0)
@@ -12,7 +12,7 @@ GIT
 
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 1cdcec5c8d1692722c33dff579642c22e3dc82fc
+  revision: c6efb214b9e7c2cefe0daccdc7613f078256401a
   branch: main
   specs:
     socializer (0.1.13)
@@ -20,6 +20,7 @@ GIT
       bootstrap-sass (~> 3.4.1)
       coffee-rails (~> 5.0.0)
       country_select (~> 5.1.0)
+      draper (~> 4.0.2)
       elasticsearch-rails (~> 7.1.1)
       enumerize (~> 2.4.0)
       jquery-ui-rails (~> 6.0.1)

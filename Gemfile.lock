@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 140aac903f7c021443877a10d9bf113b83f81272
+  revision: ae408b2abbac6e699724ea5ed072edbec8e057e4
   branch: main
   specs:
     socializer (0.1.13)
@@ -192,7 +192,7 @@ GEM
     memory_profiler (1.0.0)
     method_source (1.0.0)
     mini_mime (1.0.3)
-    mini_portile2 (2.5.1)
+    mini_portile2 (2.5.3)
     minitest (5.14.4)
     msgpack (1.4.2)
     multi_json (1.15.0)

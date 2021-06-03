@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 8f90e0bf3f6d155e2191f85b3ba0b0fd87b4ba93
+  revision: 54995dc3cd99479edb17c1a146678c84f516e791
   branch: main
   specs:
     socializer (0.1.13)
@@ -199,10 +199,10 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nio4r (2.5.7)
-    nokogiri (1.11.6)
+    nokogiri (1.11.7)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
-    nokogiri (1.11.6-x86_64-darwin)
+    nokogiri (1.11.7-x86_64-darwin)
       racc (~> 1.4)
     oauth (0.5.6)
     oauth2 (1.4.7)

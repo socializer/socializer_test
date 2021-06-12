@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 7e059bffaab79ad4a6c436c2a49df17bec7f5480
+  revision: f87bc6bd3f6268e64743d9a8e1773d3c8e54d588
   branch: main
   specs:
     socializer (0.1.13)
@@ -365,7 +365,7 @@ GEM
       rack-proxy (>= 0.6.1)
       railties (>= 5.2)
       semantic_range (>= 2.3.0)
-    websocket-driver (0.7.4)
+    websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     xpath (3.2.0)

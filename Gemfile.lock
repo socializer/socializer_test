@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: f87bc6bd3f6268e64743d9a8e1773d3c8e54d588
+  revision: c1ed4c2352afa7092aeaddfee079fe6a182d6d15
   branch: main
   specs:
     socializer (0.1.13)
@@ -14,7 +14,7 @@ GIT
       jquery-ui-rails (~> 6.0.1)
       omniauth (~> 2.0.4)
       omniauth-facebook (~> 8.0.0)
-      omniauth-identity (~> 3.0.8)
+      omniauth-identity (~> 3.0.9)
       omniauth-linkedin (~> 0.2.0)
       omniauth-openid (~> 2.0.1)
       omniauth-rails_csrf_protection
@@ -167,7 +167,7 @@ GEM
     faraday-excon (1.1.0)
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.1.0)
-    ffi (1.15.1)
+    ffi (1.15.3)
     flamegraph (0.9.5)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -217,7 +217,7 @@ GEM
       rack-protection
     omniauth-facebook (8.0.0)
       omniauth-oauth2 (~> 1.2)
-    omniauth-identity (3.0.8)
+    omniauth-identity (3.0.9)
       bcrypt
       omniauth
     omniauth-linkedin (0.2.0)

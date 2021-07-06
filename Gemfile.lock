@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 3c7de819811e91ff24009d2dce896c8e697d8897
+  revision: af56a7ec3e2d50aa08111d1b6b3bba352fb32d6f
   branch: main
   specs:
     socializer (0.1.13)
@@ -288,7 +288,7 @@ GEM
       method_source
       rake (>= 0.13)
       thor (~> 1.0)
-    rake (13.0.3)
+    rake (13.0.4)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)

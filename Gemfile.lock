@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: adb6f71a9c5e4fe37933b8b3fdaea063d4b293e1
+  revision: 1b1abee4a8e92934880db3154e9d41f075f0f5bf
   branch: main
   specs:
     socializer (0.1.13)
@@ -168,7 +168,7 @@ GEM
     faraday-excon (1.1.0)
     faraday-httpclient (1.0.1)
     faraday-net_http (1.0.1)
-    faraday-net_http_persistent (1.1.0)
+    faraday-net_http_persistent (1.2.0)
     faraday-patron (1.0.0)
     ffi (1.15.3)
     flamegraph (0.9.5)

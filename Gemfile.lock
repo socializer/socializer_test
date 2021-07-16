@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: f6856df9e427c828bdd498947eb2871c9f0df262
+  revision: 35d88484075a36e05742f58f426f78fb6c109bc6
   branch: main
   specs:
     socializer (0.1.13)
@@ -314,7 +314,7 @@ GEM
       rspec-support (~> 3.10)
     rspec-support (3.10.2)
     ruby-openid (2.9.2)
-    ruby2_keywords (0.0.4)
+    ruby2_keywords (0.0.5)
     rubyzip (2.3.2)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)

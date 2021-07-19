@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 35d88484075a36e05742f58f426f78fb6c109bc6
+  revision: 77bdb22cd3078f9df9a0099323d34ed549e48e2d
   branch: main
   specs:
     socializer (0.1.13)
@@ -124,7 +124,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.9)
-    countries (4.0.0)
+    countries (4.0.1)
       i18n_data (~> 0.13.0)
       sixarm_ruby_unaccent (~> 1.1)
     country_select (6.0.0)

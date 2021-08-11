@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: a9d908396ef27a387c5bb18ed31e3a725d60f636
+  revision: d9c30bfb4377bcbd789b25466cc82b94ea1520e6
   branch: main
   specs:
     socializer (0.1.13)
@@ -9,7 +9,7 @@ GIT
       coffee-rails (~> 5.0.0)
       country_select (~> 6.0.0)
       draper (~> 4.0.2)
-      elasticsearch-rails (~> 7.1.1)
+      elasticsearch-rails (~> 7.2.0)
       enumerize (~> 2.4.0)
       jquery-ui-rails (~> 6.0.1)
       omniauth (~> 2.0.4)
@@ -143,7 +143,7 @@ GEM
       activesupport (>= 5.0)
       request_store (>= 1.0)
       ruby2_keywords
-    elasticsearch-rails (7.1.1)
+    elasticsearch-rails (7.2.0)
     enumerize (2.4.0)
       activesupport (>= 3.2)
     erubi (1.10.0)
@@ -204,10 +204,10 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nio4r (2.5.8)
-    nokogiri (1.12.2)
+    nokogiri (1.12.3)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
-    nokogiri (1.12.2-x86_64-darwin)
+    nokogiri (1.12.3-x86_64-darwin)
       racc (~> 1.4)
     oauth (0.5.6)
     oauth2 (1.4.7)

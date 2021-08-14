@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 53def5ad2978b4f89f46cce0c5f538d6044f078f
+  revision: b5ca3fc5e054792cb48f71e5bb4c517b80645789
   branch: main
   specs:
     socializer (0.1.13)
@@ -306,7 +306,7 @@ GEM
     rspec-mocks (3.10.2)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
-    rspec-rails (5.0.1)
+    rspec-rails (5.0.2)
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       railties (>= 5.2)

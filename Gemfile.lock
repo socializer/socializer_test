@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: c40b3fbd752b0e137540c1411fc8f2d35b631894
+  revision: 03c9d7cc67d097d23606debb5608a153623e50ee
   branch: main
   specs:
     socializer (0.1.13)
@@ -415,4 +415,4 @@ RUBY VERSION
    ruby 3.0.2p107
 
 BUNDLED WITH
-   2.2.25
+   2.2.26

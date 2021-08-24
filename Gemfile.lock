@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 052b108df4c512cc64d6ace040a6c9fc4affd6d7
+  revision: a52fe5c213c09eec52d544756821a424a2160b7e
   branch: main
   specs:
     socializer (0.1.13)
@@ -282,7 +282,7 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.4.1)
+    rails-html-sanitizer (1.4.2)
       loofah (~> 2.3)
     railties (6.1.4.1)
       actionpack (= 6.1.4.1)

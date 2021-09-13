@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 719ea2b81be619826cca9557ba295a23c261b0a2
+  revision: c4657bde90318bae814a84d9447ac4f627ed75f9
   branch: main
   specs:
     socializer (0.1.13)
@@ -153,7 +153,7 @@ GEM
     factory_bot_rails (6.2.0)
       factory_bot (~> 6.2.0)
       railties (>= 5.0.0)
-    faraday (1.7.1)
+    faraday (1.7.2)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)

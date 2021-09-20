@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 594f1f8d0af19dfea089063c9af9289e20d0c976
+  revision: 83122589c7f107e34e3a78708e9c66854400921c
   branch: main
   specs:
     socializer (0.1.13)
@@ -99,7 +99,7 @@ GEM
       execjs (~> 2)
     bcrypt (3.1.16)
     bindex (0.8.1)
-    bootsnap (1.9.0)
+    bootsnap (1.9.1)
       msgpack (~> 1.0)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)

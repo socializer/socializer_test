@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 2b85317d6d17c935e150176a97dc0ab41fb3727e
+  revision: 4e5ecde9eaf50838d966c12b27175111188b0ac7
   branch: main
   specs:
     socializer (0.1.13)
@@ -193,7 +193,7 @@ GEM
       nokogiri (>= 1.5.9)
     mail (2.7.1)
       mini_mime (>= 0.1.1)
-    marcel (1.0.1)
+    marcel (1.0.2)
     memory_profiler (1.0.0)
     method_source (1.0.0)
     mini_mime (1.1.1)

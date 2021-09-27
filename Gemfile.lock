@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 0619473b0867e55f4b967a0c91d07ee1e3e940c7
+  revision: 1b82284f26b3d5c8c9123d4db8a8ded03443a5e5
   branch: main
   specs:
     socializer (0.1.13)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: fd344c8d795f238c63580ce721f625e70a71edb9
+  revision: 1541f9671adb66ba8fa36e1db1bfcda47a112a38
   branch: main
   specs:
     socializer (0.1.13)
@@ -196,7 +196,7 @@ GEM
     marcel (1.0.2)
     memory_profiler (1.0.0)
     method_source (1.0.0)
-    mini_mime (1.1.1)
+    mini_mime (1.1.2)
     mini_portile2 (2.6.1)
     minitest (5.14.4)
     msgpack (1.4.2)
@@ -415,4 +415,4 @@ RUBY VERSION
    ruby 3.0.2p107
 
 BUNDLED WITH
-   2.2.28
+   2.2.29

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: d1b2d79051cc0c745e9b3099434e0f4afd6bc753
+  revision: 6b95b75483880d74234e7504da17a995cd195407
   branch: main
   specs:
     socializer (0.1.13)
@@ -251,7 +251,7 @@ GEM
     public_suffix (4.0.6)
     puma (5.5.2)
       nio4r (~> 2.0)
-    racc (1.5.2)
+    racc (1.6.0)
     rack (2.2.3)
     rack-mini-profiler (2.3.3)
       rack (>= 1.2.0)

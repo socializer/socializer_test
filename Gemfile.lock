@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 3b057ea971628ffb98734ee6dfc8c4aef980df5c
+  revision: e2fcb189ba9ebccc4df9b8ce805a7dd81e78a55f
   branch: main
   specs:
     socializer (0.1.13)
@@ -328,7 +328,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    selenium-webdriver (4.0.2)
+    selenium-webdriver (4.0.3)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
@@ -376,7 +376,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.5.0)
+    zeitwerk (2.5.1)
 
 PLATFORMS
   ruby

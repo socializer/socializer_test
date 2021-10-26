@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: d6462ef6d33073e3d5ed8ae759655e7851f79d6c
+  revision: c7ac3181f83216744d7f4384d6b34c8b776a2a10
   branch: main
   specs:
     socializer (0.1.13)
@@ -13,7 +13,7 @@ GIT
       enumerize (~> 2.4.0)
       jquery-ui-rails (~> 6.0.1)
       omniauth (~> 2.0.4)
-      omniauth-facebook (~> 8.0.0)
+      omniauth-facebook (~> 9.0.0)
       omniauth-identity (~> 3.0.9)
       omniauth-linkedin (~> 0.2.0)
       omniauth-openid (~> 2.0.1)
@@ -106,8 +106,9 @@ GEM
       sassc (>= 2.0.0)
     builder (3.2.4)
     byebug (11.1.3)
-    capybara (3.35.3)
+    capybara (3.36.0)
       addressable
+      matrix
       mini_mime (>= 0.1.3)
       nokogiri (~> 1.8)
       rack (>= 1.6.0)
@@ -194,6 +195,7 @@ GEM
     mail (2.7.1)
       mini_mime (>= 0.1.1)
     marcel (1.0.2)
+    matrix (0.4.2)
     memory_profiler (1.0.0)
     method_source (1.0.0)
     mini_mime (1.1.2)
@@ -220,7 +222,7 @@ GEM
       hashie (>= 3.4.6)
       rack (>= 1.6.2, < 3)
       rack-protection
-    omniauth-facebook (8.0.0)
+    omniauth-facebook (9.0.0)
       omniauth-oauth2 (~> 1.2)
     omniauth-identity (3.0.9)
       bcrypt

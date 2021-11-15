@@ -181,7 +181,7 @@ GEM
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     i18n_data (0.13.0)
-    jbuilder (2.11.2)
+    jbuilder (2.11.3)
       activesupport (>= 5.0.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
@@ -393,7 +393,7 @@ DEPENDENCIES
   database_cleaner-active_record (~> 2.0)
   factory_bot_rails (~> 6.2.0)
   flamegraph
-  jbuilder (~> 2.7)
+  jbuilder (~> 2.11)
   listen (~> 3.5)
   memory_profiler
   pg (~> 1.2.3)

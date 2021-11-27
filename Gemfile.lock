@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 3c30afaf5b1f62d4adf74ae564960aa0eb913f30
+  revision: ceac5ea7a682b076975e48c6d05b99b379e5aa67
   branch: main
   specs:
     socializer (0.1.13)
@@ -175,7 +175,7 @@ GEM
     faraday-rack (1.0.0)
     ffi (1.15.4)
     flamegraph (0.9.5)
-    globalid (0.6.0)
+    globalid (1.0.0)
       activesupport (>= 5.0)
     hashie (5.0.0)
     i18n (1.8.11)

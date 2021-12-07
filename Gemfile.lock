@@ -125,7 +125,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.9)
-    countries (4.1.0)
+    countries (4.1.1)
       i18n_data (~> 0.13.1)
       sixarm_ruby_unaccent (~> 1.1)
     country_select (6.0.0)
@@ -415,7 +415,7 @@ DEPENDENCIES
   webpacker (~> 5.4)
 
 RUBY VERSION
-   ruby 3.0.2p107
+   ruby 3.0.3p157
 
 BUNDLED WITH
    2.2.32

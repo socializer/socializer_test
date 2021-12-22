@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 96e0ce0d9ec899e34c0c07c3b9a3b62ccac46fb0
+  revision: dd05e4892d31a713ccbb612f043968f6569584a2
   branch: main
   specs:
     socializer (0.1.13)
@@ -125,8 +125,8 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.9)
-    countries (4.1.1)
-      i18n_data (~> 0.13.1)
+    countries (4.1.2)
+      i18n_data (~> 0.15.0)
       sixarm_ruby_unaccent (~> 1.1)
     country_select (6.0.0)
       countries (~> 4.0)
@@ -180,8 +180,10 @@ GEM
     hashie (5.0.0)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
-    i18n_data (0.13.1)
-    jbuilder (2.11.4)
+    i18n_data (0.15.0)
+      simple_po_parser (~> 1.1)
+    jbuilder (2.11.5)
+      actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
@@ -340,6 +342,7 @@ GEM
     simple_form (5.1.0)
       actionpack (>= 5.2)
       activemodel (>= 5.2)
+    simple_po_parser (1.1.5)
     sixarm_ruby_unaccent (1.2.0)
     sort_alphabetical (1.1.0)
       unicode_utils (>= 1.2.2)

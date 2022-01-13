@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: afe5efc60dc701a1f4d267704871bc9a56468fb8
+  revision: e2c73d6b8570aa18cf2f648c61a22b3103657bbd
   branch: main
   specs:
     socializer (0.1.13)
@@ -95,7 +95,7 @@ GEM
       zeitwerk (~> 2.3)
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    autoprefixer-rails (10.4.0.0)
+    autoprefixer-rails (10.4.2.0)
       execjs (~> 2)
     bcrypt (3.1.16)
     bindex (0.8.1)
@@ -212,10 +212,10 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     nio4r (2.5.8)
-    nokogiri (1.13.0)
+    nokogiri (1.13.1)
       mini_portile2 (~> 2.7.0)
       racc (~> 1.4)
-    nokogiri (1.13.0-x86_64-darwin)
+    nokogiri (1.13.1-x86_64-darwin)
       racc (~> 1.4)
     oauth (0.5.8)
     oauth2 (1.4.7)
@@ -425,4 +425,4 @@ RUBY VERSION
    ruby 3.0.3p157
 
 BUNDLED WITH
-   2.3.4
+   2.3.5

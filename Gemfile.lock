@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 7751f6bd53b4272e4ad9fe5f4796a5240efef05c
+  revision: d9f9ec85c9573ab40eda957e58ea7f3e706afbbf
   branch: main
   specs:
     socializer (0.1.13)
@@ -308,7 +308,7 @@ GEM
     rexml (3.2.5)
     rspec-core (3.10.1)
       rspec-support (~> 3.10.0)
-    rspec-expectations (3.10.1)
+    rspec-expectations (3.10.2)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.10.0)
     rspec-mocks (3.10.2)

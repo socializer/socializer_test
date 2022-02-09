@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: cb4a0a3bd50946f93791544ecf90057f6cc562c2
+  revision: 9a28f1f13f3a138af23403a7d894226bce9694a3
   branch: main
   specs:
     socializer (0.1.13)
@@ -306,14 +306,14 @@ GEM
     request_store (1.5.1)
       rack (>= 1.4)
     rexml (3.2.5)
-    rspec-core (3.10.2)
-      rspec-support (~> 3.10.0)
-    rspec-expectations (3.10.2)
+    rspec-core (3.11.0)
+      rspec-support (~> 3.11.0)
+    rspec-expectations (3.11.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.10.0)
-    rspec-mocks (3.10.3)
+      rspec-support (~> 3.11.0)
+    rspec-mocks (3.11.0)
       diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.10.0)
+      rspec-support (~> 3.11.0)
     rspec-rails (5.1.0)
       actionpack (>= 5.2)
       activesupport (>= 5.2)
@@ -322,7 +322,7 @@ GEM
       rspec-expectations (~> 3.10)
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
-    rspec-support (3.10.3)
+    rspec-support (3.11.0)
     ruby-openid (2.9.2)
     ruby2_keywords (0.0.5)
     rubyzip (2.3.2)

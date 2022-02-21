@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: a1d0c4e00915051249167d51aeca102b22760655
+  revision: d141ef9d1b265f93a77b6042aea2be4c3952481c
   branch: main
   specs:
     socializer (0.1.13)
@@ -186,16 +186,16 @@ GEM
     memory_profiler (1.0.0)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.7.1)
+    mini_portile2 (2.8.0)
     minitest (5.15.0)
     msgpack (1.4.5)
     multi_json (1.15.0)
     multi_xml (0.6.0)
     nio4r (2.5.8)
-    nokogiri (1.13.1)
-      mini_portile2 (~> 2.7.0)
+    nokogiri (1.13.2)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
-    nokogiri (1.13.1-x86_64-darwin)
+    nokogiri (1.13.2-x86_64-darwin)
       racc (~> 1.4)
     oauth (0.5.8)
     oauth2 (1.4.9)

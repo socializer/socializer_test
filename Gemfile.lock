@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 6a150604634738d5f99295d00d529c2f5be9da9c
+  revision: a252795b87b0ff99da3f9e10c5d59d9ceea802b7
   branch: main
   specs:
     socializer (0.1.13)
@@ -241,7 +241,7 @@ GEM
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.3)
-    rack-mini-profiler (2.3.4)
+    rack-mini-profiler (3.0.0)
       rack (>= 1.2.0)
     rack-openid (1.4.2)
       rack (>= 1.1.0)
@@ -338,7 +338,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.4.2)
-    stackprof (0.2.18)
+    stackprof (0.2.19)
     thor (1.2.1)
     tilt (2.0.10)
     tzinfo (2.0.4)
@@ -405,4 +405,4 @@ RUBY VERSION
    ruby 3.0.3p157
 
 BUNDLED WITH
-   2.3.7
+   2.3.8

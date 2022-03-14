@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: c7cacba1b913f1f142272b05a333555906c1fca4
+  revision: ec351a870a86ee37632e544b889b73c11d1b070e
   branch: main
   specs:
     socializer (0.1.13)
@@ -19,7 +19,7 @@ GIT
       omniauth-openid (~> 2.0.1)
       omniauth-rails_csrf_protection
       omniauth-twitter (~> 1.4.0)
-      rails (~> 6.1.3)
+      rails (~> 6.1.5)
       sass-rails (~> 6.0.0)
       simple_form (~> 5.1.0)
       uglifier (>= 4.1.19)
@@ -387,7 +387,7 @@ DEPENDENCIES
   pry-rails
   puma (~> 5.6)
   rack-mini-profiler
-  rails (~> 6.1.3)
+  rails (~> 6.1.5)
   rexml
   rspec-rails (~> 5.1.0)
   sass-rails (>= 6)

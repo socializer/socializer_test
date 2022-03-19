@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 33d20fa0d393fa805dbdcd66c49ebf2275e15b8a
+  revision: f28d3138c266a6cd9aa38185b94b7f0d39394b5b
   branch: main
   specs:
     socializer (0.1.13)
@@ -149,7 +149,7 @@ GEM
       activesupport (>= 3.2)
     erubi (1.10.0)
     execjs (2.8.1)
-    factory_bot (6.2.0)
+    factory_bot (6.2.1)
       activesupport (>= 5.0.0)
     factory_bot_rails (6.2.0)
       factory_bot (~> 6.2.0)

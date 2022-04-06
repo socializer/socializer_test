@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 33c4ceae5161d516db9477920307ded0c3ae2b93
+  revision: 4b2ae668d4a17975e02fc14e779bb83470c3a49d
   branch: main
   specs:
     socializer (0.1.13)
@@ -176,7 +176,7 @@ GEM
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.15.0)
+    loofah (2.16.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -188,7 +188,7 @@ GEM
     mini_mime (1.1.2)
     mini_portile2 (2.8.0)
     minitest (5.15.0)
-    msgpack (1.4.5)
+    msgpack (1.5.0)
     multi_json (1.15.0)
     multi_xml (0.6.0)
     nio4r (2.5.8)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 843151f54c57b0185622726e7db179b7e188c7d2
+  revision: ed040a4c729a33eee30dc09e9f9bd0f9d100e142
   branch: main
   specs:
     socializer (0.1.13)
@@ -186,15 +186,11 @@ GEM
     memory_profiler (1.0.0)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.0)
     minitest (5.15.0)
     msgpack (1.5.1)
     multi_json (1.15.0)
     multi_xml (0.6.0)
     nio4r (2.5.8)
-    nokogiri (1.13.3)
-      mini_portile2 (~> 2.8.0)
-      racc (~> 1.4)
     nokogiri (1.13.3-x86_64-darwin)
       racc (~> 1.4)
     oauth (0.5.8)
@@ -282,7 +278,7 @@ GEM
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    regexp_parser (2.2.1)
+    regexp_parser (2.3.0)
     request_store (1.5.1)
       rack (>= 1.4)
     rexml (3.2.5)
@@ -368,9 +364,7 @@ GEM
     zeitwerk (2.5.4)
 
 PLATFORMS
-  ruby
-  x86_64-darwin-19
-  x86_64-darwin-20
+  x86_64-darwin-21
 
 DEPENDENCIES
   active_record_doctor
@@ -402,7 +396,7 @@ DEPENDENCIES
   webpacker (~> 5.4)
 
 RUBY VERSION
-   ruby 3.0.3p157
+   ruby 3.1.1p18
 
 BUNDLED WITH
-   2.3.10
+   2.3.11

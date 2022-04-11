@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: dc4177e3799a445b97a69c9f15f610ad1f461e09
+  revision: d15614fb5302b3bda3ec5897af8ac91ab80e9720
   branch: main
   specs:
     socializer (0.1.13)
@@ -157,7 +157,7 @@ GEM
     faraday (2.2.0)
       faraday-net_http (~> 2.0)
       ruby2_keywords (>= 0.0.4)
-    faraday-net_http (2.0.1)
+    faraday-net_http (2.0.2)
     ffi (1.15.5)
     flamegraph (0.9.5)
     globalid (1.0.0)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: d15614fb5302b3bda3ec5897af8ac91ab80e9720
+  revision: 31f234d126334807ae26dd6834fe33c1d01a9357
   branch: main
   specs:
     socializer (0.1.13)
@@ -191,7 +191,7 @@ GEM
     multi_json (1.15.0)
     multi_xml (0.6.0)
     nio4r (2.5.8)
-    nokogiri (1.13.3-x86_64-darwin)
+    nokogiri (1.13.4-x86_64-darwin)
       racc (~> 1.4)
     oauth (0.5.8)
     oauth2 (1.4.9)
@@ -232,7 +232,7 @@ GEM
       method_source (~> 1.0)
     pry-rails (0.3.9)
       pry (>= 0.10.4)
-    public_suffix (4.0.6)
+    public_suffix (4.0.7)
     puma (5.6.4)
       nio4r (~> 2.0)
     racc (1.6.0)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: b4499183d23d3e4af8bf05afb5801f253133a757
+  revision: 8688d78bef8b75aa7bfa50537c2694b8b32ff12c
   branch: main
   specs:
     socializer (0.1.13)
@@ -278,7 +278,7 @@ GEM
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    regexp_parser (2.3.0)
+    regexp_parser (2.3.1)
     request_store (1.5.1)
       rack (>= 1.4)
     rexml (3.2.5)
@@ -290,7 +290,7 @@ GEM
     rspec-mocks (3.11.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.11.0)
-    rspec-rails (5.1.1)
+    rspec-rails (5.1.2)
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       railties (>= 5.2)

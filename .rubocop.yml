@@ -1,0 +1,66 @@
+require:
+  - rubocop-performance
+  - rubocop-rails
+  # - rubocop-rake
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - "bin/**/*"
+    - "features/support/env.rb"
+    - "lib/tasks/cucumber.rake"
+    - "script/cucumber"
+    - "spec/dummy/**/*"
+    - "spec/i18n_spec.rb"
+    - "vendor/**/*"
+    - ".git/**/*"
+
+  # Cop names are not displayed in offense messages by default. Change behavior
+  # by overriding DisplayCopNames, or by giving the -D/--display-cop-names
+  # option.
+  DisplayCopNames: true
+  # Style guide URLs are not displayed in offense messages by default. Change
+  # behavior by overriding DisplayStyleGuide, or by giving the
+  # -S/--display-style-guide option.
+  DisplayStyleGuide: true
+  # Extra details are not displayed in offense messages by default. Change
+  # behavior by overriding ExtraDetails, or by giving the
+  # `-E/--extra-details` option.
+  ExtraDetails: false
+  # Additional cops that do not reference a style guide rule may be enabled by
+  # default. Change behavior by overriding StyleGuideCopsOnly, or by giving
+  # the --only-guide-cops option.
+  StyleGuideCopsOnly: false
+  # What version of the Ruby interpreter is the inspected code intended to
+  # run on? (If there is more than one, set this to the lowest version.)
+  TargetRubyVersion: 3.1
+
+Layout/HashAlignment:
+  Exclude:
+    - "config/initializers/simple_form.rb"
+
+Layout/LineLength:
+  Description: 'Limit lines to 80 characters.'
+  Max: 80
+  Enabled: true
+  Exclude:
+    - "config/initializers/simple_form.rb"
+    - "config/initializers/simple_form_bootstrap.rb"
+
+Metrics/BlockLength:
+  CountComments: false  # count full line comments?
+  Max: 25
+  Exclude:
+    - "Rakefile"
+    - "**/*.rake"
+    - "spec/**/*.rb"
+    - "**/*.gemspec"
+    - "config/routes.rb"
+    - "config/initializers/simple_form_bootstrap.rb"
+
+Style/RegexpLiteral:
+  Exclude:
+    - "**/*.gemspec"
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes

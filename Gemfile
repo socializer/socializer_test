@@ -60,6 +60,12 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  gem "active_record_doctor"
+end
+
+group :test do
+  gem "rexml"
 end
 
 gem "socializer", github: "socializer/socializer", branch: "main"

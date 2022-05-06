@@ -1,0 +1,12 @@
+inherit_from: ../../.rubocop.yml
+
+require: rubocop-rails
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: ecd4581022f2a9815ff07703bf56dcf8000f201c
+  revision: 1f7ecab657f684ed11b274bef6dbee3e537a7a73
   branch: main
   specs:
     socializer (0.1.13)
@@ -108,6 +108,7 @@ GEM
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
     builder (3.2.4)
+    bundler-integrity (1.0.9)
     coffee-rails (5.0.0)
       coffee-script (>= 2.2.0)
       railties (>= 5.2.0)
@@ -163,7 +164,7 @@ GEM
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
     jwt (2.3.0)
-    loofah (2.17.0)
+    loofah (2.18.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
@@ -300,7 +301,7 @@ GEM
     sqlite3 (1.4.2)
     stimulus-rails (1.0.4)
       railties (>= 6.0.0)
-    strscan (3.0.2)
+    strscan (3.0.3)
     thor (1.2.1)
     tilt (2.0.10)
     timeout (0.2.0)
@@ -329,6 +330,7 @@ PLATFORMS
 DEPENDENCIES
   active_record_doctor
   bootsnap
+  bundler-integrity (~> 1.0)
   debug
   importmap-rails
   jbuilder

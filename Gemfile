@@ -79,3 +79,5 @@ gem "socializer", github: "socializer/socializer", branch: "main"
 # gem "memory_profiler"
 # gem "rack-mini-profiler"
 # gem "stackprof" # ruby 2.1+ only
+
+gem "bundler-integrity", "~> 1.0"

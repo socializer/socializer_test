@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: daf8ebf79d723e326d531eaf9a7a88a056713c2b
+  revision: 82cc18884290771a02142df5e0b6be5220b73352
   branch: main
   specs:
     socializer (0.1.13)
@@ -152,7 +152,7 @@ GEM
       concurrent-ruby (~> 1.0)
     i18n_data (0.16.0)
       simple_po_parser (~> 1.1)
-    importmap-rails (1.0.3)
+    importmap-rails (1.1.0)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
     io-console (0.5.11)
@@ -305,8 +305,9 @@ GEM
     thor (1.2.1)
     tilt (2.0.10)
     timeout (0.2.0)
-    turbo-rails (1.0.1)
+    turbo-rails (1.1.1)
       actionpack (>= 6.0.0)
+      activejob (>= 6.0.0)
       railties (>= 6.0.0)
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)

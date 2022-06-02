@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_04_29_221352) do
+ActiveRecord::Schema[7.0].define(version: 2022_06_02_224280) do
   create_table "socializer_activities", force: :cascade do |t|
     t.integer "actor_id", null: false
     t.integer "activity_object_id", null: false
@@ -246,7 +246,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_04_29_221352) do
 
   create_table "socializer_person_places", force: :cascade do |t|
     t.integer "person_id", null: false
-    t.string "city_name"
+    t.string "city_name", null: false
     t.boolean "current", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: e2c7b24239b2be9b871d86ad0ec3af17dbd25fd2
+  revision: 64049a23fc96dea5d9f90153b4da1979308f223c
   branch: main
   specs:
     socializer (0.1.13)
@@ -172,7 +172,7 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    minitest (5.15.0)
+    minitest (5.16.0)
     msgpack (1.5.2)
     multi_json (1.15.0)
     multi_xml (0.6.0)
@@ -298,7 +298,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.3)
+    sqlite3 (1.4.4)
     stimulus-rails (1.0.4)
       railties (>= 6.0.0)
     strscan (3.0.3)
@@ -351,4 +351,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.15
+   2.3.16

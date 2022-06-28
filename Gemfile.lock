@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 9ceddc6054ac689e9a5095f3afebfd1b5c03c9a8
+  revision: c7a99fe5e94100e18f481aa6413fcc954ff71782
   branch: main
   specs:
     socializer (0.1.13)
@@ -192,7 +192,7 @@ GEM
     nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
     oauth (0.5.10)
-    oauth2 (2.0.2)
+    oauth2 (2.0.3)
       faraday (>= 0.17.3, < 3.0)
       jwt (>= 1.0, < 3.0)
       multi_xml (~> 0.5)
@@ -289,7 +289,7 @@ GEM
     sixarm_ruby_unaccent (1.2.0)
     sort_alphabetical (1.1.0)
       unicode_utils (>= 1.2.2)
-    sprockets (4.1.0)
+    sprockets (4.1.1)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
     sprockets-rails (3.4.2)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: c7a99fe5e94100e18f481aa6413fcc954ff71782
+  revision: 5d750acd6af5ce820448a9c11c9b34e955b69a6b
   branch: main
   specs:
     socializer (0.1.13)
@@ -235,7 +235,7 @@ GEM
       ruby-openid (>= 2.1.8)
     rack-protection (2.2.0)
       rack
-    rack-test (2.0.1)
+    rack-test (2.0.2)
       rack (>= 1.3)
     rails (7.0.3)
       actioncable (= 7.0.3)
@@ -350,4 +350,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.16
+   2.3.17

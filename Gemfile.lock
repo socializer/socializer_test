@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 3d0fb007ea886c6500b304eb5e599daf28b0927e
+  revision: 5cd77bc511135f75d135e781559fc793224dacb3
   branch: main
   specs:
     socializer (0.1.13)
@@ -122,9 +122,9 @@ GEM
     country_select (8.0.0)
       countries (~> 5.0)
     crass (1.0.6)
-    debug (1.5.0)
+    debug (1.6.0)
       irb (>= 1.3.6)
-      reline (>= 0.2.7)
+      reline (>= 0.3.1)
     digest (3.1.0)
     draper (4.0.2)
       actionpack (>= 5.0)
@@ -146,7 +146,7 @@ GEM
     globalid (1.0.0)
       activesupport (>= 5.0)
     hashie (5.0.0)
-    i18n (1.10.0)
+    i18n (1.11.0)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.1.2)
       actionpack (>= 6.0.0)

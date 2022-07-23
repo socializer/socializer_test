@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 3add44a10c1e4facbce54a1e6cc50ea7d217e944
+  revision: acdb0c949daf252249014fc6489f7ee21fd09cd2
   branch: main
   specs:
     socializer (0.1.13)
@@ -298,7 +298,7 @@ GEM
       railties (>= 6.0.0)
     strscan (3.0.3)
     thor (1.2.1)
-    tilt (2.0.10)
+    tilt (2.0.11)
     timeout (0.3.0)
     turbo-rails (1.1.1)
       actionpack (>= 6.0.0)

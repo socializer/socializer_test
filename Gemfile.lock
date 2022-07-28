@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 7fad0afa0e86db14ec39ff070417ee2e72c00d79
+  revision: b78f46f8e5753204f10c21023e41821a8244d0c6
   branch: main
   specs:
     socializer (0.1.13)
@@ -102,7 +102,7 @@ GEM
       execjs (~> 2)
     bcrypt (3.1.18)
     bindex (0.8.1)
-    bootsnap (1.12.0)
+    bootsnap (1.13.0)
       msgpack (~> 1.2)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
@@ -138,10 +138,10 @@ GEM
       activesupport (>= 3.2)
     erubi (1.10.0)
     execjs (2.8.1)
-    faraday (2.3.0)
+    faraday (2.4.0)
       faraday-net_http (~> 2.0)
       ruby2_keywords (>= 0.0.4)
-    faraday-net_http (2.0.3)
+    faraday-net_http (2.1.0)
     ffi (1.15.5)
     globalid (1.0.0)
       activesupport (>= 5.0)
@@ -169,7 +169,7 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.16.2)
-    msgpack (1.5.3)
+    msgpack (1.5.4)
     multi_xml (0.6.0)
     net-imap (0.2.3)
       digest
@@ -224,7 +224,7 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
-    pg (1.4.1)
+    pg (1.4.2)
     puma (5.6.4)
       nio4r (~> 2.0)
     racc (1.6.0)

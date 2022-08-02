@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: b78f46f8e5753204f10c21023e41821a8244d0c6
+  revision: 443878e8e0cf3b0d6e5ea6c1940b5799c55ac4c8
   branch: main
   specs:
     socializer (0.1.13)
@@ -136,7 +136,7 @@ GEM
     elasticsearch-rails (7.2.1)
     enumerize (2.5.0)
       activesupport (>= 3.2)
-    erubi (1.10.0)
+    erubi (1.11.0)
     execjs (2.8.1)
     faraday (2.4.0)
       faraday-net_http (~> 2.0)
@@ -224,7 +224,6 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
-    pg (1.4.2)
     puma (5.6.4)
       nio4r (~> 2.0)
     racc (1.6.0)
@@ -330,7 +329,6 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
-  pg (~> 1.4)
   puma (~> 5.0)
   rails (~> 7.0.2, >= 7.0.2.3)
   rexml

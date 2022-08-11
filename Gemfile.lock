@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: f332bd8b1350fd5286ca89a21f426ba231894969
+  revision: 807f17fbe5cc874445186bcb910249e271730114
   branch: main
   specs:
     socializer (0.1.13)
@@ -117,7 +117,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.10)
-    countries (5.1.1)
+    countries (5.1.2)
       sixarm_ruby_unaccent (~> 1.1)
     country_select (8.0.0)
       countries (~> 5.0)
@@ -138,7 +138,7 @@ GEM
       activesupport (>= 3.2)
     erubi (1.11.0)
     execjs (2.8.1)
-    faraday (2.5.1)
+    faraday (2.5.2)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.0)

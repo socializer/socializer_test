@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: c2b1875e77014f682ce664045e2a9e8148e9415e
+  revision: 41fff6b794009f0bb1c903706d63339393e11619
   branch: main
   specs:
     socializer (0.1.13)
@@ -168,7 +168,7 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
-    minitest (5.16.2)
+    minitest (5.16.3)
     msgpack (1.5.4)
     multi_xml (0.6.0)
     net-imap (0.2.3)

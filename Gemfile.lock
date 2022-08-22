@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 14a8fab4cf89d9d4a297821b3828e201add5d115
+  revision: 6a728e6c9d65a92b13afcc912e54d3205a284b16
   branch: main
   specs:
     socializer (0.1.13)
@@ -169,7 +169,7 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.16.3)
-    msgpack (1.5.4)
+    msgpack (1.5.5)
     multi_xml (0.6.0)
     net-imap (0.2.3)
       digest
@@ -191,7 +191,7 @@ GEM
     nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
     oauth (0.5.10)
-    oauth2 (2.0.6)
+    oauth2 (2.0.7)
       faraday (>= 0.17.3, < 3.0)
       jwt (>= 1.0, < 3.0)
       multi_xml (~> 0.5)

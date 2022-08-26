@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 6a728e6c9d65a92b13afcc912e54d3205a284b16
+  revision: 31e2d820054b7468729dab38a0dbe096b1065aea
   branch: main
   specs:
     socializer (0.1.13)
@@ -159,7 +159,7 @@ GEM
       activesupport (>= 5.0.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
-    jwt (2.4.1)
+    jwt (2.5.0)
     loofah (2.18.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -169,7 +169,7 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.16.3)
-    msgpack (1.5.5)
+    msgpack (1.5.6)
     multi_xml (0.6.0)
     net-imap (0.2.3)
       digest
@@ -190,7 +190,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.13.8-x86_64-linux)
       racc (~> 1.4)
-    oauth (0.5.10)
+    oauth (1.0.0)
+      version_gem (~> 1.1)
     oauth2 (2.0.7)
       faraday (>= 0.17.3, < 3.0)
       jwt (>= 1.0, < 3.0)
@@ -224,7 +225,7 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
-    puma (5.6.4)
+    puma (5.6.5)
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.4)

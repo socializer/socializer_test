@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 5a435e09e91e4b23f97d31073866618f1d83f5d7
+  revision: cc567f2b99342533baefb9733d57f3f7ec5a379b
   branch: main
   specs:
     socializer (0.1.13)
@@ -196,12 +196,12 @@ GEM
       version_gem (~> 1.1)
     oauth-tty (1.0.2)
       version_gem (~> 1.1)
-    oauth2 (2.0.7)
+    oauth2 (2.0.8)
       faraday (>= 0.17.3, < 3.0)
       jwt (>= 1.0, < 3.0)
       multi_xml (~> 0.5)
       rack (>= 1.2, < 3)
-      rash_alt (>= 0.4, < 1)
+      snaky_hash (~> 2.0)
       version_gem (~> 1.1)
     omniauth (2.1.0)
       hashie (>= 3.4.6)
@@ -267,8 +267,6 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
-    rash_alt (0.4.12)
-      hashie (>= 3.4)
     reline (0.3.1)
       io-console (~> 0.5)
     request_store (1.5.1)

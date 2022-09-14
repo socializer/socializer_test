@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 55b0b71d328d1d37d85545c153efa9349c56c35b
+  revision: 2b3a39657fa00ea7b88d589dda8cbf8e3ba5271c
   branch: main
   specs:
     socializer (0.1.13)
@@ -160,7 +160,7 @@ GEM
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
     jwt (2.5.0)
-    loofah (2.18.0)
+    loofah (2.19.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)

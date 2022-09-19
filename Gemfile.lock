@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 4b3d2bdb9cb539c0075dcbdf876a3bf811782e32
+  revision: 0734fe14a14150f1c80fe6904ad1af2d3ea4ec9c
   branch: main
   specs:
     socializer (0.1.13)
@@ -194,8 +194,8 @@ GEM
       oauth-tty (~> 1.0, >= 1.0.1)
       snaky_hash (~> 2.0)
       version_gem (~> 1.1)
-    oauth-tty (1.0.3)
-      version_gem (~> 1.1)
+    oauth-tty (1.0.4)
+      version_gem (~> 1.1, >= 1.1.1)
     oauth2 (2.0.9)
       faraday (>= 0.17.3, < 3.0)
       jwt (>= 1.0, < 3.0)
@@ -314,7 +314,7 @@ GEM
       concurrent-ruby (~> 1.0)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
-    version_gem (1.1.0)
+    version_gem (1.1.1)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)

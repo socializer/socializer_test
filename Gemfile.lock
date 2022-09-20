@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 0734fe14a14150f1c80fe6904ad1af2d3ea4ec9c
+  revision: bf468bce2a35383b40a8bf85bac8ed4b3011b639
   branch: main
   specs:
     socializer (0.1.13)
@@ -194,7 +194,7 @@ GEM
       oauth-tty (~> 1.0, >= 1.0.1)
       snaky_hash (~> 2.0)
       version_gem (~> 1.1)
-    oauth-tty (1.0.4)
+    oauth-tty (1.0.5)
       version_gem (~> 1.1, >= 1.1.1)
     oauth2 (2.0.9)
       faraday (>= 0.17.3, < 3.0)

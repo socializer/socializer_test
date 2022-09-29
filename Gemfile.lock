@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 3aa8b4d6d95c121122f72ee5f2205120a03ea09f
+  revision: 3312dfedd879541b1b02a78f38d80855a0219fed
   branch: main
   specs:
     socializer (0.1.13)
@@ -170,7 +170,7 @@ GEM
     minitest (5.16.3)
     msgpack (1.5.6)
     multi_xml (0.6.0)
-    net-imap (0.3.0)
+    net-imap (0.3.1)
       net-protocol
     net-pop (0.1.2)
       net-protocol

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: e0448d067b981986c4e6e70f6b8c83cf55cbfc3c
+  revision: d87111a0bb2e2dbebfa6247e722d6af1d64b8104
   branch: main
   specs:
     socializer (0.1.13)
@@ -315,7 +315,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.3)
+    zeitwerk (2.6.4)
 
 PLATFORMS
   x86_64-darwin-21

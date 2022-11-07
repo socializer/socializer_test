@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 8aca344d3d193c4c08248d1b7407e888650f7a1e
+  revision: 6e037ac4375750a0f7c52867d26aea90ec605503
   branch: main
   specs:
     socializer (0.1.13)
@@ -315,7 +315,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.4)
+    zeitwerk (2.6.5)
 
 PLATFORMS
   x86_64-darwin-21
@@ -343,4 +343,4 @@ RUBY VERSION
    ruby 3.1.2p20
 
 BUNDLED WITH
-   2.3.24
+   2.3.25

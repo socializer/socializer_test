@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 696efc1850511dbfa131544b7842ac0629a0eee9
+  revision: 933cb9ec53ff2fef39e320687c7d5d5612b18a5f
   branch: main
   specs:
     socializer (0.1.13)
@@ -151,7 +151,7 @@ GEM
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
     io-console (0.5.11)
-    irb (1.4.3)
+    irb (1.5.0)
       reline (>= 0.3.0)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)

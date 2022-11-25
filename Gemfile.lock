@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 0eab01ecd267d62ec806b5589bc4e1abbc08709d
+  revision: a256af5b7ddc4e6a573234d60ed6246ce1011030
   branch: main
   specs:
     socializer (0.1.13)
@@ -102,7 +102,7 @@ GEM
       execjs (~> 2)
     bcrypt (3.1.18)
     bindex (0.8.1)
-    bootsnap (1.14.0)
+    bootsnap (1.15.0)
       msgpack (~> 1.2)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
@@ -229,7 +229,7 @@ GEM
     rack-openid (1.4.2)
       rack (>= 1.1.0)
       ruby-openid (>= 2.1.8)
-    rack-protection (3.0.3)
+    rack-protection (3.0.4)
       rack
     rack-test (2.0.2)
       rack (>= 1.3)

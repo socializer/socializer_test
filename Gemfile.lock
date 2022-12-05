@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 7cacb2f1a59ec7e2ad67ee6db54fe35c7850e2d6
+  revision: 93c7a5b34f4bedf397b0fb4ee484948b542d72c6
   branch: main
   specs:
     socializer (0.1.13)
@@ -177,7 +177,7 @@ GEM
       net-protocol
     net-pop (0.1.2)
       net-protocol
-    net-protocol (0.1.3)
+    net-protocol (0.2.0)
       timeout
     net-smtp (0.3.3)
       net-protocol
@@ -227,7 +227,7 @@ GEM
       rack
     puma (6.0.0)
       nio4r (~> 2.0)
-    racc (1.6.0)
+    racc (1.6.1)
     rack (2.2.4)
     rack-openid (1.4.2)
       rack (>= 1.1.0)
@@ -299,7 +299,7 @@ GEM
       railties (>= 6.0.0)
     thor (1.2.1)
     tilt (2.0.11)
-    timeout (0.3.0)
+    timeout (0.3.1)
     turbo-rails (1.3.2)
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)

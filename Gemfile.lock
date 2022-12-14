@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 324e258d57dcc1b41f97bf17afdca7f1fa523094
+  revision: feaa5ae4946f10b27a80c8422909043ac64a11b8
   branch: main
   specs:
     socializer (0.1.13)
@@ -138,7 +138,7 @@ GEM
       activesupport (>= 3.2)
     erubi (1.11.0)
     execjs (2.8.1)
-    faraday (2.7.1)
+    faraday (2.7.2)
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
@@ -265,7 +265,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
-    reline (0.3.1)
+    reline (0.3.2)
       io-console (~> 0.5)
     request_store (1.5.1)
       rack (>= 1.4)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 44540292e51b1dd59697aabb6a546f501032d2c6
+  revision: 4d68a07bbaad85ad2105819c67986992f5c26e17
   branch: main
   specs:
     socializer (0.1.13)
@@ -117,13 +117,13 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.10)
-    countries (5.2.0)
+    countries (5.2.1)
       unaccent (~> 0.3)
     country_select (8.0.0)
       countries (~> 5.0)
     crass (1.0.6)
     date (3.3.3)
-    debug (1.7.0)
+    debug (1.7.1)
       irb (>= 1.5.0)
       reline (>= 0.3.1)
     draper (4.0.2)
@@ -136,7 +136,7 @@ GEM
     elasticsearch-rails (7.2.1)
     enumerize (2.5.0)
       activesupport (>= 3.2)
-    erubi (1.11.0)
+    erubi (1.12.0)
     execjs (2.8.1)
     faraday (2.7.2)
       faraday-net_http (>= 2.0, < 3.1)

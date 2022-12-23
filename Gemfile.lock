@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 4d68a07bbaad85ad2105819c67986992f5c26e17
+  revision: 0727de6ef37436ecdf758487a43cd216381165d9
   branch: main
   specs:
     socializer (0.1.13)
@@ -159,7 +159,7 @@ GEM
       activesupport (>= 5.0.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
-    jwt (2.5.0)
+    jwt (2.6.0)
     loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -174,7 +174,7 @@ GEM
     minitest (5.16.3)
     msgpack (1.6.0)
     multi_xml (0.6.0)
-    net-imap (0.3.3)
+    net-imap (0.3.4)
       date
       net-protocol
     net-pop (0.1.2)
@@ -229,7 +229,7 @@ GEM
       rack
     puma (6.0.1)
       nio4r (~> 2.0)
-    racc (1.6.1)
+    racc (1.6.2)
     rack (2.2.4)
     rack-openid (1.4.2)
       rack (>= 1.1.0)

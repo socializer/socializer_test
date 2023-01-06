@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: ffcb26db8954924c76e6fbc56715fa068937593a
+  revision: 842bde7c61e5aeaf051abd75e4fea2bf1510fc89
   branch: main
   specs:
     socializer (0.1.13)
@@ -117,9 +117,9 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.10)
-    countries (5.2.1)
+    countries (5.3.0)
       unaccent (~> 0.3)
-    country_select (8.0.0)
+    country_select (8.0.1)
       countries (~> 5.0)
     crass (1.0.6)
     date (3.3.3)
@@ -167,7 +167,7 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     mini_portile2 (2.8.1)
-    minitest (5.16.3)
+    minitest (5.17.0)
     msgpack (1.6.0)
     multi_xml (0.6.0)
     net-imap (0.3.4)
@@ -222,10 +222,10 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
-    puma (6.0.1)
+    puma (6.0.2)
       nio4r (~> 2.0)
     racc (1.6.2)
-    rack (2.2.4)
+    rack (2.2.5)
     rack-openid (1.4.2)
       rack (>= 1.1.0)
       ruby-openid (>= 2.1.8)

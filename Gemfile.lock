@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: b4bcf793cd29ef7e6a56d6f9eb0417e6283aa0bf
+  revision: 37903f545d31293e903fcb54b5198fdab74ed4c3
   branch: main
   specs:
     socializer (0.1.13)
@@ -102,7 +102,7 @@ GEM
       execjs (~> 2)
     bcrypt (3.1.18)
     bindex (0.8.1)
-    bootsnap (1.15.0)
+    bootsnap (1.16.0)
       msgpack (~> 1.2)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
@@ -141,7 +141,7 @@ GEM
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
     ffi (1.15.5)
-    globalid (1.0.1)
+    globalid (1.1.0)
       activesupport (>= 5.0)
     hashie (5.0.0)
     i18n (1.12.0)

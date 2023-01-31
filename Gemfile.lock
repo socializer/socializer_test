@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 51eb8a1eefeeb16ec1b173e82c6abdd869073587
+  revision: ef92d6f25cfc17222e954e595932720e823c7ab8
   branch: main
   specs:
     socializer (0.1.13)
@@ -179,7 +179,7 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.8)
-    nokogiri (1.14.0-x86_64-darwin)
+    nokogiri (1.14.1-x86_64-darwin)
       racc (~> 1.4)
     oauth (1.1.0)
       oauth-tty (~> 1.0, >= 1.0.1)

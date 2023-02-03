@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: ef92d6f25cfc17222e954e595932720e823c7ab8
+  revision: 90f7a87266dedaa6a5559a575b916b66470d7c6c
   branch: main
   specs:
     socializer (0.1.13)
@@ -154,11 +154,11 @@ GEM
       activesupport (>= 5.0.0)
     jquery-ui-rails (6.0.1)
       railties (>= 3.2.16)
-    jwt (2.6.0)
+    jwt (2.7.0)
     loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    mail (2.8.0.1)
+    mail (2.8.1)
       mini_mime (>= 0.1.1)
       net-imap
       net-pop
@@ -292,7 +292,7 @@ GEM
     thor (1.2.1)
     tilt (2.0.11)
     timeout (0.3.1)
-    turbo-rails (1.3.2)
+    turbo-rails (1.3.3)
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
       railties (>= 6.0.0)
@@ -337,4 +337,4 @@ RUBY VERSION
    ruby 3.2.0p0
 
 BUNDLED WITH
-   2.4.5
+   2.4.6

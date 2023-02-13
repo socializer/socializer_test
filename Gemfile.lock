@@ -124,6 +124,8 @@ GEM
     crass (1.0.6)
     date (3.3.3)
     debug (1.7.1)
+      irb (>= 1.5.0)
+      reline (>= 0.3.1)
     draper (4.0.2)
       actionpack (>= 5.0)
       activemodel (>= 5.0)
@@ -149,6 +151,9 @@ GEM
     importmap-rails (1.1.5)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
+    io-console (0.6.0)
+    irb (1.6.2)
+      reline (>= 0.3.0)
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
@@ -180,6 +185,8 @@ GEM
       net-protocol
     nio4r (2.5.8)
     nokogiri (1.14.1-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.14.1-x86_64-linux)
       racc (~> 1.4)
     oauth (1.1.0)
       oauth-tty (~> 1.0, >= 1.0.1)
@@ -220,7 +227,7 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
-    puma (6.0.2)
+    puma (6.1.0)
       nio4r (~> 2.0)
     racc (1.6.2)
     rack (2.2.6.2)
@@ -258,6 +265,8 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
+    reline (0.3.2)
+      io-console (~> 0.5)
     request_store (1.5.1)
       rack (>= 1.4)
     rexml (3.2.5)
@@ -287,6 +296,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.0-x86_64-darwin)
+    sqlite3 (1.6.0-x86_64-linux)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     thor (1.2.1)
@@ -314,6 +324,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   active_record_doctor
@@ -322,7 +333,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
-  puma (~> 6.0)
+  puma (~> 6.1)
   rails (~> 7.0.2, >= 7.0.2.3)
   rexml
   socializer!

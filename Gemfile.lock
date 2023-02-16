@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: c6b4a69e106d27de5ecc9ed5a477a1b57a2d66c9
+  revision: b1a5295d94f5fea98a110e6ff4f4dde529cde9ff
   branch: main
   specs:
     socializer (0.1.13)
@@ -291,7 +291,7 @@ GEM
       railties (>= 6.0.0)
     thor (1.2.1)
     tilt (2.0.11)
-    timeout (0.3.1)
+    timeout (0.3.2)
     turbo-rails (1.3.3)
       actionpack (>= 6.0.0)
       activejob (>= 6.0.0)
@@ -337,4 +337,4 @@ RUBY VERSION
    ruby 3.2.1p31
 
 BUNDLED WITH
-   2.4.6
+   2.4.7

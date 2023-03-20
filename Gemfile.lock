@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: bacdac15448f3077eadbc6575dc313a62e810e9f
+  revision: 5571b981e9bb99c8c8f587c70d5e5d659b93e9ac
   branch: main
   specs:
     socializer (0.1.13)
@@ -72,7 +72,7 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.1, >= 1.2.0)
-    active_record_doctor (1.10.0)
+    active_record_doctor (1.11.0)
       activerecord (>= 4.2.0)
     activejob (7.0.4.3)
       activesupport (= 7.0.4.3)
@@ -132,7 +132,7 @@ GEM
       request_store (>= 1.0)
       ruby2_keywords
     elasticsearch-rails (7.2.1)
-    enumerize (2.6.0)
+    enumerize (2.6.1)
       activesupport (>= 3.2)
     erubi (1.12.0)
     execjs (2.8.1)
@@ -307,7 +307,7 @@ GEM
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
     unaccent (0.4.0)
-    version_gem (1.1.1)
+    version_gem (1.1.2)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)

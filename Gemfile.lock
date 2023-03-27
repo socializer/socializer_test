@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 8497752f6f4534d669a2c2c4fc1660faebdbd0dc
+  revision: 2d480ff99192e8088ddac0c3fa188bf2776b73fd
   branch: main
   specs:
     socializer (0.1.13)
@@ -290,9 +290,9 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.1-arm64-darwin)
-    sqlite3 (1.6.1-x86_64-darwin)
-    sqlite3 (1.6.1-x86_64-linux)
+    sqlite3 (1.6.2-arm64-darwin)
+    sqlite3 (1.6.2-x86_64-darwin)
+    sqlite3 (1.6.2-x86_64-linux)
     stimulus-rails (1.2.1)
       railties (>= 6.0.0)
     thor (1.2.1)
@@ -345,4 +345,4 @@ RUBY VERSION
    ruby 3.2.1p31
 
 BUNDLED WITH
-   2.4.9
+   2.4.10

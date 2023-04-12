@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 153a1e162769e294883a7eaec8b352f12bd84f34
+  revision: 348d5332c67f371bbda03d35309e508a60f4456f
   branch: main
   specs:
     socializer (0.1.13)
@@ -117,7 +117,7 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.2.2)
-    countries (5.3.2)
+    countries (5.4.0)
       unaccent (~> 0.3)
     country_select (8.0.1)
       countries (~> 5.0)
@@ -184,11 +184,11 @@ GEM
     net-smtp (0.3.3)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.14.2-arm64-darwin)
+    nokogiri (1.14.3-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.14.2-x86_64-darwin)
+    nokogiri (1.14.3-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.14.2-x86_64-linux)
+    nokogiri (1.14.3-x86_64-linux)
       racc (~> 1.4)
     oauth (1.1.0)
       oauth-tty (~> 1.0, >= 1.0.1)
@@ -352,4 +352,4 @@ RUBY VERSION
    ruby 3.2.2p53
 
 BUNDLED WITH
-   2.4.11
+   2.4.12

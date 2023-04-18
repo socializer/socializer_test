@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 30799c6f8520efcc9ce8440052b58dddad7a683d
+  revision: 327f5738f50e03fc098a1e8deab9d1f2d692841b
   branch: main
   specs:
     socializer (0.1.13)
@@ -229,7 +229,7 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
-    puma (6.2.1)
+    puma (6.2.2)
       nio4r (~> 2.0)
     racc (1.6.2)
     rack (2.2.6.4)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 1c212bf2359eb9d992ffb43a44dfb5a29b69cb56
+  revision: 0756776ac6a97304a202642b893512745bb181ae
   branch: main
   specs:
     socializer (0.1.13)
@@ -146,7 +146,7 @@ GEM
     globalid (1.1.0)
       activesupport (>= 5.0)
     hashie (5.0.0)
-    i18n (1.12.0)
+    i18n (1.13.0)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.1.6)
       actionpack (>= 6.0.0)

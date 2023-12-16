@@ -153,7 +153,7 @@ GEM
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
-    io-console (0.6.0)
+    io-console (0.7.1)
     irb (1.10.1)
       rdoc
       reline (>= 0.3.8)
@@ -272,7 +272,7 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.1.0)
-    rdoc (6.6.1)
+    rdoc (6.6.2)
       psych (>= 4.0.0)
     reline (0.4.1)
       io-console (~> 0.5)
@@ -360,4 +360,4 @@ RUBY VERSION
    ruby 3.2.2p53
 
 BUNDLED WITH
-   2.4.22
+   2.5.1

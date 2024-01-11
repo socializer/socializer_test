@@ -7,10 +7,9 @@
 # Ignore bundler config.
 /.bundle
 
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
-/db/*.sqlite3-*
+# Ignore all environment files (except templates).
+/.env*
+!/.env*.erb
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -23,7 +22,7 @@
 !/tmp/pids/
 !/tmp/pids/.keep
 
-# Ignore uploaded files in development.
+# Ignore storage (uploaded files in development and any SQLite databases).
 /storage/*
 !/storage/.keep
 /tmp/storage/*
@@ -31,10 +30,13 @@
 !/tmp/storage/.keep
 
 /public/assets
-.byebug_history
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+
+
+.byebug_history
 
 #
 # Review the ignored items below
@@ -43,6 +45,7 @@
 .DS_Store
 *.rbc
 capybara-*.html
+/.idea/**/*
 .rspec
 /public/system
 /coverage/

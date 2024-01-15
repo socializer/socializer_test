@@ -1,11 +1,24 @@
+# We want Exclude directives from different
+# config files to get merged, not overwritten
+inherit_mode:
+  merge:
+    - Exclude
+
 require:
   - rubocop-performance
   - rubocop-rails
   - rubocop-rake
 
+inherit_from:
+  - .rubocop/.rails.yml
+  - .rubocop/.rspec.yml
+  - .rubocop/.strict.yml
+
 AllCops:
   NewCops: enable
   Exclude:
+    - '**/db/migrate/*'
+    - 'db/schema.rb'
     - "bin/**/*"
     - "features/support/env.rb"
     - "lib/tasks/cucumber.rake"

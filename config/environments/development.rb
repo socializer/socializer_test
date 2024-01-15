@@ -3,7 +3,8 @@
 require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
-  # Settings specified here will take precedence over those in config/application.rb.
+  # Settings specified here will take precedence over those in
+  # config/application.rb.
 
   # In the development environment your application's code is reloaded any time
   # it changes. This slows down response time but is perfect for development
@@ -35,7 +36,8 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
-  # Store uploaded files on the local file system (see config/storage.yml for options).
+  # Store uploaded files on the local file system
+  # (see config/storage.yml for options).
   config.active_storage.service = :local
 
   # Don't care if the mailer can't send.
@@ -73,6 +75,17 @@ Rails.application.configure do
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
 
-  # Raise error when a before_action's only/except options reference missing actions
+  # Raise error when a before_action's only/except options reference missing
+  # actions
   config.action_controller.raise_on_missing_callback_actions = true
+
+  config.generators.after_generate do |files|
+    parsable_files = files.filter { |file| file.end_with?(".rb") }
+    unless parsable_files.empty?
+      system(
+        "bundle exec rubocop -A --fail-level=E #{parsable_files.shelljoin}",
+        exception: true
+      )
+    end
+  end
 end

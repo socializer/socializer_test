@@ -145,6 +145,8 @@ GEM
     country_select (9.0.0)
       countries (> 5.0, < 7.0)
     crass (1.0.6)
+    database_consistency (1.7.23)
+      activerecord (>= 3.2)
     date (3.3.4)
     debug (1.9.2)
       irb (~> 1.10)
@@ -429,6 +431,7 @@ DEPENDENCIES
   bootsnap
   bundler-integrity (~> 1.0)
   capybara
+  database_consistency
   debug
   importmap-rails
   jbuilder

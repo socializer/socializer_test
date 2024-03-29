@@ -71,6 +71,7 @@ group :development do
   # gem "spring"
 
   gem "active_record_doctor"
+  gem "database_consistency", require: false
 end
 
 group :test do

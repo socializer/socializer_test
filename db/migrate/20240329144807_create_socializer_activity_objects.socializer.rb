@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # This migration comes from socializer (originally 20110804175740)
-class CreateSocializerActivityObjects < ActiveRecord::Migration[7.0]
+class CreateSocializerActivityObjects < ActiveRecord::Migration[7.1]
   def change
     create_table :socializer_activity_objects do |t|
       t.integer  :activitable_id,             null: false

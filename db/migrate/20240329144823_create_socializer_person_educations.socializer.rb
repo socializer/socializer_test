@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # This migration comes from socializer (originally 20140131065733)
-class CreateSocializerPersonEducations < ActiveRecord::Migration[7.0]
+class CreateSocializerPersonEducations < ActiveRecord::Migration[7.1]
   def change
     create_table :socializer_person_educations do |t|
       t.references :person, null: false
@@ -10,7 +10,7 @@ class CreateSocializerPersonEducations < ActiveRecord::Migration[7.0]
       t.string   :major_or_field_of_study
       t.date     :started_on, null: false
       t.date     :ended_on
-      t.boolean  :current, default: false
+      t.boolean  :current, default: false, null: false
       # TODO: change courses_description to description
       t.text     :courses_description
 

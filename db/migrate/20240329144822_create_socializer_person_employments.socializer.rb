@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # This migration comes from socializer (originally 20140131065531)
-class CreateSocializerPersonEmployments < ActiveRecord::Migration[7.0]
+class CreateSocializerPersonEmployments < ActiveRecord::Migration[7.1]
   def change
     create_table :socializer_person_employments do |t|
       t.references :person, null: false
@@ -11,7 +11,7 @@ class CreateSocializerPersonEmployments < ActiveRecord::Migration[7.0]
       t.string   :job_title
       t.date     :started_on, null: false
       t.date     :ended_on
-      t.boolean  :current, default: false
+      t.boolean  :current, default: false, null: false
       # TODO: change job_description to description
       t.text     :job_description
 

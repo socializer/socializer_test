@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
 # This migration comes from socializer (originally 20140131070051)
-class CreateSocializerPersonContributions < ActiveRecord::Migration[7.0]
+class CreateSocializerPersonContributions < ActiveRecord::Migration[7.1]
   def change
     create_table :socializer_person_contributions do |t|
       t.references :person, null: false
       t.string   :display_name, null: false
       t.integer  :label, null: false
       t.string   :url, null: false
-      t.boolean  :current, default: false
+      t.boolean  :current, default: false, null: false
 
       t.timestamps
     end

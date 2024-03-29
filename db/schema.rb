@@ -129,7 +129,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
   create_table "socializer_memberships", force: :cascade do |t|
     t.bigint "group_id", null: false
     t.integer "member_id", null: false
-    t.boolean "active"
+    t.boolean "active", default: false, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["group_id"], name: "index_socializer_memberships_on_group_id"
@@ -147,7 +147,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
   create_table "socializer_notifications", force: :cascade do |t|
     t.bigint "activity_id", null: false
     t.bigint "activity_object_id", null: false
-    t.boolean "read", default: false
+    t.boolean "read", default: false, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["activity_id"], name: "index_socializer_notifications_on_activity_id"
@@ -165,10 +165,10 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
     t.string "occupation"
     t.string "skills"
     t.integer "gender"
-    t.boolean "looking_for_friends"
-    t.boolean "looking_for_dating"
-    t.boolean "looking_for_relationship"
-    t.boolean "looking_for_networking"
+    t.boolean "looking_for_friends", default: false, null: false
+    t.boolean "looking_for_dating", default: false, null: false
+    t.boolean "looking_for_relationship", default: false, null: false
+    t.boolean "looking_for_networking", default: false, null: false
     t.date "birthdate"
     t.integer "relationship"
     t.string "other_names"
@@ -196,7 +196,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
     t.string "display_name", null: false
     t.integer "label", null: false
     t.string "url", null: false
-    t.boolean "current", default: false
+    t.boolean "current", default: false, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["person_id"], name: "index_socializer_person_contributions_on_person_id"
@@ -208,7 +208,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
     t.string "major_or_field_of_study"
     t.date "started_on", null: false
     t.date "ended_on"
-    t.boolean "current", default: false
+    t.boolean "current", default: false, null: false
     t.text "courses_description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -221,7 +221,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
     t.string "job_title"
     t.date "started_on", null: false
     t.date "ended_on"
-    t.boolean "current", default: false
+    t.boolean "current", default: false, null: false
     t.text "job_description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -250,7 +250,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
   create_table "socializer_person_places", force: :cascade do |t|
     t.bigint "person_id", null: false
     t.string "city_name", null: false
-    t.boolean "current", default: false
+    t.boolean "current", default: false, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["person_id"], name: "index_socializer_person_places_on_person_id"

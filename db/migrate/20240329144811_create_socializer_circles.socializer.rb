@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # This migration comes from socializer (originally 20110805085417)
-class CreateSocializerCircles < ActiveRecord::Migration[7.0]
+class CreateSocializerCircles < ActiveRecord::Migration[7.1]
   def change
     create_table :socializer_circles do |t|
       t.integer :author_id, index: true, null: false
@@ -11,6 +11,8 @@ class CreateSocializerCircles < ActiveRecord::Migration[7.0]
       t.timestamps
     end
 
-    add_index :socializer_circles, %i[display_name author_id], unique: true
+    add_index :socializer_circles,
+              "lower(display_name), author_id",
+              unique: true
   end
 end

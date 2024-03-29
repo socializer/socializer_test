@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # This migration comes from socializer (originally 20140131070417)
-class CreateSocializerPersonPhones < ActiveRecord::Migration[7.0]
+class CreateSocializerPersonPhones < ActiveRecord::Migration[7.1]
   def change
     create_table :socializer_person_phones do |t|
       t.references :person, null: false

@@ -15,10 +15,10 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
   enable_extension "plpgsql"
 
   create_table "socializer_activities", force: :cascade do |t|
-    t.integer "actor_id", null: false
-    t.integer "activity_object_id", null: false
+    t.bigint "actor_id", null: false
+    t.bigint "activity_object_id", null: false
     t.bigint "verb_id", null: false
-    t.integer "target_id"
+    t.bigint "target_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["activity_object_id"], name: "index_socializer_activities_on_activity_object_id"
@@ -36,7 +36,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
   end
 
   create_table "socializer_activity_objects", force: :cascade do |t|
-    t.integer "activitable_id", null: false
+    t.bigint "activitable_id", null: false
     t.string "activitable_type", null: false
     t.integer "like_count", default: 0
     t.integer "unread_notifications_count", default: 0
@@ -58,7 +58,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
   end
 
   create_table "socializer_authentications", force: :cascade do |t|
-    t.integer "person_id", null: false
+    t.bigint "person_id", null: false
     t.string "provider", null: false
     t.string "uid", null: false
     t.string "image_url"
@@ -69,7 +69,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
   end
 
   create_table "socializer_circles", force: :cascade do |t|
-    t.integer "author_id", null: false
+    t.bigint "author_id", null: false
     t.string "display_name", null: false
     t.text "content"
     t.datetime "created_at", null: false
@@ -79,7 +79,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
   end
 
   create_table "socializer_comments", force: :cascade do |t|
-    t.integer "author_id", null: false
+    t.bigint "author_id", null: false
     t.text "content", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -104,7 +104,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
   end
 
   create_table "socializer_groups", force: :cascade do |t|
-    t.integer "author_id", null: false
+    t.bigint "author_id", null: false
     t.string "display_name", null: false
     t.integer "privacy", null: false
     t.string "tagline"
@@ -128,7 +128,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
 
   create_table "socializer_memberships", force: :cascade do |t|
     t.bigint "group_id", null: false
-    t.integer "member_id", null: false
+    t.bigint "member_id", null: false
     t.boolean "active", default: false, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -137,7 +137,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
   end
 
   create_table "socializer_notes", force: :cascade do |t|
-    t.integer "author_id", null: false
+    t.bigint "author_id", null: false
     t.text "content", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
@@ -266,7 +266,7 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_11_214455) do
   end
 
   create_table "socializer_ties", force: :cascade do |t|
-    t.integer "contact_id", null: false
+    t.bigint "contact_id", null: false
     t.bigint "circle_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

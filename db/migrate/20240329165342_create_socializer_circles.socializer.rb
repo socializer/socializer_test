@@ -4,7 +4,7 @@
 class CreateSocializerCircles < ActiveRecord::Migration[7.1]
   def change
     create_table :socializer_circles do |t|
-      t.integer :author_id, index: true, null: false
+      t.bigint :author_id, index: true, null: false
       t.string :display_name, null: false
       t.text :content
 

@@ -56,7 +56,7 @@ group :development, :test do
   gem "debug", platforms: %i[mri windows]
 
   gem "rubocop",              "~> 1.62.0", require: false
-  gem "rubocop-performance",  "~> 1.20.0", require: false
+  gem "rubocop-performance",  "~> 1.21.0", require: false
   gem "rubocop-rails",        "~> 2.24.0", require: false
   gem "rubocop-rake",         "~> 0.6.0", require: false
   gem "rubocop-rspec",        "~> 2.28.0", require: false

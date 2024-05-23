@@ -55,7 +55,7 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[mri windows]
 
-  gem "rubocop",              "~> 1.63.0", require: false
+  gem "rubocop",              "~> 1.64.0", require: false
   gem "rubocop-performance",  "~> 1.21.0", require: false
   gem "rubocop-rails",        "~> 2.25.0", require: false
   gem "rubocop-rake",         "~> 0.6.0", require: false

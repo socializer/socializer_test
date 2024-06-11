@@ -59,7 +59,7 @@ group :development, :test do
   gem "rubocop-performance",  "~> 1.21.0", require: false
   gem "rubocop-rails",        "~> 2.25.0", require: false
   gem "rubocop-rake",         "~> 0.6.0", require: false
-  gem "rubocop-rspec",        "~> 2.31.0", require: false
+  gem "rubocop-rspec",        "~> 3.0.0", require: false
 end
 
 group :development do

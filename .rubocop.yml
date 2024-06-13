@@ -1,13 +1,18 @@
+require:
+  - rubocop-capybara
+  - rubocop-factory_bot
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rake
+  - rubocop-rspec
+  - rubocop-rspec_rails
+  - rubocop-thread_safety
+
 # We want Exclude directives from different
 # config files to get merged, not overwritten
 inherit_mode:
   merge:
     - Exclude
-
-require:
-  - rubocop-performance
-  - rubocop-rails
-  - rubocop-rake
 
 inherit_from:
   - .rubocop/.rails.yml

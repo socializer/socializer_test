@@ -56,7 +56,6 @@ group :development, :test do
   gem "debug", platforms: %i[mri windows]
 
   gem "rspec-rails", "~> 6.1.0"
-  gem "factory_bot_rails"
 
   gem "rubocop", "~> 1.64", require: false
   gem "rubocop-capybara", require: false
@@ -67,6 +66,8 @@ group :development, :test do
   gem "rubocop-rspec", "~> 3.0", require: false
   gem "rubocop-rspec_rails", require: false
   gem "rubocop-thread_safety", require: false
+
+  gem "factory_bot_rails"
 end
 
 group :development do

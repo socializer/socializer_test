@@ -170,7 +170,7 @@ GEM
     factory_bot_rails (6.4.3)
       factory_bot (~> 6.4)
       railties (>= 5.0.0)
-    faraday (2.10.0)
+    faraday (2.10.1)
       faraday-net_http (>= 2.0, < 3.2)
       logger
     faraday-net_http (3.1.1)
@@ -283,7 +283,7 @@ GEM
     public_suffix (6.0.1)
     puma (6.4.2)
       nio4r (~> 2.0)
-    racc (1.8.0)
+    racc (1.8.1)
     rack (3.1.7)
     rack-openid (1.4.2)
       rack (>= 1.1.0)

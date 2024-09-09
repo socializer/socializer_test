@@ -1,0 +1,16 @@
+{
+  "eablokker.tabsSidebar.config.collapsedFolders" : [
+
+  ],
+  "eablokker.tabsSidebar.config.customKindGroupsOrder" : [
+    "ruby",
+    "yaml"
+  ],
+  "eablokker.tabsSidebar.config.customTabOrder" : [
+    "file:\/\/\/Users\/tompietschker\/Projects\/github\/socializer_test\/Gemfile",
+    "file:\/\/\/Users\/tompietschker\/Projects\/github\/socializer_test\/db\/seeds.rb",
+    "file:\/\/\/Users\/tompietschker\/Projects\/github\/socializer_test\/.rubocop.yml",
+    "file:\/\/\/Users\/tompietschker\/Projects\/github\/socializer_test\/config\/routes.rb",
+    "file:\/\/\/Users\/tompietschker\/Projects\/github\/socializer_test\/app\/models\/application_record.rb"
+  ]
+}

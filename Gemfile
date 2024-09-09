@@ -86,8 +86,8 @@ group :test do
   gem "selenium-webdriver"
 end
 
-# gem "socializer", github: "socializer/socializer", branch: "main"
-gem "socializer", path: "~/Projects/github/socializer"
+gem "socializer", github: "socializer/socializer", branch: "main"
+# gem "socializer", path: "~/Projects/github/socializer"
 
 # gem "draper", github: "drapergem/draper"
 

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 # Be sure to restart your server when you modify this file.
 
 # Define an application-wide content security policy.
@@ -18,8 +16,7 @@
 #     # policy.report_uri "/csp-violation-report-endpoint"
 #   end
 #
-#   # Generate session nonces for permitted importmap, inline scripts, and
-#   # inline styles.
+#   # Generate session nonces for permitted importmap, inline scripts, and inline styles.
 #   config.content_security_policy_nonce_generator = ->(request) { request.session.id.to_s }
 #   config.content_security_policy_nonce_directives = %w(script-src style-src)
 #

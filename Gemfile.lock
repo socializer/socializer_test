@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 5759986615839fe21677903010fe2b63a042482e
+  revision: 146039df0ff6e5885b878185257922dd4535fea4
   branch: main
   specs:
     socializer (0.1.13)
@@ -297,7 +297,7 @@ GEM
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
-    puma (6.4.2)
+    puma (6.4.3)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.7)
@@ -528,4 +528,4 @@ RUBY VERSION
    ruby 3.3.5p100
 
 BUNDLED WITH
-   2.5.18
+   2.5.19

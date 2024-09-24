@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: f5406938aeced01517d0796e1f1ed8b248ba7f45
+  revision: ce0014b67c888ed3b849a5523601fbf5d518c9e7
   branch: main
   specs:
     socializer (0.1.13)
@@ -204,7 +204,7 @@ GEM
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     json (2.7.2)
-    jwt (2.9.0)
+    jwt (2.9.1)
       base64
     language_server-protocol (3.17.0.3)
     logger (1.6.1)
@@ -465,7 +465,7 @@ GEM
       activemodel (>= 6.0.0)
       bindex (>= 0.4.0)
       railties (>= 6.0.0)
-    webrick (1.8.1)
+    webrick (1.8.2)
     websocket (1.2.11)
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)

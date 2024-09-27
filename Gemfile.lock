@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: ab03d49ea00e769987c7cc6a9e1f6c046fe04128
+  revision: a8c299934d290366d6ed926da9805529dbcdae42
   branch: main
   specs:
     socializer (0.1.13)
@@ -197,7 +197,7 @@ GEM
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
     io-console (0.7.2)
-    irb (1.14.0)
+    irb (1.14.1)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
     jbuilder (2.13.0)

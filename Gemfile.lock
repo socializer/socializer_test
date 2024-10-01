@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 8b2238ea9962afd2634a551d1576c1c26aedd10c
+  revision: fbc65b78d06f4b738d8ddb05290ac78ebb8c3df1
   branch: main
   specs:
     socializer (0.1.13)
@@ -398,7 +398,7 @@ GEM
       rubocop-ast (>= 1.31.1, < 2.0)
     rubocop-rake (0.6.0)
       rubocop (~> 1.0)
-    rubocop-rspec (3.0.5)
+    rubocop-rspec (3.1.0)
       rubocop (~> 1.61)
     rubocop-rspec_rails (2.30.0)
       rubocop (~> 1.61)

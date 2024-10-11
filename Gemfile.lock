@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 2012ef977985d11d762543393abc5dfa8d5f6347
+  revision: f15924463f651817ac110154e87ae02ffd6b04c3
   branch: main
   specs:
     socializer (0.1.13)
@@ -143,7 +143,7 @@ GEM
     country_select (10.0.0)
       countries (> 5.0, < 8.0)
     crass (1.0.6)
-    database_consistency (1.7.25)
+    database_consistency (1.7.26)
       activerecord (>= 3.2)
     date (3.3.4)
     debug (1.9.2)
@@ -192,7 +192,7 @@ GEM
     image_processing (1.13.0)
       mini_magick (>= 4.9.5, < 5)
       ruby-vips (>= 2.0.17, < 3)
-    importmap-rails (2.0.2)
+    importmap-rails (2.0.3)
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
@@ -472,7 +472,7 @@ GEM
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    zeitwerk (2.6.18)
+    zeitwerk (2.7.0)
 
 PLATFORMS
   aarch64-linux

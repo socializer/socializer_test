@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: ddfd935b545363dc2703176cf81e3c98fb10b328
+  revision: 0ab51071cbabbf2a0f74a087b699adaaa8cdac45
   branch: main
   specs:
     socializer (0.1.13)
@@ -223,7 +223,7 @@ GEM
     mini_magick (4.13.2)
     mini_mime (1.1.5)
     minitest (5.25.1)
-    msgpack (1.7.3)
+    msgpack (1.7.4)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
     net-http (0.5.0)
@@ -383,7 +383,7 @@ GEM
       rubocop-ast (>= 1.32.2, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
-    rubocop-ast (1.34.1)
+    rubocop-ast (1.35.0)
       parser (>= 3.3.1.0)
     rubocop-capybara (2.21.0)
       rubocop (~> 1.41)
@@ -404,8 +404,8 @@ GEM
     rubocop-rspec_rails (2.30.0)
       rubocop (~> 1.61)
       rubocop-rspec (~> 3, >= 3.0.1)
-    rubocop-thread_safety (0.5.1)
-      rubocop (>= 0.90.0)
+    rubocop-thread_safety (0.6.0)
+      rubocop (>= 1.48.1)
     ruby-openid (2.9.2)
     ruby-progressbar (1.13.0)
     ruby-vips (2.2.2)
@@ -423,7 +423,7 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
-    securerandom (0.3.1)
+    securerandom (0.3.2)
     selenium-webdriver (4.26.0)
       base64 (~> 0.2)
       logger (~> 1.4)

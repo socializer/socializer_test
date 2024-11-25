@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 04276851bcf34c3d3fdd95cfa2a8b0139000704b
+  revision: 43e4c92724fe0b55ac85b3eb9be1c9ee30e2bac9
   branch: main
   specs:
     socializer (0.1.13)
@@ -299,7 +299,7 @@ GEM
     psych (5.2.0)
       stringio
     public_suffix (6.0.1)
-    puma (6.4.3)
+    puma (6.5.0)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.1.8)
@@ -425,7 +425,7 @@ GEM
       sprockets-rails
       tilt
     securerandom (0.3.2)
-    selenium-webdriver (4.26.0)
+    selenium-webdriver (4.27.0)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)

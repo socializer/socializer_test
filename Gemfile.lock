@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 2022ad936e1331d23a419296b507874a6652d73a
+  revision: fd844cb466e6358025e680082624a8c1a1c3e3f3
   branch: main
   specs:
     socializer (0.1.13)
@@ -374,16 +374,16 @@ GEM
       rspec-mocks (~> 3.13)
       rspec-support (~> 3.13)
     rspec-support (3.13.1)
-    rubocop (1.68.0)
+    rubocop (1.69.0)
       json (~> 2.3)
       language_server-protocol (>= 3.17.0)
       parallel (~> 1.10)
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 2.4, < 3.0)
-      rubocop-ast (>= 1.32.2, < 2.0)
+      rubocop-ast (>= 1.36.1, < 2.0)
       ruby-progressbar (~> 1.7)
-      unicode-display_width (>= 2.4.0, < 3.0)
+      unicode-display_width (>= 2.4.0, < 4.0)
     rubocop-ast (1.36.1)
       parser (>= 3.3.1.0)
     rubocop-capybara (2.21.0)
@@ -458,7 +458,9 @@ GEM
     uglifier (4.2.1)
       execjs (>= 0.3.0, < 3)
     unaccent (0.4.0)
-    unicode-display_width (2.6.0)
+    unicode-display_width (3.1.2)
+      unicode-emoji (~> 4.0, >= 4.0.4)
+    unicode-emoji (4.0.4)
     uri (1.0.2)
     useragent (0.16.10)
     version_gem (1.1.4)

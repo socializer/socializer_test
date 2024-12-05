@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 34783c71656b8df57478f800866076d8856becd3
+  revision: 840242051591cb24d0f1d75abfc6dfae8aa9bc2b
   branch: main
   specs:
     socializer (0.1.13)
@@ -222,7 +222,7 @@ GEM
     matrix (0.4.2)
     mini_magick (4.13.2)
     mini_mime (1.1.5)
-    minitest (5.25.2)
+    minitest (5.25.4)
     msgpack (1.7.5)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
@@ -463,7 +463,7 @@ GEM
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
     uri (1.0.2)
-    useragent (0.16.10)
+    useragent (0.16.11)
     version_gem (1.1.4)
     web-console (4.2.1)
       actionview (>= 6.0.0)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 46ba7a5b62a6e0c7460a588250927f70f14a7e5c
+  revision: 8917caf0e91eed770b4517aa0e87f6c906eb877d
   branch: main
   specs:
     socializer (0.1.13)
@@ -209,7 +209,7 @@ GEM
     jwt (2.9.3)
       base64
     language_server-protocol (3.17.0.3)
-    logger (1.6.2)
+    logger (1.6.3)
     loofah (2.23.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -238,17 +238,17 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.4)
-    nokogiri (1.17.1-aarch64-linux)
+    nokogiri (1.17.2-aarch64-linux)
       racc (~> 1.4)
-    nokogiri (1.17.1-arm-linux)
+    nokogiri (1.17.2-arm-linux)
       racc (~> 1.4)
-    nokogiri (1.17.1-arm64-darwin)
+    nokogiri (1.17.2-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.17.1-x86-linux)
+    nokogiri (1.17.2-x86-linux)
       racc (~> 1.4)
-    nokogiri (1.17.1-x86_64-darwin)
+    nokogiri (1.17.2-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.17.1-x86_64-linux)
+    nokogiri (1.17.2-x86_64-linux)
       racc (~> 1.4)
     oauth (1.1.0)
       oauth-tty (~> 1.0, >= 1.0.1)
@@ -337,7 +337,7 @@ GEM
       activesupport (>= 5.0.0)
       minitest
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.6.1)
+    rails-html-sanitizer (1.6.2)
       loofah (~> 2.21)
       nokogiri (>= 1.15.7, != 1.16.7, != 1.16.6, != 1.16.5, != 1.16.4, != 1.16.3, != 1.16.2, != 1.16.1, != 1.16.0.rc1, != 1.16.0)
     railties (7.2.2.1)
@@ -385,7 +385,7 @@ GEM
       rubocop-ast (>= 1.36.2, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.36.2)
+    rubocop-ast (1.37.0)
       parser (>= 3.3.1.0)
     rubocop-capybara (2.21.0)
       rubocop (~> 1.41)

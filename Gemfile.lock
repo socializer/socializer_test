@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: a4b07d506c2515d1c2ebad1252bcf5da4b7592d8
+  revision: 22ee84ab71e84859ab35f21d1e288bd8cb499cdd
   branch: main
   specs:
     socializer (0.1.13)
@@ -354,7 +354,7 @@ GEM
     rdoc (6.9.1)
       psych (>= 4.0.0)
     regexp_parser (2.9.3)
-    reline (0.5.12)
+    reline (0.6.0)
       io-console (~> 0.5)
     request_store (1.7.0)
       rack (>= 1.4)
@@ -533,4 +533,4 @@ RUBY VERSION
    ruby 3.3.6p108
 
 BUNDLED WITH
-   2.5.23
+   2.6.0

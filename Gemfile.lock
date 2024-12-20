@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: e38f9ca85486a729a270c13974ba773687007908
+  revision: d1e6297f0d7deecb2aaf2b40c4a64b36e39560ba
   branch: main
   specs:
     socializer (0.1.13)
@@ -148,7 +148,7 @@ GEM
     database_consistency (1.7.26)
       activerecord (>= 3.2)
     date (3.4.1)
-    debug (1.9.2)
+    debug (1.10.0)
       irb (~> 1.10)
       reline (>= 0.3.8)
     diff-lcs (1.5.1)
@@ -163,7 +163,7 @@ GEM
     elasticsearch-rails (8.0.0)
     enumerize (2.8.1)
       activesupport (>= 3.2)
-    erubi (1.13.0)
+    erubi (1.13.1)
     execjs (2.10.0)
     factory_bot (6.5.0)
       activesupport (>= 5.0.0)
@@ -205,11 +205,11 @@ GEM
     jbuilder (2.13.0)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    json (2.9.0)
+    json (2.9.1)
     jwt (2.9.3)
       base64
     language_server-protocol (3.17.0.3)
-    logger (1.6.3)
+    logger (1.6.4)
     loofah (2.23.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)

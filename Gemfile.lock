@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 168d5cb665a52e69ac3dc1ea7815043ec81491e7
+  revision: bd516628002908929d4d9cc56021e3c240a8a325
   branch: main
   specs:
     socializer (0.1.13)
@@ -305,7 +305,7 @@ GEM
       ast (~> 2.4.1)
       racc
     pg (1.5.9)
-    psych (5.2.2)
+    psych (5.2.3)
       date
       stringio
     public_suffix (6.0.1)
@@ -540,7 +540,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-   ruby 3.3.6p108
+   ruby 3.3.7p123
 
 BUNDLED WITH
    2.6.3

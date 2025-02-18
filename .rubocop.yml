@@ -1,10 +1,12 @@
-require:
-  - rubocop-capybara
-  - rubocop-factory_bot
+plugins:
   - rubocop-performance
   - rubocop-rails
   - rubocop-rake
   - rubocop-rspec
+
+require:
+  - rubocop-capybara
+  - rubocop-factory_bot
   - rubocop-rspec_rails
   - rubocop-thread_safety
 
@@ -51,7 +53,7 @@ AllCops:
   StyleGuideCopsOnly: false
   # What version of the Ruby interpreter is the inspected code intended to
   # run on? (If there is more than one, set this to the lowest version.)
-  TargetRubyVersion: 3.3
+  TargetRubyVersion: 3.4
 
 Layout/HashAlignment:
   Exclude:

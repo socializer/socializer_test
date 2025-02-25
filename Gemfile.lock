@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 659c9310f5bd6ca41706e4dc03006c5b1c7cdd64
+  revision: 7c1af5da01b976cc7f7857d7d4687e4a5b34cc5d
   branch: main
   specs:
     socializer (0.1.13)
@@ -423,7 +423,7 @@ GEM
       lint_roller (~> 1.1)
       rubocop (>= 1.72.1, < 2.0)
       rubocop-ast (>= 1.38.0, < 2.0)
-    rubocop-rails (2.30.1)
+    rubocop-rails (2.30.2)
       activesupport (>= 4.2.0)
       lint_roller (~> 1.1)
       rack (>= 1.1)
@@ -438,8 +438,9 @@ GEM
     rubocop-rspec_rails (2.30.0)
       rubocop (~> 1.61)
       rubocop-rspec (~> 3, >= 3.0.1)
-    rubocop-thread_safety (0.6.0)
-      rubocop (>= 1.48.1)
+    rubocop-thread_safety (0.7.0)
+      lint_roller (~> 1.1)
+      rubocop (~> 1.72, >= 1.72.1)
     ruby-openid (2.9.2)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
@@ -455,7 +456,7 @@ GEM
       sprockets-rails
       tilt
     securerandom (0.4.1)
-    selenium-webdriver (4.29.0)
+    selenium-webdriver (4.29.1)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)
@@ -527,7 +528,7 @@ GEM
     unicode-emoji (4.0.4)
     uri (1.0.2)
     useragent (0.16.11)
-    version_gem (1.1.5)
+    version_gem (1.1.6)
     web-console (4.2.1)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)

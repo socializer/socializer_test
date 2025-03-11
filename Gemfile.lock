@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 154d8e4135ab99d9e4cd611fe23c7c7f4e42eeae
+  revision: 359a4795962c5b87e07bad97540f924a7c822f10
   branch: main
   specs:
     socializer (0.1.13)
@@ -329,7 +329,7 @@ GEM
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.1.11)
+    rack (3.1.12)
     rack-mini-profiler (3.3.1)
       rack (>= 1.2.0)
     rack-openid (1.4.2)
@@ -512,10 +512,10 @@ GEM
       railties (>= 6.0.0)
     stringio (3.1.5)
     thor (1.3.2)
-    thruster (0.1.11)
-    thruster (0.1.11-aarch64-linux)
-    thruster (0.1.11-arm64-darwin)
-    thruster (0.1.11-x86_64-linux)
+    thruster (0.1.12)
+    thruster (0.1.12-aarch64-linux)
+    thruster (0.1.12-arm64-darwin)
+    thruster (0.1.12-x86_64-linux)
     tilt (2.6.0)
     timeout (0.4.3)
     turbo-rails (2.0.13)

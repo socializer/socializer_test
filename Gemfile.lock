@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: d3c3d247c2a339a9ae35bf44a3c99f8b77bc4e54
+  revision: 05fd64fa1e8aad2b22c41fb99d349eb2c7d2a2f8
   branch: main
   specs:
     socializer (0.1.13)
@@ -257,19 +257,19 @@ GEM
       net-protocol
     net-ssh (7.3.0)
     nio4r (2.7.4)
-    nokogiri (1.18.3-aarch64-linux-gnu)
+    nokogiri (1.18.4-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.3-aarch64-linux-musl)
+    nokogiri (1.18.4-aarch64-linux-musl)
       racc (~> 1.4)
-    nokogiri (1.18.3-arm-linux-gnu)
+    nokogiri (1.18.4-arm-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.3-arm-linux-musl)
+    nokogiri (1.18.4-arm-linux-musl)
       racc (~> 1.4)
-    nokogiri (1.18.3-arm64-darwin)
+    nokogiri (1.18.4-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.3-x86_64-linux-gnu)
+    nokogiri (1.18.4-x86_64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.3-x86_64-linux-musl)
+    nokogiri (1.18.4-x86_64-linux-musl)
       racc (~> 1.4)
     oauth (1.1.0)
       oauth-tty (~> 1.0, >= 1.0.1)
@@ -413,7 +413,7 @@ GEM
       rubocop-ast (>= 1.38.0, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
-    rubocop-ast (1.38.1)
+    rubocop-ast (1.39.0)
       parser (>= 3.3.1.0)
     rubocop-capybara (2.22.1)
       lint_roller (~> 1.1)
@@ -599,4 +599,4 @@ RUBY VERSION
    ruby 3.4.2p28
 
 BUNDLED WITH
-   2.6.5
+   2.6.6

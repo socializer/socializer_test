@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 9b98a482080a8b75b17ed95da17b71e941f46d3e
+  revision: 2b364f811eb89eaf7b830f19091ec65eb1b8795c
   branch: main
   specs:
     socializer (0.1.13)
@@ -315,7 +315,7 @@ GEM
       rack
     ostruct (0.6.1)
     parallel (1.26.3)
-    parser (3.3.7.3)
+    parser (3.3.7.4)
       ast (~> 2.4.1)
       racc
     pp (0.6.2)
@@ -378,7 +378,7 @@ GEM
       zeitwerk (~> 2.6)
     rainbow (3.1.1)
     rake (13.2.1)
-    rdoc (6.13.0)
+    rdoc (6.13.1)
       psych (>= 4.0.0)
     regexp_parser (2.10.0)
     reline (0.6.0)

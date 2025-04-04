@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 2fe84c0d1c74e547d00aa9013b2ef422d63495f9
+  revision: 013e35e986edb6889dcf9e0b6b1f2351c3f7e61b
   branch: main
   specs:
     socializer (0.1.13)
@@ -119,7 +119,7 @@ GEM
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
-    brakeman (7.0.0)
+    brakeman (7.0.1)
       racc
     builder (3.3.0)
     bundler-integrity (1.0.9)

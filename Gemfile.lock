@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 25a78fc8e6c76b2809c6896c518a655ff1393642
+  revision: d9bb7f70b4e0ef516c1a6e8c16645a1a5b104752
   branch: main
   specs:
     socializer (0.1.13)
@@ -153,7 +153,7 @@ GEM
       irb (~> 1.10)
       reline (>= 0.3.8)
     diff-lcs (1.6.1)
-    dotenv (3.1.7)
+    dotenv (3.1.8)
     draper (4.0.4)
       actionpack (>= 5.0)
       activemodel (>= 5.0)

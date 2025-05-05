@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: d3ed47317496cd6238abfcbdbd717b98318c05d2
+  revision: fd28e0af5c2c8eb914062ed51db7549f09a97998
   branch: main
   specs:
     socializer (0.1.13)
@@ -403,7 +403,7 @@ GEM
       rspec-mocks (~> 3.13)
       rspec-support (~> 3.13)
     rspec-support (3.13.3)
-    rubocop (1.75.4)
+    rubocop (1.75.5)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)

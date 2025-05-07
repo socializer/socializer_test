@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: b2e964ddcd2ad85455866a83112f3360b0688137
+  revision: 0d56cbb62a858cc2a41bae50fd568613ee472d33
   branch: main
   specs:
     socializer (0.1.13)
@@ -330,7 +330,7 @@ GEM
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.1.13)
+    rack (3.1.14)
     rack-mini-profiler (3.3.1)
       rack (>= 1.2.0)
     rack-openid (1.4.2)
@@ -340,7 +340,7 @@ GEM
       base64 (>= 0.1.0)
       logger (>= 1.6.0)
       rack (>= 3.0.0, < 4)
-    rack-session (2.1.0)
+    rack-session (2.1.1)
       base64 (>= 0.1.0)
       rack (>= 3.0.0)
     rack-test (2.2.0)

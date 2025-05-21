@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: f601671c7b86324289628aa2ce018967c58eb851
+  revision: 05cac55bc08763a30714bfe7601ea362f9b2be7d
   branch: main
   specs:
     socializer (0.1.13)
@@ -161,7 +161,7 @@ GEM
       activesupport (>= 5.0)
       request_store (>= 1.0)
       ruby2_keywords
-    drb (2.2.1)
+    drb (2.2.3)
     ed25519 (1.4.0)
     elasticsearch-rails (8.0.0)
     enumerize (2.8.1)
@@ -365,7 +365,7 @@ GEM
       activesupport (= 8.0.2)
       bundler (>= 1.15.0)
       railties (= 8.0.2)
-    rails-dom-testing (2.2.0)
+    rails-dom-testing (2.3.0)
       activesupport (>= 5.0.0)
       minitest
       nokogiri (>= 1.6)

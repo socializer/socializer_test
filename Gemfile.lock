@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 6817aa8119a749757ea8014a6218d45fd47bce81
+  revision: 091f7200ec67422bf99a6c08b566fcf5c158756b
   branch: main
   specs:
     socializer (0.1.13)
@@ -171,7 +171,7 @@ GEM
     et-orbi (1.2.11)
       tzinfo
     execjs (2.10.0)
-    factory_bot (6.5.3)
+    factory_bot (6.5.4)
       activesupport (>= 6.1.0)
     factory_bot_rails (6.4.4)
       factory_bot (~> 6.5)
@@ -337,7 +337,7 @@ GEM
     raabro (1.4.0)
     racc (1.8.1)
     rack (3.1.16)
-    rack-mini-profiler (3.3.1)
+    rack-mini-profiler (4.0.0)
       rack (>= 1.2.0)
     rack-openid (1.4.2)
       rack (>= 1.1.0)

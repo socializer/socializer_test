@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 29a33e8d0c768190399887e848be7d15817fb6bc
+  revision: bbf8169d156f5be205e9d895a85c08333476f738
   branch: main
   specs:
     socializer (0.1.13)
@@ -210,7 +210,7 @@ GEM
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
     json (2.12.2)
-    jwt (3.1.0)
+    jwt (3.1.1)
       base64
     kamal (2.7.0)
       activesupport (>= 7.0)
@@ -393,7 +393,7 @@ GEM
     request_store (1.7.0)
       rack (>= 1.4)
     rexml (3.4.1)
-    rspec-core (3.13.4)
+    rspec-core (3.13.5)
       rspec-support (~> 3.13.0)
     rspec-expectations (3.13.5)
       diff-lcs (>= 1.2.0, < 2.0)

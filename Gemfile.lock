@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: de421e9e412d8800f8b28cf593ef66729c8f5c88
+  revision: 5db14e665d16d27148c698e5be30867155e6e95a
   branch: main
   specs:
     socializer (0.1.13)
@@ -410,7 +410,7 @@ GEM
       rspec-mocks (~> 3.13)
       rspec-support (~> 3.13)
     rspec-support (3.13.4)
-    rubocop (1.78.0)
+    rubocop (1.79.0)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -418,8 +418,9 @@ GEM
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 2.9.3, < 3.0)
-      rubocop-ast (>= 1.45.1, < 2.0)
+      rubocop-ast (>= 1.46.0, < 2.0)
       ruby-progressbar (~> 1.7)
+      tsort (>= 0.2.0)
       unicode-display_width (>= 2.4.0, < 4.0)
     rubocop-ast (1.46.0)
       parser (>= 3.3.7.2)
@@ -529,6 +530,7 @@ GEM
     thruster (0.1.14-x86_64-linux)
     tilt (2.6.1)
     timeout (0.4.3)
+    tsort (0.2.0)
     turbo-rails (2.0.16)
       actionpack (>= 7.1.0)
       railties (>= 7.1.0)

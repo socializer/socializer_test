@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: b139eb777a41c8892eaf85827a72367c463fd865
+  revision: efd4fb52ed692d0eb698d1164e3a3f11bb76ffac
   branch: main
   specs:
     socializer (0.1.13)
@@ -244,7 +244,7 @@ GEM
     mutex_m (0.3.0)
     net-http (0.6.0)
       uri
-    net-imap (0.5.9)
+    net-imap (0.5.10)
       date
       net-protocol
     net-pop (0.1.2)

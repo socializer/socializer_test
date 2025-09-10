@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: f92492da3a318381080888b7447880f34f5c2118
+  revision: 6098c6e38aee3019bf374316d45002763e88f0d8
   branch: main
   specs:
     socializer (0.1.13)
@@ -332,7 +332,7 @@ GEM
       date
       stringio
     public_suffix (6.0.2)
-    puma (7.0.1)
+    puma (7.0.2)
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.8.1)
@@ -537,9 +537,9 @@ GEM
     uglifier (4.2.1)
       execjs (>= 0.3.0, < 3)
     unaccent (0.4.0)
-    unicode-display_width (3.1.5)
-      unicode-emoji (~> 4.0, >= 4.0.4)
-    unicode-emoji (4.0.4)
+    unicode-display_width (3.2.0)
+      unicode-emoji (~> 4.1)
+    unicode-emoji (4.1.0)
     uri (1.0.3)
     useragent (0.16.11)
     version_gem (1.1.9)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 812bfdb881d7236e9c4228227e4040c64e7d24c4
+  revision: 4716f9723bc77dbeeb3ab18b7acf67c2de69175a
   branch: main
   specs:
     socializer (0.1.13)
@@ -209,7 +209,7 @@ GEM
     jbuilder (2.14.1)
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
-    json (2.13.2)
+    json (2.14.0)
     jwt (3.1.2)
       base64
     kamal (2.7.0)

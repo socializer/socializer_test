@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 34604bc52197ef5bb0ab857139b0b174904a95fc
+  revision: edb1526799a033c7481a87dce826efa039d37045
   branch: main
   specs:
     socializer (0.1.13)
@@ -69,8 +69,8 @@ GEM
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    active_record_doctor (1.15.0)
-      activerecord (>= 4.2.0)
+    active_record_doctor (2.0.1)
+      activerecord (>= 7.0.0)
     activejob (8.0.3)
       activesupport (= 8.0.3)
       globalid (>= 0.3.6)
@@ -146,7 +146,7 @@ GEM
     country_select (11.0.0)
       countries (> 6.0, < 9.0)
     crass (1.0.6)
-    database_consistency (2.0.5)
+    database_consistency (2.0.6)
       activerecord (>= 3.2)
     date (3.4.1)
     debug (1.11.0)
@@ -411,7 +411,7 @@ GEM
       rspec-mocks (~> 3.13)
       rspec-support (~> 3.13)
     rspec-support (3.13.6)
-    rubocop (1.80.2)
+    rubocop (1.81.0)
       json (~> 2.3)
       language_server-protocol (~> 3.17.0.2)
       lint_roller (~> 1.1.0)
@@ -419,7 +419,7 @@ GEM
       parser (>= 3.3.0.2)
       rainbow (>= 2.2.2, < 4.0)
       regexp_parser (>= 2.9.3, < 3.0)
-      rubocop-ast (>= 1.46.0, < 2.0)
+      rubocop-ast (>= 1.47.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 4.0)
     rubocop-ast (1.47.1)

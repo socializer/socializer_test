@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: b422afe910438ccdb6079d414a9c601f21df1bf7
+  revision: 453e69ad8adae069331e93ddea674b167f126b07
   branch: main
   specs:
     socializer (0.1.13)
@@ -343,7 +343,7 @@ GEM
     rack-openid (1.4.2)
       rack (>= 1.1.0)
       ruby-openid (>= 2.1.8)
-    rack-protection (4.1.1)
+    rack-protection (4.2.0)
       base64 (>= 0.1.0)
       logger (>= 1.6.0)
       rack (>= 3.0.0, < 4)
@@ -489,7 +489,7 @@ GEM
       activejob (>= 7.2)
       activerecord (>= 7.2)
       railties (>= 7.2)
-    solid_cache (1.0.7)
+    solid_cache (1.0.8)
       activejob (>= 7.2)
       activerecord (>= 7.2)
       railties (>= 7.2)

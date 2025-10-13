@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 6cc3dcd2bc9ab085e5f8b06c8f1c5a5c9d2f0be5
+  revision: 477763415b98309a553f20b11cf2702fdf8e5a6f
   branch: main
   specs:
     socializer (0.1.13)
@@ -166,7 +166,7 @@ GEM
     elasticsearch-rails (8.0.1)
     enumerize (2.8.1)
       activesupport (>= 3.2)
-    erb (5.0.3)
+    erb (5.1.1)
     erubi (1.13.1)
     et-orbi (1.4.0)
       tzinfo
@@ -343,7 +343,7 @@ GEM
     rack-openid (1.4.2)
       rack (>= 1.1.0)
       ruby-openid (>= 2.1.8)
-    rack-protection (4.2.0)
+    rack-protection (4.2.1)
       base64 (>= 0.1.0)
       logger (>= 1.6.0)
       rack (>= 3.0.0, < 4)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 477763415b98309a553f20b11cf2702fdf8e5a6f
+  revision: 1e075b4f6abd5648270b3d6387804a15b9787df2
   branch: main
   specs:
     socializer (0.1.13)
@@ -295,11 +295,11 @@ GEM
     omniauth-facebook (10.0.0)
       bigdecimal
       omniauth-oauth2 (>= 1.2, < 3)
-    omniauth-identity (3.1.4)
+    omniauth-identity (3.1.5)
       bcrypt (~> 3.1)
       mutex_m (~> 0.1)
       omniauth (>= 1)
-      version_gem (>= 1.1.8, < 3)
+      version_gem (~> 1.1, >= 1.1.9)
     omniauth-linkedin (0.2.0)
       omniauth-oauth (~> 1.0)
     omniauth-oauth (1.2.1)

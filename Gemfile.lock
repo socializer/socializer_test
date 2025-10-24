@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 38894ee16c0779acb0d974734062cbba6215196b
+  revision: de4e7a96481d11bb56d543159224498653714d90
   branch: main
   specs:
     socializer (0.1.13)
@@ -229,7 +229,8 @@ GEM
     loofah (2.24.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
-    mail (2.8.1)
+    mail (2.9.0)
+      logger
       mini_mime (>= 0.1.1)
       net-imap
       net-pop

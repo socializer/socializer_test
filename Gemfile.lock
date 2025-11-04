@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 40178bbc24c911d125a417b0fb6156fc6d4b13d5
+  revision: 3420df698866fbaff8ef8b11bb8e22d2e3102119
   branch: main
   specs:
     socializer (0.1.13)
@@ -119,7 +119,7 @@ GEM
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
-    brakeman (7.1.0)
+    brakeman (7.1.1)
       racc
     builder (3.3.0)
     bundler-integrity (1.0.9)
@@ -338,7 +338,7 @@ GEM
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.8.1)
-    rack (3.2.3)
+    rack (3.2.4)
     rack-mini-profiler (4.0.1)
       rack (>= 1.2.0)
     rack-openid (1.4.2)
@@ -461,7 +461,7 @@ GEM
     ruby-openid (2.9.2)
     ruby-progressbar (1.13.0)
     ruby2_keywords (0.0.5)
-    rubyzip (3.2.1)
+    rubyzip (3.2.2)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)

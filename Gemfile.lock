@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 07f2468c93368f1864a75a1348a088f3897d6e90
+  revision: ef214961c8030bb4455cdc293c46eb19fee8b1e0
   branch: main
   specs:
     socializer (0.1.13)
@@ -146,7 +146,7 @@ GEM
     country_select (11.0.0)
       countries (> 6.0, < 9.0)
     crass (1.0.6)
-    database_consistency (2.0.7)
+    database_consistency (2.0.8)
       activerecord (>= 3.2)
     date (3.5.0)
     debug (1.11.0)
@@ -526,7 +526,7 @@ GEM
       ostruct
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
-    stringio (3.1.7)
+    stringio (3.1.8)
     thor (1.4.0)
     thruster (0.1.16)
     thruster (0.1.16-aarch64-linux)

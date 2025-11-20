@@ -21,6 +21,8 @@ require "action_cable/engine"
 Bundler.require(*Rails.groups)
 
 module SocializerTest
+  # Top-level application class for the `SocializerTest` Rails application.
+  # Holds global configuration and initialization for the application.
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 8.1

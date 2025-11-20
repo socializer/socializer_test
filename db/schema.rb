@@ -10,14 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2025_02_22_201867) do
+ActiveRecord::Schema[8.1].define(version: 2025_11_20_001641) do
   create_table "socializer_activities", force: :cascade do |t|
-    t.bigint "actor_id", null: false
     t.bigint "activity_object_id", null: false
-    t.integer "verb_id", null: false
-    t.bigint "target_id"
+    t.bigint "actor_id", null: false
     t.datetime "created_at", null: false
+    t.bigint "target_id"
     t.datetime "updated_at", null: false
+    t.integer "verb_id", null: false
     t.index ["activity_object_id"], name: "index_socializer_activities_on_activity_object_id"
     t.index ["actor_id"], name: "index_socializer_activities_on_actor_id"
     t.index ["target_id"], name: "index_socializer_activities_on_target_id"
@@ -25,8 +25,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_22_201867) do
   end
 
   create_table "socializer_activity_fields", force: :cascade do |t|
-    t.text "content", null: false
     t.integer "activity_id", null: false
+    t.text "content", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["activity_id"], name: "index_socializer_activity_fields_on_activity_id"
@@ -35,9 +35,9 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_22_201867) do
   create_table "socializer_activity_objects", force: :cascade do |t|
     t.bigint "activitable_id", null: false
     t.string "activitable_type", null: false
+    t.datetime "created_at", null: false
     t.integer "like_count", default: 0
     t.integer "unread_notifications_count", default: 0
-    t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["activitable_type", "activitable_id"], name: "index_activity_objects_on_activitable"
   end
@@ -45,8 +45,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_22_201867) do
   create_table "socializer_audiences", force: :cascade do |t|
     t.integer "activity_id", null: false
     t.integer "activity_object_id"
-    t.string "privacy", null: false
     t.datetime "created_at", null: false
+    t.string "privacy", null: false
     t.datetime "updated_at", null: false
     t.index ["activity_id", "activity_object_id"], name: "index_audiences_on_activity_id__activity_object_id", unique: true
     t.index ["activity_id"], name: "index_socializer_audiences_on_activity_id"
@@ -55,11 +55,11 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_22_201867) do
   end
 
   create_table "socializer_authentications", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.string "image_url"
     t.bigint "person_id", null: false
     t.string "provider", null: false
     t.string "uid", null: false
-    t.string "image_url"
-    t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["person_id"], name: "index_socializer_authentications_on_person_id"
     t.index ["provider"], name: "index_socializer_authentications_on_provider"
@@ -67,9 +67,9 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_22_201867) do
 
   create_table "socializer_circles", force: :cascade do |t|
     t.bigint "author_id", null: false
-    t.string "display_name", null: false
     t.text "content"
     t.datetime "created_at", null: false
+    t.string "display_name", null: false
     t.datetime "updated_at", null: false
     t.index "lower(display_name), author_id", name: "index_socializer_circles_on_lower_display_name_author_id", unique: true
     t.index ["author_id"], name: "index_socializer_circles_on_author_id"
@@ -84,30 +84,30 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_22_201867) do
   end
 
   create_table "socializer_group_categories", force: :cascade do |t|
-    t.integer "group_id", null: false
-    t.string "display_name", null: false
     t.datetime "created_at", null: false
+    t.string "display_name", null: false
+    t.integer "group_id", null: false
     t.datetime "updated_at", null: false
     t.index ["group_id"], name: "index_socializer_group_categories_on_group_id"
   end
 
   create_table "socializer_group_links", force: :cascade do |t|
-    t.integer "group_id", null: false
-    t.string "display_name", null: false
-    t.string "url", null: false
     t.datetime "created_at", null: false
+    t.string "display_name", null: false
+    t.integer "group_id", null: false
     t.datetime "updated_at", null: false
+    t.string "url", null: false
     t.index ["group_id"], name: "index_socializer_group_links_on_group_id"
   end
 
   create_table "socializer_groups", force: :cascade do |t|
+    t.text "about"
     t.bigint "author_id", null: false
+    t.datetime "created_at", null: false
     t.string "display_name", null: false
+    t.string "location"
     t.integer "privacy", null: false
     t.string "tagline"
-    t.text "about"
-    t.string "location"
-    t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index "lower(display_name), author_id", name: "index_socializer_groups_on_lower_display_name_author_id", unique: true
     t.index ["author_id"], name: "index_socializer_groups_on_author_id"
@@ -115,19 +115,19 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_22_201867) do
   end
 
   create_table "socializer_identities", force: :cascade do |t|
-    t.string "name", null: false
-    t.string "email", null: false
-    t.string "password_digest", null: false
     t.datetime "created_at", null: false
+    t.string "email", null: false
+    t.string "name", null: false
+    t.string "password_digest", null: false
     t.datetime "updated_at", null: false
     t.index ["email"], name: "index_socializer_identities_on_email", unique: true
   end
 
   create_table "socializer_memberships", force: :cascade do |t|
-    t.integer "group_id", null: false
-    t.bigint "member_id", null: false
     t.boolean "active", default: false, null: false
     t.datetime "created_at", null: false
+    t.integer "group_id", null: false
+    t.bigint "member_id", null: false
     t.datetime "updated_at", null: false
     t.index ["group_id"], name: "index_socializer_memberships_on_group_id"
     t.index ["member_id"], name: "index_socializer_memberships_on_member_id"
@@ -144,127 +144,127 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_22_201867) do
   create_table "socializer_notifications", force: :cascade do |t|
     t.integer "activity_id", null: false
     t.integer "activity_object_id", null: false
-    t.boolean "read", default: false, null: false
     t.datetime "created_at", null: false
+    t.boolean "read", default: false, null: false
     t.datetime "updated_at", null: false
     t.index ["activity_id"], name: "index_socializer_notifications_on_activity_id"
     t.index ["activity_object_id"], name: "index_socializer_notifications_on_activity_object_id"
   end
 
   create_table "socializer_people", force: :cascade do |t|
+    t.string "avatar_provider"
+    t.date "birthdate"
+    t.string "bragging_rights"
+    t.datetime "created_at", null: false
     t.string "display_name"
     t.string "email"
-    t.string "language"
-    t.string "avatar_provider"
-    t.string "tagline"
-    t.text "introduction"
-    t.string "bragging_rights"
-    t.string "occupation"
-    t.string "skills"
     t.integer "gender"
-    t.boolean "looking_for_friends", default: false, null: false
+    t.text "introduction"
+    t.string "language"
     t.boolean "looking_for_dating", default: false, null: false
-    t.boolean "looking_for_relationship", default: false, null: false
+    t.boolean "looking_for_friends", default: false, null: false
     t.boolean "looking_for_networking", default: false, null: false
-    t.date "birthdate"
-    t.integer "relationship"
+    t.boolean "looking_for_relationship", default: false, null: false
+    t.string "occupation"
     t.string "other_names"
-    t.datetime "created_at", null: false
+    t.integer "relationship"
+    t.string "skills"
+    t.string "tagline"
     t.datetime "updated_at", null: false
   end
 
   create_table "socializer_person_addresses", force: :cascade do |t|
-    t.integer "person_id", null: false
     t.integer "category", null: false
+    t.string "city", null: false
+    t.string "country", null: false
+    t.datetime "created_at", null: false
     t.integer "label"
     t.string "line1", null: false
     t.string "line2"
-    t.string "city", null: false
+    t.integer "person_id", null: false
     t.string "postal_code_or_zip", null: false
     t.string "province_or_state", null: false
-    t.string "country", null: false
-    t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["person_id"], name: "index_socializer_person_addresses_on_person_id"
   end
 
   create_table "socializer_person_contributions", force: :cascade do |t|
-    t.integer "person_id", null: false
+    t.datetime "created_at", null: false
+    t.boolean "current", default: false, null: false
     t.string "display_name", null: false
     t.integer "label", null: false
-    t.string "url", null: false
-    t.boolean "current", default: false, null: false
-    t.datetime "created_at", null: false
+    t.integer "person_id", null: false
     t.datetime "updated_at", null: false
+    t.string "url", null: false
     t.index ["person_id"], name: "index_socializer_person_contributions_on_person_id"
   end
 
   create_table "socializer_person_educations", force: :cascade do |t|
-    t.integer "person_id", null: false
-    t.string "school_name", null: false
-    t.string "major_or_field_of_study"
-    t.date "started_on", null: false
-    t.date "ended_on"
-    t.boolean "current", default: false, null: false
     t.text "courses_description"
     t.datetime "created_at", null: false
+    t.boolean "current", default: false, null: false
+    t.date "ended_on"
+    t.string "major_or_field_of_study"
+    t.integer "person_id", null: false
+    t.string "school_name", null: false
+    t.date "started_on", null: false
     t.datetime "updated_at", null: false
     t.index ["person_id"], name: "index_socializer_person_educations_on_person_id"
   end
 
   create_table "socializer_person_employments", force: :cascade do |t|
-    t.integer "person_id", null: false
-    t.string "employer_name", null: false
-    t.string "job_title"
-    t.date "started_on", null: false
-    t.date "ended_on"
-    t.boolean "current", default: false, null: false
-    t.text "job_description"
     t.datetime "created_at", null: false
+    t.boolean "current", default: false, null: false
+    t.string "employer_name", null: false
+    t.date "ended_on"
+    t.text "job_description"
+    t.string "job_title"
+    t.integer "person_id", null: false
+    t.date "started_on", null: false
     t.datetime "updated_at", null: false
     t.index ["person_id"], name: "index_socializer_person_employments_on_person_id"
   end
 
   create_table "socializer_person_links", force: :cascade do |t|
-    t.integer "person_id", null: false
-    t.string "display_name", null: false
-    t.string "url", null: false
     t.datetime "created_at", null: false
+    t.string "display_name", null: false
+    t.integer "person_id", null: false
     t.datetime "updated_at", null: false
+    t.string "url", null: false
     t.index ["person_id"], name: "index_socializer_person_links_on_person_id"
   end
 
   create_table "socializer_person_phones", force: :cascade do |t|
-    t.integer "person_id", null: false
     t.integer "category", null: false
+    t.datetime "created_at", null: false
     t.integer "label", null: false
     t.string "number", null: false
-    t.datetime "created_at", null: false
+    t.integer "person_id", null: false
     t.datetime "updated_at", null: false
     t.index ["person_id"], name: "index_socializer_person_phones_on_person_id"
   end
 
   create_table "socializer_person_places", force: :cascade do |t|
-    t.integer "person_id", null: false
     t.string "city_name", null: false
-    t.boolean "current", default: false, null: false
     t.datetime "created_at", null: false
+    t.boolean "current", default: false, null: false
+    t.integer "person_id", null: false
     t.datetime "updated_at", null: false
     t.index ["person_id"], name: "index_socializer_person_places_on_person_id"
   end
 
   create_table "socializer_person_profiles", force: :cascade do |t|
-    t.integer "person_id", null: false
-    t.string "display_name", null: false
-    t.string "url", null: false
     t.datetime "created_at", null: false
+    t.string "display_name", null: false
+    t.integer "person_id", null: false
     t.datetime "updated_at", null: false
+    t.string "url", null: false
     t.index ["person_id"], name: "index_socializer_person_profiles_on_person_id"
   end
 
   create_table "socializer_ties", force: :cascade do |t|
-    t.bigint "contact_id", null: false
     t.integer "circle_id", null: false
+    t.bigint "contact_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["circle_id"], name: "index_socializer_ties_on_circle_id"
@@ -272,8 +272,8 @@ ActiveRecord::Schema[8.0].define(version: 2025_02_22_201867) do
   end
 
   create_table "socializer_verbs", force: :cascade do |t|
-    t.string "display_name", null: false
     t.datetime "created_at", null: false
+    t.string "display_name", null: false
     t.datetime "updated_at", null: false
     t.index ["display_name"], name: "index_socializer_verbs_on_display_name", unique: true
   end

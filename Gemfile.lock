@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: f03e4e1a6cd7429c7a409ebe3577c0b6f582669c
+  revision: 7f10fdd202e42270c6392f907411ca6fd5afdfe3
   branch: main
   specs:
     socializer (0.1.13)
@@ -151,9 +151,9 @@ GEM
     country_select (11.0.0)
       countries (> 6.0, < 9.0)
     crass (1.0.6)
-    database_consistency (2.1.0)
+    database_consistency (2.1.1)
       activerecord (>= 3.2)
-    date (3.5.0)
+    date (3.5.1)
     debug (1.11.0)
       irb (~> 1.10)
       reline (>= 0.3.8)
@@ -217,7 +217,7 @@ GEM
     jbuilder (2.14.1)
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
-    json (2.17.1)
+    json (2.18.0)
     jwt (3.1.2)
       base64
     kamal (2.9.0)
@@ -248,7 +248,7 @@ GEM
     mini_magick (5.3.1)
       logger
     mini_mime (1.1.5)
-    minitest (5.26.2)
+    minitest (5.27.0)
     msgpack (1.8.0)
     multi_xml (0.7.2)
       bigdecimal (~> 3.1)
@@ -318,15 +318,15 @@ GEM
       oauth
       omniauth (>= 1.0, < 3)
       rack (>= 1.6.2, < 4)
-    omniauth-oauth2 (1.8.0)
-      oauth2 (>= 1.4, < 3)
+    omniauth-oauth2 (1.9.0)
+      oauth2 (>= 2.0.2, < 3)
       omniauth (~> 2.0)
     omniauth-openid (2.0.2)
       omniauth (>= 1.1)
       rack-openid (~> 1.4)
       ruby-openid (~> 2.1, >= 2.1.8)
       version_gem (~> 1.1, >= 1.1.8)
-    omniauth-rails_csrf_protection (2.0.0)
+    omniauth-rails_csrf_protection (2.0.1)
       actionpack (>= 4.2)
       omniauth (~> 2.0)
     omniauth-twitter (1.4.0)
@@ -341,7 +341,7 @@ GEM
       prettyprint
     prettyprint (0.2.0)
     prism (1.6.0)
-    psych (5.2.6)
+    psych (5.3.0)
       date
       stringio
     public_suffix (7.0.0)
@@ -471,7 +471,7 @@ GEM
       rubocop-ast (>= 1.44.0, < 2.0)
     ruby-openid (2.9.2)
     ruby-progressbar (1.13.0)
-    ruby-vips (2.2.5)
+    ruby-vips (2.3.0)
       ffi (~> 1.12)
       logger
     ruby2_keywords (0.0.5)

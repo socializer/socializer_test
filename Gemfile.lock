@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 7f10fdd202e42270c6392f907411ca6fd5afdfe3
+  revision: dbfeb825728e89a4c7cf1249d9d040dcaf2cd71b
   branch: main
   specs:
     socializer (0.1.13)
@@ -144,7 +144,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.3.5)
+    concurrent-ruby (1.3.6)
     connection_pool (3.0.2)
     countries (8.0.4)
       unaccent (~> 0.3)
@@ -209,7 +209,7 @@ GEM
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
-    io-console (0.8.1)
+    io-console (0.8.2)
     irb (1.15.3)
       pp (>= 0.6.0)
       rdoc (>= 4.0.0)
@@ -220,7 +220,7 @@ GEM
     json (2.18.0)
     jwt (3.1.2)
       base64
-    kamal (2.9.0)
+    kamal (2.10.0)
       activesupport (>= 7.0)
       base64 (~> 0.2)
       bcrypt_pbkdf (~> 1.0)
@@ -255,7 +255,7 @@ GEM
     mutex_m (0.3.0)
     net-http (0.8.0)
       uri (>= 0.11.1)
-    net-imap (0.5.12)
+    net-imap (0.6.0)
       date
       net-protocol
     net-pop (0.1.2)
@@ -530,7 +530,7 @@ GEM
     sqlite3 (2.8.1-arm64-darwin)
     sqlite3 (2.8.1-x86_64-linux-gnu)
     sqlite3 (2.8.1-x86_64-linux-musl)
-    sshkit (1.24.0)
+    sshkit (1.25.0)
       base64
       logger
       net-scp (>= 1.1.2)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: c05ecf4dd918e0828d59294bd378926ca9092ec2
+  revision: 6ba002230337c7bb1c7bfce2c7ffb3dc4344b5b2
   branch: main
   specs:
     socializer (0.1.13)
@@ -116,7 +116,7 @@ GEM
     bcrypt_pbkdf (1.1.2)
     bigdecimal (4.0.1)
     bindex (0.8.1)
-    bootsnap (1.20.1)
+    bootsnap (1.21.0)
       msgpack (~> 1.2)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
@@ -336,13 +336,13 @@ GEM
       rack
     ostruct (0.6.3)
     parallel (1.27.0)
-    parser (3.3.10.0)
+    parser (3.3.10.1)
       ast (~> 2.4.1)
       racc
     pp (0.6.3)
       prettyprint
     prettyprint (0.2.0)
-    prism (1.7.0)
+    prism (1.8.0)
     psych (5.3.1)
       date
       stringio
@@ -400,7 +400,7 @@ GEM
       zeitwerk (~> 2.6)
     rainbow (3.1.1)
     rake (13.3.1)
-    rdoc (7.0.3)
+    rdoc (7.1.0)
       erb
       psych (>= 4.0.0)
       tsort
@@ -634,4 +634,4 @@ RUBY VERSION
   ruby 3.4.7p58
 
 BUNDLED WITH
-  4.0.2
+  4.0.3

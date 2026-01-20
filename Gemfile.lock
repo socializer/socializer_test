@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 1c09237f6197153c114360557d5ec4868391cebd
+  revision: 39f1848ccd291a81a19d4d2d3fc8a5832a2b3633
   branch: main
   specs:
     socializer (0.1.13)
@@ -489,7 +489,7 @@ GEM
       sprockets-rails
       tilt
     securerandom (0.4.1)
-    selenium-webdriver (4.39.0)
+    selenium-webdriver (4.40.0)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)

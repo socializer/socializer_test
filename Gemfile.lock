@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 39f1848ccd291a81a19d4d2d3fc8a5832a2b3633
+  revision: c8edbe4c630cf7e6ef03958dffea91950fa8b11f
   branch: main
   specs:
     socializer (0.1.13)
@@ -347,7 +347,7 @@ GEM
       date
       stringio
     public_suffix (7.0.2)
-    puma (7.1.0)
+    puma (7.2.0)
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.8.1)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: be369758a70b57c632c318671661a345c200e63c
+  revision: cc83f98210c1bd6eb000a6959e28aea21e10453b
   branch: main
   specs:
     socializer (0.1.13)
@@ -171,7 +171,7 @@ GEM
     elasticsearch-rails (8.0.1)
     enumerize (2.8.1)
       activesupport (>= 3.2)
-    erb (6.0.1)
+    erb (6.0.2)
     erubi (1.13.1)
     et-orbi (1.4.0)
       tzinfo

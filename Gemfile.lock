@@ -151,7 +151,7 @@ GEM
     country_select (11.0.0)
       countries (> 6.0, < 9.0)
     crass (1.0.6)
-    database_consistency (2.1.3)
+    database_consistency (3.0.0)
       activerecord (>= 3.2)
     date (3.5.1)
     debug (1.11.1)

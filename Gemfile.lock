@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: b2312714e29b72ec0dc56842fc8e8ad5fe32b788
+  revision: 6cda8ced981c244166db1e160f97b17dacda8c14
   branch: main
   specs:
     socializer (0.1.13)
@@ -26,7 +26,7 @@ GIT
 GEM
   remote: https://gem.coop/
   specs:
-    action_text-trix (2.1.16)
+    action_text-trix (2.1.17)
       railties
     actioncable (8.1.2)
       actionpack (= 8.1.2)

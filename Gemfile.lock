@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 6cda8ced981c244166db1e160f97b17dacda8c14
+  revision: a3910f29a2e9b02f65ee510c042ebfef317b00f1
   branch: main
   specs:
     socializer (0.1.13)
@@ -277,7 +277,7 @@ GEM
       net-ssh (>= 5.0.0, < 8.0.0)
     net-smtp (0.5.1)
       net-protocol
-    net-ssh (7.3.0)
+    net-ssh (7.3.1)
     nio4r (2.7.5)
     nokogiri (1.19.1-aarch64-linux-gnu)
       racc (~> 1.4)
@@ -533,13 +533,13 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    sqlite3 (2.9.1-aarch64-linux-gnu)
-    sqlite3 (2.9.1-aarch64-linux-musl)
-    sqlite3 (2.9.1-arm-linux-gnu)
-    sqlite3 (2.9.1-arm-linux-musl)
-    sqlite3 (2.9.1-arm64-darwin)
-    sqlite3 (2.9.1-x86_64-linux-gnu)
-    sqlite3 (2.9.1-x86_64-linux-musl)
+    sqlite3 (2.9.2-aarch64-linux-gnu)
+    sqlite3 (2.9.2-aarch64-linux-musl)
+    sqlite3 (2.9.2-arm-linux-gnu)
+    sqlite3 (2.9.2-arm-linux-musl)
+    sqlite3 (2.9.2-arm64-darwin)
+    sqlite3 (2.9.2-x86_64-linux-gnu)
+    sqlite3 (2.9.2-x86_64-linux-musl)
     sshkit (1.25.0)
       base64
       logger

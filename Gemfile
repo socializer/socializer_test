@@ -62,7 +62,7 @@ group :development, :test do
 
   gem "rspec-rails", "~> 8.0"
 
-  gem "rubocop", "~> 1.7", require: false
+  gem "rubocop", "~> 1.86", require: false
   gem "rubocop-capybara", require: false
   gem "rubocop-factory_bot", require: false
   gem "rubocop-performance", "~> 1.21", require: false

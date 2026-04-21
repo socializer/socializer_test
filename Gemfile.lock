@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 8d736441ff6f42e901c1ec593d7430e24c25eb5c
+  revision: 38d4a499a11a072b7f3367f62f8a7421dea15a39
   branch: main
   specs:
     socializer (0.1.13)
@@ -114,7 +114,7 @@ GEM
     base64 (0.3.0)
     bcrypt (3.1.22)
     bcrypt_pbkdf (1.1.2)
-    bigdecimal (4.1.1)
+    bigdecimal (4.1.2)
     bindex (0.8.1)
     bootsnap (1.23.0)
       msgpack (~> 1.2)
@@ -151,7 +151,7 @@ GEM
     country_select (11.0.0)
       countries (> 6.0, < 9.0)
     crass (1.0.6)
-    database_consistency (3.0.2)
+    database_consistency (3.0.3)
       activerecord (>= 3.2)
     date (3.5.1)
     debug (1.11.1)
@@ -171,7 +171,7 @@ GEM
     elasticsearch-rails (8.0.1)
     enumerize (2.8.1)
       activesupport (>= 3.2)
-    erb (6.0.3)
+    erb (6.0.4)
     erubi (1.13.1)
     et-orbi (1.4.0)
       tzinfo
@@ -219,7 +219,7 @@ GEM
     jbuilder (2.14.1)
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
-    json (2.19.3)
+    json (2.19.4)
     jwt (3.1.2)
       base64
     kamal (2.11.0)
@@ -250,7 +250,7 @@ GEM
     mini_magick (5.3.1)
       logger
     mini_mime (1.1.5)
-    minitest (6.0.4)
+    minitest (6.0.5)
       drb (~> 2.0)
       prism (~> 1.5)
     msgpack (1.8.0)

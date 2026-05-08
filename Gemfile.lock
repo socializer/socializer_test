@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: b5cca9afedc82d89412c1387fa00a0e5cf4aed69
+  revision: 582e031a80c6afb18cf1478a86a009539d306682
   branch: main
   specs:
     socializer (0.1.13)
@@ -527,13 +527,13 @@ GEM
       actionpack (>= 6.1)
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
-    sqlite3 (2.9.3-aarch64-linux-gnu)
-    sqlite3 (2.9.3-aarch64-linux-musl)
-    sqlite3 (2.9.3-arm-linux-gnu)
-    sqlite3 (2.9.3-arm-linux-musl)
-    sqlite3 (2.9.3-arm64-darwin)
-    sqlite3 (2.9.3-x86_64-linux-gnu)
-    sqlite3 (2.9.3-x86_64-linux-musl)
+    sqlite3 (2.9.4-aarch64-linux-gnu)
+    sqlite3 (2.9.4-aarch64-linux-musl)
+    sqlite3 (2.9.4-arm-linux-gnu)
+    sqlite3 (2.9.4-arm-linux-musl)
+    sqlite3 (2.9.4-arm64-darwin)
+    sqlite3 (2.9.4-x86_64-linux-gnu)
+    sqlite3 (2.9.4-x86_64-linux-musl)
     sshkit (1.25.0)
       base64
       logger

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 582e031a80c6afb18cf1478a86a009539d306682
+  revision: f25d8e13eec13f83af8f5dce64a3b7302ff4f1fc
   branch: main
   specs:
     socializer (0.1.13)
@@ -26,7 +26,7 @@ GIT
 GEM
   remote: https://gem.coop/
   specs:
-    action_text-trix (2.1.18)
+    action_text-trix (2.1.19)
       railties
     actioncable (8.1.3)
       actionpack (= 8.1.3)
@@ -453,7 +453,7 @@ GEM
       lint_roller (~> 1.1)
       rubocop (>= 1.75.0, < 2.0)
       rubocop-ast (>= 1.47.1, < 2.0)
-    rubocop-rails (2.34.3)
+    rubocop-rails (2.35.0)
       activesupport (>= 4.2.0)
       lint_roller (~> 1.1)
       rack (>= 1.1)

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 720a91aa528dc35b3c958cc1c033ec6b15a77a2f
+  revision: 0d08ed0131db671a8f69d71fbdf516c3f1532b64
   branch: main
   specs:
     socializer (0.1.13)
@@ -116,7 +116,7 @@ GEM
     bcrypt_pbkdf (1.1.2)
     bigdecimal (4.1.2)
     bindex (0.8.1)
-    bootsnap (1.24.3)
+    bootsnap (1.24.4)
       msgpack (~> 1.2)
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
@@ -491,7 +491,7 @@ GEM
       sprockets-rails
       tilt
     securerandom (0.4.1)
-    selenium-webdriver (4.43.0)
+    selenium-webdriver (4.44.0)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)

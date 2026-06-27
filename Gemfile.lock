@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: c25e3889cec52eff416f3904bcfe5a23b2d0bcb6
+  revision: 27c5fd883d8690dc593082d0f7736f71ad051c33
   branch: main
   specs:
     socializer (0.1.13)
@@ -108,8 +108,8 @@ GEM
       uri (>= 0.13.1)
     addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
-    anonymous_loader (0.1.1)
-      version_gem (~> 1.1, >= 1.1.12)
+    anonymous_loader (0.1.2)
+      version_gem (~> 1.1, >= 1.1.13)
     ast (2.4.3)
     auth-sanitizer (0.2.2)
       version_gem (~> 1.1, >= 1.1.10)
@@ -154,7 +154,7 @@ GEM
       unaccent (~> 0.3)
     country_select (11.0.0)
       countries (> 6.0, < 9.0)
-    crass (1.0.6)
+    crass (1.0.7)
     database_consistency (3.0.5)
       activerecord (>= 3.2)
     date (3.5.1)
@@ -201,7 +201,7 @@ GEM
     fugit (1.12.2)
       et-orbi (~> 1.4)
       raabro (~> 1.4)
-    globalid (1.3.0)
+    globalid (1.4.0)
       activesupport (>= 6.1)
     hashie (5.1.0)
       logger
@@ -221,7 +221,7 @@ GEM
     jbuilder (2.15.1)
       actionview (>= 7.0.0)
       activesupport (>= 7.0.0)
-    json (2.19.9)
+    json (2.20.0)
     jwt (3.2.0)
       base64
     kamal (2.12.0)
@@ -347,13 +347,10 @@ GEM
     parser (3.3.11.1)
       ast (~> 2.4.1)
       racc
-    pp (0.6.3)
+    pp (0.6.4)
       prettyprint
     prettyprint (0.2.0)
     prism (1.9.0)
-    psych (5.4.0)
-      date
-      stringio
     public_suffix (7.0.5)
     puma (8.0.2)
       nio4r (~> 2.0)
@@ -408,9 +405,14 @@ GEM
       zeitwerk (~> 2.6)
     rainbow (3.1.1)
     rake (13.4.2)
-    rdoc (7.2.0)
+    rbs (4.0.3)
+      logger
+      prism (>= 1.6.0)
+      tsort
+    rdoc (8.0.0)
       erb
-      psych (>= 4.0.0)
+      prism (>= 1.6.0)
+      rbs (>= 4.0.0)
       tsort
     regexp_parser (2.12.0)
     reline (0.6.3)
@@ -449,7 +451,7 @@ GEM
     rubocop-ast (1.49.1)
       parser (>= 3.3.7.2)
       prism (~> 1.7)
-    rubocop-capybara (2.23.0)
+    rubocop-capybara (3.0.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.81)
     rubocop-factory_bot (2.28.0)
@@ -459,7 +461,7 @@ GEM
       lint_roller (~> 1.1)
       rubocop (>= 1.75.0, < 2.0)
       rubocop-ast (>= 1.47.1, < 2.0)
-    rubocop-rails (2.35.4)
+    rubocop-rails (2.35.5)
       activesupport (>= 4.2.0)
       lint_roller (~> 1.1)
       rack (>= 1.1)
@@ -547,7 +549,6 @@ GEM
       ostruct
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
-    stringio (3.2.0)
     thor (1.5.0)
     thruster (0.1.21)
     thruster (0.1.21-aarch64-linux)
@@ -569,13 +570,13 @@ GEM
     unicode-emoji (4.2.0)
     uri (1.1.1)
     useragent (0.16.11)
-    version_gem (1.1.12)
+    version_gem (1.1.13)
     web-console (4.3.0)
       actionview (>= 8.0.0)
       bindex (>= 0.4.0)
       railties (>= 8.0.0)
     websocket (1.2.11)
-    websocket-driver (0.8.1)
+    websocket-driver (0.8.2)
       base64
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)

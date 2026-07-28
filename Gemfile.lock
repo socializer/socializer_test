@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 0b0abb9e2d62a7853da89a8593944f6df4c3f613
+  revision: 31aa27868977f16efaf30ffed850142e0c48257d
   branch: main
   specs:
     socializer (0.1.13)
@@ -156,7 +156,7 @@ GEM
     country_select (11.0.0)
       countries (> 6.0, < 9.0)
     crass (1.0.7)
-    database_consistency (3.0.6)
+    database_consistency (3.0.8)
       activerecord (>= 3.2)
     date (3.5.1)
     debug (1.11.1)
@@ -254,7 +254,7 @@ GEM
     minitest (6.0.6)
       drb (~> 2.0)
       prism (~> 1.5)
-    msgpack (1.8.3)
+    msgpack (1.8.4)
     multi_xml (0.9.1)
       bigdecimal (>= 3.1, < 5)
     mutex_m (0.3.0)
@@ -409,7 +409,7 @@ GEM
       zeitwerk (~> 2.6)
     rainbow (3.1.1)
     rake (13.4.2)
-    rbs (4.0.3)
+    rbs (4.1.0)
       logger
       prism (>= 1.6.0)
       tsort
@@ -641,7 +641,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-  ruby 4.0.5
+  ruby 4.0.6
 
 BUNDLED WITH
-  4.0.14
+  4.0.17

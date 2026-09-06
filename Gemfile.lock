@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: ec7ec4c87c6c773a3c40dd851ea01460e8d886c3
+  revision: c41cdbe990f7dbbdbbc6b43f71a80e101116406c
   branch: main
   specs:
     socializer (0.1.13)
@@ -350,7 +350,7 @@ GEM
       omniauth-oauth (~> 1.2)
       rack
     ostruct (0.6.3)
-    parallel (2.1.0)
+    parallel (2.2.0)
     parser (3.3.12.0)
       ast (~> 2.4.1)
       racc

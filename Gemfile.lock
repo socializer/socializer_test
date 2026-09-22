@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 0cedf33cb39cef48cbb2199177815c18005e8a7f
+  revision: 3b44bf51dcada13f98272bbac8760321cc7de4b6
   branch: main
   specs:
     socializer (0.1.13)
@@ -156,7 +156,7 @@ GEM
     country_select (11.0.0)
       countries (> 6.0, < 9.0)
     crass (1.0.7)
-    database_consistency (3.0.12)
+    database_consistency (3.0.13)
       activerecord (>= 3.2)
     date (3.5.1)
     debug (1.11.1)
@@ -421,7 +421,7 @@ GEM
       prism (>= 1.6.0)
       rbs (>= 4.0.0)
       tsort
-    regexp_parser (2.12.0)
+    regexp_parser (2.13.0)
     reline (0.7.0)
       io-console (~> 0.5)
     request_store (1.7.0)
@@ -468,7 +468,7 @@ GEM
       lint_roller (~> 1.1)
       rubocop (>= 1.89.0, < 2.0)
       rubocop-ast (>= 1.47.1, < 2.0)
-    rubocop-rails (2.37.0)
+    rubocop-rails (2.38.0)
       activesupport (>= 4.2.0)
       lint_roller (~> 1.1)
       rack (>= 1.1)
@@ -495,7 +495,7 @@ GEM
       ffi (~> 1.12)
       logger
     ruby2_keywords (0.0.5)
-    rubyzip (3.6.0)
+    rubyzip (3.7.0)
     sass-rails (6.0.0)
       sassc-rails (~> 2.1, >= 2.1.1)
     sassc (2.4.0)
@@ -575,9 +575,9 @@ GEM
     uglifier (4.2.1)
       execjs (>= 0.3.0, < 3)
     unaccent (0.4.0)
-    unicode-display_width (3.2.0)
-      unicode-emoji (~> 4.1)
-    unicode-emoji (4.2.0)
+    unicode-display_width (3.3.0)
+      unicode-emoji (~> 4.3)
+    unicode-emoji (4.3.0)
     uri (1.1.1)
     useragent (0.16.11)
     version_gem (1.1.15)

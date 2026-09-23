@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 3b44bf51dcada13f98272bbac8760321cc7de4b6
+  revision: 288df005c2bad4d9f7cc0296887db5995864a634
   branch: main
   specs:
     socializer (0.1.13)
@@ -602,6 +602,7 @@ PLATFORMS
   arm-linux-musl
   arm64-darwin-24
   arm64-darwin-25
+  arm64-darwin-27
   x86_64-linux
   x86_64-linux-gnu
   x86_64-linux-musl
@@ -649,7 +650,7 @@ DEPENDENCIES
   web-console
 
 RUBY VERSION
-  ruby 4.0.6
+  ruby 4.0.7
 
 BUNDLED WITH
   4.0.21

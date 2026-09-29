@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 342e04095e46c8c444334b0efd1e20c0bb3f7047
+  revision: b08bc2b89690ee291d2724356a525056e88b9796
   branch: main
   specs:
     socializer (0.1.13)
@@ -10,7 +10,6 @@ GIT
       country_select (~> 11.0)
       draper (= 4.0.4)
       elasticsearch-rails (>= 7.2, < 8.1)
-      enumerize (~> 3.0)
       omniauth (~> 2.1.0)
       omniauth-facebook (~> 11.0)
       omniauth-identity (~> 3.0)
@@ -72,7 +71,7 @@ GEM
       erubi (~> 1.11)
       rails-dom-testing (~> 2.2)
       rails-html-sanitizer (~> 1.6)
-    active_record_doctor (2.0.1)
+    active_record_doctor (2.1.0)
       activerecord (>= 7.0.0)
     activejob (8.1.4)
       activesupport (= 8.1.4)
@@ -174,8 +173,6 @@ GEM
     drb (2.2.3)
     ed25519 (1.4.0)
     elasticsearch-rails (8.0.1)
-    enumerize (3.0.0)
-      activesupport (>= 3.2)
     erb (6.0.7)
     erubi (1.13.1)
     et-orbi (1.4.2)
@@ -416,12 +413,12 @@ GEM
       logger
       prism (>= 1.6.0)
       tsort
-    rdoc (8.0.0)
+    rdoc (8.1.0)
       erb
       prism (>= 1.6.0)
       rbs (>= 4.0.0)
       tsort
-    regexp_parser (2.13.0)
+    regexp_parser (2.13.1)
     reline (0.7.0)
       io-console (~> 0.5)
     request_store (1.7.0)

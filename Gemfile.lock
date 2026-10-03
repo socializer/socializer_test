@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: b08bc2b89690ee291d2724356a525056e88b9796
+  revision: 8e366db59a15ff541f21524fe25d233c1d687d8f
   branch: main
   specs:
     socializer (0.1.13)
@@ -124,7 +124,7 @@ GEM
     bootstrap-sass (3.4.1)
       autoprefixer-rails (>= 5.2.1)
       sassc (>= 2.0.0)
-    brakeman (8.0.6)
+    brakeman (8.1.0)
       racc
     builder (3.3.0)
     bundler-audit (0.9.3)
@@ -155,7 +155,7 @@ GEM
     country_select (11.0.0)
       countries (> 6.0, < 9.0)
     crass (1.0.7)
-    database_consistency (3.0.13)
+    database_consistency (3.0.14)
       activerecord (>= 3.2)
     date (3.5.1)
     debug (1.11.1)
@@ -206,7 +206,7 @@ GEM
       logger
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
-    image_processing (2.1.0)
+    image_processing (2.2.0)
     importmap-rails (2.2.3)
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
@@ -271,7 +271,7 @@ GEM
       net-ssh (>= 2.6.5, < 8.0.0)
     net-sftp (4.0.0)
       net-ssh (>= 5.0.0, < 8.0.0)
-    net-smtp (0.5.1)
+    net-smtp (0.5.2)
       net-protocol
     net-ssh (7.3.3)
     nio4r (2.7.5)
@@ -347,7 +347,7 @@ GEM
       omniauth-oauth (~> 1.2)
       rack
     ostruct (0.6.3)
-    parallel (2.2.0)
+    parallel (2.3.0)
     parser (3.3.12.0)
       ast (~> 2.4.1)
       racc
@@ -504,10 +504,9 @@ GEM
       sprockets-rails
       tilt
     securerandom (0.4.1)
-    selenium-webdriver (4.49.0)
+    selenium-webdriver (4.50.0)
       base64 (~> 0.2)
       logger (~> 1.4)
-      rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 4.0)
       websocket (~> 1.0)
     simple_form (5.4.1)
@@ -622,6 +621,7 @@ DEPENDENCIES
   puma (>= 5.0)
   rack-mini-profiler
   rails (~> 8.1.1)
+  rexml
   rspec-rails (~> 8.0)
   rubocop (~> 1.7)
   rubocop-capybara

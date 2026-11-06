@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: c3b1dd6685873d4c673eb0da7dec249f9af061ab
+  revision: d4701a101deb3988e7bbb3455a88de24937c87ee
   branch: main
   specs:
     socializer (0.1.13)
@@ -274,7 +274,7 @@ GEM
       net-ssh (>= 5.0.0, < 9.0.0)
     net-smtp (0.5.2)
       net-protocol
-    net-ssh (7.3.8)
+    net-ssh (7.3.9)
       logger
     nio4r (2.7.5)
     nokogiri (1.19.7-aarch64-linux-gnu)
@@ -435,7 +435,7 @@ GEM
     rspec-mocks (3.13.8)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
-    rspec-rails (8.0.4)
+    rspec-rails (8.1.0)
       actionpack (>= 7.2)
       activesupport (>= 7.2)
       railties (>= 7.2)

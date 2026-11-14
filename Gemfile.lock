@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: a5f7b8dfa6fbc9d193df5be29489083534cc6ccb
+  revision: 6a2299ed69c3786e07616316da7a760028f98ee9
   branch: main
   specs:
     socializer (0.1.13)
@@ -268,7 +268,7 @@ GEM
       net-protocol
     net-protocol (0.4.0)
       timeout
-    net-scp (4.2.1)
+    net-scp (4.2.2)
       net-ssh (>= 2.6.5, < 9.0.0)
     net-sftp (4.1.1)
       net-ssh (>= 5.0.0, < 9.0.0)
@@ -365,7 +365,7 @@ GEM
     prism (2.1.0-x86_64-linux-gnu)
     prism (2.1.0-x86_64-linux-musl)
     public_suffix (7.0.5)
-    puma (8.0.2)
+    puma (8.0.3)
       nio4r (~> 2.0)
     raabro (1.5.0)
     racc (1.8.1)

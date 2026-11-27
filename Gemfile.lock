@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/socializer/socializer.git
-  revision: 0a52d35b32348536646af473e6a30c4a091fcdc0
+  revision: 370f744453d92c2e65b8435ba9a6cd732fe1c164
   branch: main
   specs:
     socializer (0.1.13)
@@ -155,7 +155,7 @@ GEM
     country_select (11.0.0)
       countries (> 6.0, < 9.0)
     crass (1.0.8)
-    database_consistency (3.1.2)
+    database_consistency (3.1.3)
       activerecord (>= 3.2)
     date (3.6.0)
     debug (1.11.1)
@@ -179,8 +179,8 @@ GEM
       tzinfo
     execjs (2.10.2)
       json (>= 2)
-    factory_bot (6.6.0)
-      activesupport (>= 6.1.0)
+    factory_bot (6.7.0)
+      activesupport (>= 7.0.0)
     factory_bot_rails (6.5.1)
       factory_bot (~> 6.5)
       railties (>= 6.1.0)
@@ -491,10 +491,9 @@ GEM
     rubocop-rake (0.7.1)
       lint_roller (~> 1.1)
       rubocop (>= 1.72.1)
-    rubocop-rspec (3.10.2)
+    rubocop-rspec (3.11.0)
       lint_roller (~> 1.1)
-      regexp_parser (>= 2.0)
-      rubocop (~> 1.86, >= 1.86.2)
+      rubocop (~> 1.92)
     rubocop-rspec_rails (2.33.0)
       lint_roller (~> 1.1)
       rubocop (~> 1.89)
@@ -601,7 +600,7 @@ GEM
       bindex (>= 0.4.0)
       railties (>= 8.0.0)
     websocket (1.2.11)
-    websocket-driver (0.9.0)
+    websocket-driver (0.9.1)
       base64
       websocket-extensions (>= 0.2.0)
     websocket-extensions (0.3.0)
